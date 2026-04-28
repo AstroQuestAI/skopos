@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.callassistantsim.MainActivityUiTest" tests="3" failures="0" errors="0" skipped="0" time="11.929" timestamp="2026-04-27T23:31:53" hostname="localhost">
+  <properties>
+    <property name="device" value="codex_api35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="initialScreenElements_areVisible" classname="com.example.callassistantsim.MainActivityUiTest" time="2.859" />
+  <testcase name="e2e_simulatedCallFlow_backendIntegration" classname="com.example.callassistantsim.MainActivityUiTest" time="5.17" />
+  <testcase name="inputs_areEditable" classname="com.example.callassistantsim.MainActivityUiTest" time="2.976" />
+</testsuite>

@@ -1,0 +1,8 @@
+01. female_1[omni te]: హాయ్, ఇవాళ మీటింగ్ చాలా బాగానే జరిగింది కదా.
+02. female_2[omni te]: అవును, especially చివర్లో టీమ్ ప్లాన్ క్లియర్ అయింది.
+03. female_1[omni te]: రేపు క్లయింట్ కాల్ ముందు మనం ఒకసారి notes sync చేద్దామా.
+04. female_2[omni te]: ఖచ్చితంగా, నేను slides కూడా update చేసి పంపిస్తాను.
+05. female_1[omni te]: సూపర్, నీ delivery style చాలా confident గా ఉంది.
+06. female_2[omni te]: థ్యాంక్స్, నువ్వు support చేసినందుకే smooth గా అయ్యింది.
+07. female_1[omni te]: సరే, సాయంత్రం చిన్న checklist finalize చేద్దాం.
+08. female_2[omni te]: డన్, నేను 6 గంటలకు ping చేస్తాను.

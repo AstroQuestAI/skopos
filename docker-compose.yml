@@ -1,0 +1,130 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: call-assistant-api
+    ports:
+      - "8010:8000"
+    environment:
+      APP_ENV: dev
+      APP_PUBLIC_BASE_URL: http://localhost:8010
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_DB: call_assistant
+      MONGODB_COLLECTION: calls
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+      APP_MODE: ${APP_MODE:-generic}
+      LLM_STRATEGY: ${LLM_STRATEGY:-local_first}
+      LOCAL_LLM_ENABLED: ${LOCAL_LLM_ENABLED:-true}
+      LOCAL_LLM_MODEL_NAME: ${LOCAL_LLM_MODEL_NAME:-tiny-mini}
+      LOCAL_LLM_BACKEND: ${LOCAL_LLM_BACKEND:-openai_compatible}
+      LOCAL_LLM_API_URL: ${LOCAL_LLM_API_URL:-http://llm-sidecar:8095}
+      LOCAL_LLM_TIMEOUT_SECONDS: ${LOCAL_LLM_TIMEOUT_SECONDS:-12}
+      LOCAL_LLM_MAX_TRANSCRIPT_TURNS: ${LOCAL_LLM_MAX_TRANSCRIPT_TURNS:-12}
+      LOCAL_LLM_MAX_TRANSCRIPT_CHARS: ${LOCAL_LLM_MAX_TRANSCRIPT_CHARS:-2200}
+      LOCAL_LLM_HTTP_KEEPALIVE: ${LOCAL_LLM_HTTP_KEEPALIVE:-20}
+      LOCAL_LLM_HTTP_MAX_CONNECTIONS: ${LOCAL_LLM_HTTP_MAX_CONNECTIONS:-40}
+      LOCAL_LLM_CONFIDENCE_THRESHOLD: ${LOCAL_LLM_CONFIDENCE_THRESHOLD:-0.72}
+      DEEPGRAM_API_KEY: ${DEEPGRAM_API_KEY:-}
+      ELEVENLABS_API_KEY: ${ELEVENLABS_API_KEY:-}
+      ELEVENLABS_VOICE_ID: ${ELEVENLABS_VOICE_ID:-}
+      PUSH_WEBHOOK_URL: ${PUSH_WEBHOOK_URL:-}
+      VOICE_SIDECAR_URL: ${VOICE_SIDECAR_URL:-http://sidecar:8090}
+    depends_on:
+      - mongo
+      - sidecar
+      - llm-sidecar
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  mongo:
+    image: mongo:7
+    container_name: call-assistant-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "mongodb://localhost:27017", "--eval", "db.runCommand({ ping: 1 }).ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  sidecar:
+    build:
+      context: .
+      dockerfile: sidecar/Dockerfile
+    container_name: call-assistant-voice-sidecar
+    environment:
+      PIPER_MODEL_PATH: /models/en_US-lessac-medium.onnx
+      PIPER_MODEL_PATH_EN: /models/en_US-lessac-medium.onnx
+      PIPER_MODEL_PATH_HI: /models/hi_IN-priyamvada-medium.onnx
+      PIPER_MODEL_PATH_TE: /models/te_IN-maya-medium.onnx
+      PIPER_SAMPLE_RATE: ${PIPER_SAMPLE_RATE:-22050}
+      PIPER_TIMEOUT_SECONDS: ${PIPER_TIMEOUT_SECONDS:-20}
+      VOICE_TTS_MAX_CHARS: ${VOICE_TTS_MAX_CHARS:-400}
+      VOICE_STT_MAX_AUDIO_SECONDS: ${VOICE_STT_MAX_AUDIO_SECONDS:-90}
+      VOICE_MAX_CONCURRENT_TTS: ${VOICE_MAX_CONCURRENT_TTS:-1}
+      VOICE_MAX_CONCURRENT_STT: ${VOICE_MAX_CONCURRENT_STT:-1}
+      WHISPER_MODEL: ${WHISPER_MODEL:-tiny}
+      WHISPER_MODEL_HI: ${WHISPER_MODEL_HI:-tiny}
+      WHISPER_MODEL_TE: ${WHISPER_MODEL_TE:-tiny}
+      WHISPER_MODEL_MULTILINGUAL: ${WHISPER_MODEL_MULTILINGUAL:-tiny}
+      WHISPER_COMPUTE_TYPE: ${WHISPER_COMPUTE_TYPE:-int8}
+      WHISPER_VAD_MIN_SILENCE_MS: ${WHISPER_VAD_MIN_SILENCE_MS:-500}
+      PIPER_MODEL_URL: ${PIPER_MODEL_URL:-}
+      PIPER_CONFIG_URL: ${PIPER_CONFIG_URL:-}
+      PIPER_MODEL_URL_HI: ${PIPER_MODEL_URL_HI:-https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx?download=true}
+      PIPER_CONFIG_URL_HI: ${PIPER_CONFIG_URL_HI:-https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx.json?download=true}
+      PIPER_MODEL_URL_TE: ${PIPER_MODEL_URL_TE:-https://huggingface.co/rhasspy/piper-voices/resolve/main/te/te_IN/maya/medium/te_IN-maya-medium.onnx?download=true}
+      PIPER_CONFIG_URL_TE: ${PIPER_CONFIG_URL_TE:-https://huggingface.co/rhasspy/piper-voices/resolve/main/te/te_IN/maya/medium/te_IN-maya-medium.onnx.json?download=true}
+    ports:
+      - "8090:8090"
+    volumes:
+      - piper_models:/models
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8090/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  llm-sidecar:
+    build:
+      context: .
+      dockerfile: llm_sidecar/Dockerfile
+    container_name: call-assistant-llm-sidecar
+    environment:
+      LLM_BACKEND: ${LLM_SIDECAR_BACKEND:-openai_compatible}
+      LLM_UPSTREAM_URL: ${LLM_SIDECAR_UPSTREAM_URL:-}
+      LLM_MODEL: ${LLM_SIDECAR_MODEL:-tiny-mini}
+      LLM_TIMEOUT_SECONDS: ${LLM_SIDECAR_TIMEOUT_SECONDS:-15}
+      LLM_MAX_CONCURRENT_REQUESTS: ${LLM_SIDECAR_MAX_CONCURRENT_REQUESTS:-4}
+      LLM_UPSTREAM_MAX_RETRIES: ${LLM_SIDECAR_UPSTREAM_MAX_RETRIES:-1}
+      LLM_CACHE_ENABLED: ${LLM_SIDECAR_CACHE_ENABLED:-true}
+      LLM_CACHE_TTL_SECONDS: ${LLM_SIDECAR_CACHE_TTL_SECONDS:-30}
+      LLM_MAX_CACHE_ITEMS: ${LLM_SIDECAR_MAX_CACHE_ITEMS:-256}
+      LLM_HTTP_KEEPALIVE: ${LLM_SIDECAR_HTTP_KEEPALIVE:-20}
+      LLM_HTTP_MAX_CONNECTIONS: ${LLM_SIDECAR_HTTP_MAX_CONNECTIONS:-40}
+    ports:
+      - "8095:8095"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8095/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  mongo_data:
+  piper_models:

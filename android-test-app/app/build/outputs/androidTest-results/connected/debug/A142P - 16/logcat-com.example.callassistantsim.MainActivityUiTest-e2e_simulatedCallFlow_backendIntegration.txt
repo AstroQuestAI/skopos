@@ -1,0 +1,622 @@
+04-28 05:01:44.469 15083 15098 I TestRunner: started: e2e_simulatedCallFlow_backendIntegration(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:44.473 11065 11065 I bvtw    : onPause
+04-28 05:01:44.473  2278  2278 I NT-LifecycleHelper: onActivitySaveInstanceState set Lifecycle.State.CREATED
+04-28 05:01:44.477 10198 10198 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+04-28 05:01:44.477 15083 15098 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@d70e27d]
+04-28 05:01:44.478  2278  4188 D BLASTBufferQueue: [VRI[SearchLauncher]#345](f:0,a:1) destructor()
+04-28 05:01:44.478  2278  4188 D BufferQueueConsumer: [VRI[SearchLauncher]#345(BLAST Consumer)345](id:8e600000269,api:0,p:-1,c:2278) disconnect
+04-28 05:01:44.480 15118 15118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@359978e
+04-28 05:01:44.482 15118 15132 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#0](f:0,a:1) destructor()
+04-28 05:01:44.482 15118 15132 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#0(BLAST Consumer)0](id:3b0e00000000,api:0,p:-1,c:15118) disconnect
+04-28 05:01:44.484 15118 15118 D ViewRootImpl: Skipping stats log for color mode
+04-28 05:01:44.484 15083 15098 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-28 05:01:44.484 15118 15118 D View    : [Warning] assignParent to null: this = DecorView@5b8478c[InstrumentationActivityInvoker$EmptyActivity]
+04-28 05:01:44.489 11065 11065 I bvtw    : onStop
+04-28 05:01:44.493  1009  3119 I SurfaceFlinger: onHandleDestroyed: layerId=30091, name=Task=5266#30091
+04-28 05:01:44.498  2278  2278 D RecentsView: onTaskRemoved: 5266, not handling task stack changes
+04-28 05:01:44.500  2278  2278 D RecentsView: onTaskRemoved: 5266, not handling task stack changes
+04-28 05:01:44.504  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30087, name=26c3350 com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#30087
+04-28 05:01:44.505  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30088, name=com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#30088
+04-28 05:01:44.509  2278  2278 D RecentsView: onTaskRemoved: 5267, not handling task stack changes
+04-28 05:01:44.510  2278  2278 D RecentsView: onTaskRemoved: 5267, not handling task stack changes
+04-28 05:01:44.513  1993  2064 D CaptionWindowDecorViewModel: Destroying window decoration for task 5267, decoration=null, callers=com.android.wm.shell.windowdecor.CaptionWindowDecorViewModel.onTaskVanished:234 com.android.wm.shell.fullscreen.FullscreenTaskListener.lambda$onTaskVanished$2:173 com.android.wm.shell.fullscreen.FullscreenTaskListener$$ExternalSyntheticLambda1.accept:0 java.util.Optional.ifPresent:178 com.android.wm.shell.fullscreen.FullscreenTaskListener.onTaskVanished:173
+04-28 05:01:44.519  1548  2296 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e7e987b7 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:44.522   976   989 I mtkpower@impl: [setMode] type:5, enabled:1
+04-28 05:01:44.523 11065 11065 D VRI[SearchLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:44.524  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30090, name=com.nothing.launcher/com.android.searchlauncher.SearchLauncher#30090
+04-28 05:01:44.525  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30092, name=Task=5267#30092
+04-28 05:01:44.525  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30086, name=ActivityRecord{197720781 u0 com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t5267}#30086
+04-28 05:01:44.530  1972  5352 W PopUpWinSceneDetector: Malformat: no colon symbol ':', so discard it.
+04-28 05:01:44.530  1972  5352 W PopUpWinSceneDetector: PopUpWinEvent format is wrong! Ignore it
+04-28 05:01:44.536  1548  2296 I PowerHalWrapper: <amsBoostResume> last:null, next:com.example.callassistantsimhasATProcess:false
+04-28 05:01:44.537   976  1066 I libPowerHal: [perfLockAcq] idx:5 hdl:57328 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57328
+04-28 05:01:44.537   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:44.538   976  1066 I libPowerHal: [perfLockRel] hdl:57327, idx:4
+04-28 05:01:44.540  1548  2296 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:44.540  1548  2296 I PowerHalWrapper: state: 1
+04-28 05:01:44.541  1548  2296 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:68198620 state:1
+04-28 05:01:44.542   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:44.542   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 1
+04-28 05:01:44.542   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:RESUMED, fps:-1, win:0
+04-28 05:01:44.542   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:44.542   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid:15083, fps:-1, isMultiWindow:0
+04-28 05:01:44.542   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:44.542   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.example.callassistantsim, pid:15083, uid:10321
+04-28 05:01:44.542   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:44.542  1548  2296 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:44.543  1548  2296 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:44.543  1548  2296 I PowerHalWrapper: state: 0
+04-28 05:01:44.543   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.543   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:44.543  1548  2296 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:68198620 state:0
+04-28 05:01:44.543   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:44.544  1548  2296 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:44.545   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.545   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.nothing.launcher => com.example.callassistantsim
+04-28 05:01:44.545   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:44.545   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:44.545   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:44.545   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:44.545   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:44.545   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:44.545   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:44.546  1993  2064 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:44.546   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.546   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:44.546   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:44.546   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.550  2227  2555 D Nt-Bpf-NtBpfControl: EVENT_RTT_UID: 10321
+04-28 05:01:44.550  2227  2555 D Nt-Bpf-Client: updateDataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10321, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:44.550  2227  2555 D Nt-Bpf-Client: dataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10321, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:44.550  2227  2575 D Nt-Bpf-Connection: sendMessage: Message{messageType=REQUEST_DATA_INFO, data={"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10321,"tcp_enable":true,"udp_enable":false}, len=148}
+04-28 05:01:44.551  2574  3053 D Nt-Bpf-Recive: Recive type: 4, len: 148, data: {"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10321,"tcp_enable":true,"udp_enable":false}
+04-28 05:01:44.557  2278  2364 I NT-AppEventTracker: Begin non-home task duration timing:TaskDuration(taskId=5268, pkgName=com.example.callassistantsim, userId=UserHandle{0}, beginTime=1777332704557, endTime=0, windowType=1, duration=0, state=2)
+04-28 05:01:44.557  2278  2278 I NT-TopTaskTracker: Call back onTaskMovedToFront taskId = 5268
+04-28 05:01:44.559 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: PRE_ON_CREATE
+04-28 05:01:44.559 15083 15083 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-28 05:01:44.559  1972  5352 D TopAppSceneDetector: currentFocusApp=com.example.callassistantsim
+04-28 05:01:44.561  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.example.callassistantsim.MainActivity
+04-28 05:01:44.561  1548  1750 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:true, AMS_BOOST_PROCESS_CREATE_FOR_GAME:false, AMS_BOOST_HOT_LAUNCH:false
+04-28 05:01:44.561  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.android.searchlauncher.SearchLauncher
+04-28 05:01:44.561   976   988 I mtkpower@impl: [mtkPowerHint] hint:22, hold:500, ext:30, ext_hold:1500
+04-28 05:01:44.561   976   988 I mtkpower@impl: [mtkPowerHint] hint:21, hold:6000, ext:30, ext_hold:30000
+04-28 05:01:44.562   976  1066 I libPowerHal: [perfLockAcq] idx:4 hdl:57329 hint:22 pid:976 tid:976 duration:500 lock_user:mtkpower@1.0-se => ret_hdl:57329
+04-28 05:01:44.562   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:44.562  1548  1642 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:44.562   976  1066 I libPowerHal: [perfLockRel] hdl:57328, idx:5
+04-28 05:01:44.562 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: CREATED
+04-28 05:01:44.562 15083 15083 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.callassistantsim.MainActivity@da68eb1
+04-28 05:01:44.563 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: STARTED
+04-28 05:01:44.563   976  1066 I libPowerHal: [perfLockAcq] idx:6 hdl:57330 hint:30 pid:976 tid:976 duration:1500 lock_user:mtkpower@1.0-se => ret_hdl:57330
+04-28 05:01:44.563 15083 15083 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.callassistantsim.MainActivity@da68eb1
+04-28 05:01:44.563   976  1066 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000, param:31
+04-28 05:01:44.563 15083 15083 I ContentCaptureHelper: Setting logging level to OFF
+04-28 05:01:44.564 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: RESUMED
+04-28 05:01:44.564   976  1066 I libPowerHal: [perfLockAcq] idx:7 hdl:57331 hint:21 pid:976 tid:976 duration:6000 lock_user:mtkpower@1.0-se => ret_hdl:57331
+04-28 05:01:44.564 15083 15083 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.callassistantsim.MainActivity@da68eb1
+04-28 05:01:44.564   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PROCESS_CREATE set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:44.564 15083 15083 D ActivityThread: handleResumeActivity#3 r.window=nulla.mFinished = falsewillBeVisible = true
+04-28 05:01:44.564 15083 15083 D ActivityThread: handleResumeActivity#4 addView a.mVisibleFromClient=truea.mWindowAdded=falsedecor=DecorView@1bdd20f[]
+04-28 05:01:44.564 15083 15083 D ActivityThread: handleResumeActivity#5 addView decor=DecorView@1bdd20f[]
+04-28 05:01:44.564   976  1066 I libPowerHal: [perfLockRel] hdl:57326, idx:3
+04-28 05:01:44.564  1972  5352 D GameSceneDetector: Failed to call isBoostTypeGame: java.lang.ClassNotFoundException: android.util.BoostFramework
+04-28 05:01:44.564  1972  5352 D GameSceneDetector: onTopChanged=com.example.callassistantsim, isBoostTypeGame=false, isCategoryGame=false, isTopGame=false
+04-28 05:01:44.565   976  1066 I libPowerHal: [perfLockAcq] idx:8 hdl:57332 hint:30 pid:976 tid:976 duration:30000 lock_user:mtkpower@1.0-se => ret_hdl:57332
+04-28 05:01:44.565 15083 15083 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+04-28 05:01:44.566 11065 11065 D BLASTBufferQueue: [VRI[SearchLauncher]#36](f:0,a:1) destructor()
+04-28 05:01:44.566 11065 11065 D BufferQueueConsumer: [VRI[SearchLauncher]#36(BLAST Consumer)36](id:2b3900000044,api:0,p:-1,c:11065) disconnect
+04-28 05:01:44.569  1009  1009 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:44.569  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30089, name=com.nothing.launcher/com.android.searchlauncher.SearchLauncher#30089
+04-28 05:01:44.570 15083 15083 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+04-28 05:01:44.571 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: PAUSED
+04-28 05:01:44.571 15083 15083 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.callassistantsim.MainActivity@da68eb1
+04-28 05:01:44.587 15083 15083 I TextToSpeech: Sucessfully bound to com.google.android.tts
+04-28 05:01:44.588 15083 15093 I TextToSpeech: Connected to TTS engine
+04-28 05:01:44.590  1441 19690 I GoogleTTSServiceImpl: currentLocale = en-GB
+04-28 05:01:44.591  1441 19690 I GoogleTTSServiceImpl: For default lang en-gb is name en-GB-language (en-gb-x-gbg-server)
+04-28 05:01:44.591 15083 15112 I TextToSpeech: Setting up the connection to TTS engine...
+04-28 05:01:44.728 15083 15083 D BufferQueueConsumer: [](id:3aeb00000001,api:0,p:-1,c:15083) connect: controlledByApp=false
+04-28 05:01:44.728  1993  2064 D PopUpViewTransitionObserver: onTransitionFinished: transition=android.os.BinderProxy@91573e9, taskInfo=[]
+04-28 05:01:44.729 15083 15083 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:0) constructor()
+04-28 05:01:44.729 15083 15083 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:0) update width=1084 height=2412 format=-1 mTransformHint=0
+04-28 05:01:44.730   976   989 I mtkpower@impl: [setMode] type:5, enabled:0
+04-28 05:01:44.731  1548  1641 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:44.731  1548  1641 I PowerHalWrapper: state: 0
+04-28 05:01:44.731  1548  1641 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:68198620 state:0
+04-28 05:01:44.732   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:44.732   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:44.732   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:44.732   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:44.732   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:44.732   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:44.733  1548  1641 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:44.734   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.734   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:44.735   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:44.735   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:44.762 15083 15088 W allassistantsim: userfaultfd: MOVE ioctl seems unsupported: Try again
+04-28 05:01:44.781 15083 15102 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74691248812988(auto) mPendingTransactions.size=0 graphicBufferId=64780991725581 transform=0
+04-28 05:01:44.786  1548  1638 I ActivityTaskManager: Displayed com.example.callassistantsim/.MainActivity for user 0: +274ms
+04-28 05:01:44.832 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: STOPPED
+04-28 05:01:44.832 15083 15083 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.callassistantsim.MainActivity@da68eb1
+04-28 05:01:44.851 15083 15102 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:1) destructor()
+04-28 05:01:44.852 15083 15102 D BufferQueueConsumer: [VRI[MainActivity]#1(BLAST Consumer)1](id:3aeb00000001,api:0,p:-1,c:15083) disconnect
+04-28 05:01:44.861  1548  4172 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:false, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false, AMS_BOOST_PROCESS_CREATE_FOR_GAME:false, AMS_BOOST_HOT_LAUNCH:false
+04-28 05:01:44.861  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30096, name=com.example.callassistantsim/com.example.callassistantsim.MainActivity#30096
+04-28 05:01:44.892   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:44.892   967  1048 I SCP-SensorSavedChannel: [-9370,2213,30]==>gyro_bias.json
+04-28 05:01:44.894  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-28 05:01:44.895  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-28 05:01:44.895  1548  1846 D InetDiagMessage: Destroyed live tcp sockets for uids={10246} in 1ms
+04-28 05:01:44.895  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-28 05:01:44.896  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-28 05:01:44.896  1548  1846 D InetDiagMessage: Destroyed live tcp sockets for uids={20246} in 1ms
+04-28 05:01:44.941   975  1033 I libPerfCtl: xgfGetFPS pid:2278 fps:-1
+04-28 05:01:44.941   975  1033 I libPerfCtl: xgfGetFPS pid:11065 fps:-1
+04-28 05:01:44.941   975  1033 I libPerfCtl: xgfGetFPS pid:15083 fps:-1
+04-28 05:01:44.941   975  1033 I libPerfCtl: xgfGetFPS pid:15118 fps:-1
+04-28 05:01:44.966  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-28 05:01:44.967  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-28 05:01:44.967  1548  1846 D InetDiagMessage: Destroyed live tcp sockets for uids={10148} in 1ms
+04-28 05:01:44.967  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-28 05:01:44.968  1548  1846 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-28 05:01:44.968  1548  1846 D InetDiagMessage: Destroyed live tcp sockets for uids={20148} in 1ms
+04-28 05:01:44.992   468   468 D lowmemorykiller: medium pressure event triggered
+04-28 05:01:44.992   468   468 I lowmemorykiller: nr_free_pages: 35350 nr_inactive_file: 126892 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229553568 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229464783 base_file_lru: 527245 init_ws_refault: 135573303 free_swap: 431035 total_swap: 1048575 swap_free_percentage: 41%
+04-28 05:01:44.992   468   468 I lowmemorykiller: compact_stall: 1271, init_compact_stall: 1270
+04-28 05:01:44.993   468   468 I lowmemorykiller: Kill 'com.google.android.apps.wellbeing' (29487), uid 10168, oom_score_adj 999 to free 255624kB rss, 38364kB swap; reason: low watermark is breached and swap is low (648968kB < 838860kB)
+04-28 05:01:45.026   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.026   928   928 I Zygote  : Process 29487 exited due to signal 9 (Killed)
+04-28 05:01:45.026   468   468 I lowmemorykiller: nr_free_pages: 53123 nr_inactive_file: 126897 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229555621 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229553568 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 431355 total_swap: 1048575 swap_free_percentage: 41%
+04-28 05:01:45.026   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126897
+04-28 05:01:45.026  1548  1656 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10168/pid_29487
+04-28 05:01:45.029  1548  4177 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.google.android.apps.wellbeing/com.google.android.apps.wellbeing pid=29487 activityId:29487 state:3
+04-28 05:01:45.029   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:45.029   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.google.android.apps.wellbeing actName: com.google.android.apps.wellbeing pid: 29487 uid: 10168 state: 3
+04-28 05:01:45.029   975   975 I MTK_APPList: [notifyAPPstate] com.google.android.apps.wellbeing/com.google.android.apps.wellbeing, pid=29487, uid=10168, state:DEAD, fps:-1, win:0
+04-28 05:01:45.029   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:45.029   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:45.029   975   975 I MTK_APPList: [notifyAPPstate] pack:com.google.android.apps.wellbeing, pid:29487, STATE_DEAD
+04-28 05:01:45.029   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:45.029   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:45.029   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:45.029   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:45.030   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:45.036   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.036   468   468 I lowmemorykiller: nr_free_pages: 53438 nr_inactive_file: 126898 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229556005 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229555621 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 430977 total_swap: 1048575 swap_free_percentage: 41%
+04-28 05:01:45.036   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126898
+04-28 05:01:45.048   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.049   468   468 I lowmemorykiller: nr_free_pages: 53816 nr_inactive_file: 126898 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229556645 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229556005 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 430497 total_swap: 1048575 swap_free_percentage: 41%
+04-28 05:01:45.049   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126898
+04-28 05:01:45.061   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.061   468   468 I lowmemorykiller: nr_free_pages: 55013 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229557157 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229556645 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 430104 total_swap: 1048575 swap_free_percentage: 41%
+04-28 05:01:45.061   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.063   976  1066 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:57329
+04-28 05:01:45.063   976  1066 I libPowerHal: [perfLockRel] hdl:57329, idx:4
+04-28 05:01:45.073   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.073   468   468 I lowmemorykiller: nr_free_pages: 55391 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229557605 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229557157 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 429704 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.073   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.086   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.086   468   468 I lowmemorykiller: nr_free_pages: 55457 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229558053 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229557605 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 429279 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.086   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.096   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.096   468   468 I lowmemorykiller: nr_free_pages: 55835 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229558501 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229558053 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428831 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.096   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.108   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.109   468   468 I lowmemorykiller: nr_free_pages: 56339 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229559397 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229558501 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428257 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.109   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.121   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.121   468   468 I lowmemorykiller: nr_free_pages: 57851 nr_inactive_file: 126900 nr_active_file: 421017 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559397 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.121   468   468 D lowmemorykiller: get_lowest_watermark: file:421017, inactive file:126900
+04-28 05:01:45.133   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.134   468   468 I lowmemorykiller: nr_free_pages: 57961 nr_inactive_file: 126848 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.134   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126848
+04-28 05:01:45.144   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.144   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126850 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.144   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126850
+04-28 05:01:45.156   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.157   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126850 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.157   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126850
+04-28 05:01:45.169   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.169   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126850 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.169   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126850
+04-28 05:01:45.181   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.182   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126852 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.182   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126852
+04-28 05:01:45.192   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.192   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126855 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.192   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126855
+04-28 05:01:45.204   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.205   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126855 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.205   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126855
+04-28 05:01:45.216   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.216   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126861 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.216   468   468 D lowmemorykiller: get_lowest_watermark: file:421040, inactive file:126861
+04-28 05:01:45.228   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.229   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126861 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.241   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.241   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.253   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.254   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.266   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.266   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.276   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.276   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.289   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.289   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.301   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.301   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.313   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.314   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.324   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.324   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.336   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.337   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.349   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.349   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.361   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.361   468   468 I lowmemorykiller: nr_free_pages: 57901 nr_inactive_file: 126863 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.365  1222  1542 D ULogGuard: Monitoring: 6 threads, 0 requests, 0 time-bombs; 5 guards. ResetFlags = 0x7
+04-28 05:01:45.374   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.374   468   468 I lowmemorykiller: nr_free_pages: 57145 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.384   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.384   468   468 I lowmemorykiller: nr_free_pages: 57145 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.396   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.397   468   468 I lowmemorykiller: nr_free_pages: 57082 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.409   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.409   468   468 I lowmemorykiller: nr_free_pages: 56893 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.413   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:45.413   967  1048 I SCP-SensorSavedChannel: [-9374,2219,30]==>gyro_bias.json
+04-28 05:01:45.421   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.421   468   468 I lowmemorykiller: nr_free_pages: 56578 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.434   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.434   468   468 I lowmemorykiller: nr_free_pages: 56515 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.441 15118 15122 I sistantsim.test: Compiler allocated 6736KB to compile void android.view.ViewRootImpl.performTraversals()
+04-28 05:01:45.444   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.444   468   468 I lowmemorykiller: nr_free_pages: 56452 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.456   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.456   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.469   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.469   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.481   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.481   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.493   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.494   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.506   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.506   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.516   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.516   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.528   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.529   468   468 I lowmemorykiller: nr_free_pages: 56389 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.541   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.541   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.553   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.553   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.566   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.566   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.576   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.576   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.588   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.589   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.601   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.601   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.613   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.613   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.626   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.626   468   468 I lowmemorykiller: nr_free_pages: 56326 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.636   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.636   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.648   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.649   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.661   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.661   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.673   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.673   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.686   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.686   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.696   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.696   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.708   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.709   468   468 I lowmemorykiller: nr_free_pages: 56263 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.721   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.721   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.733   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.734   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.746   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.746   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.756   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.756   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.769   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.769   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.781   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.781   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.793   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.793   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.806   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.806   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.816   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.816   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.828   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.828   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.841   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.841   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.853   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.853   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.865   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.865   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.878   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.878   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.888   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.888   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.900   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.900   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.912   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.913   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.925   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.925   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.937   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.937   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.941   975  1033 I libPerfCtl: xgfGetFPS pid:2278 fps:-1
+04-28 05:01:45.941   975  1033 I libPerfCtl: xgfGetFPS pid:11065 fps:-1
+04-28 05:01:45.941   975  1033 I libPerfCtl: xgfGetFPS pid:15083 fps:-1
+04-28 05:01:45.941   975  1033 I libPerfCtl: xgfGetFPS pid:15118 fps:-1
+04-28 05:01:45.949   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.950   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.962   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.962   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.972   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.972   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.984   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.985   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:45.997   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:45.997   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:46.009   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:46.009   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:46.021   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:46.022   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:46.032   468   468 D lowmemorykiller: medium pressure event polling check
+04-28 05:01:46.032   468   468 I lowmemorykiller: nr_free_pages: 56200 nr_inactive_file: 126865 nr_active_file: 421040 workingset_refault: 135660186 pgscan_kswapd: 229559653 pgscan_direct: 23496457 pgscan_direct_throttle: 0 init_pgscan_direct: 23474333 init_pgscan_kswapd: 229559653 base_file_lru: 547914 init_ws_refault: 135660186 free_swap: 428129 total_swap: 1048575 swap_free_percentage: 40%
+04-28 05:01:46.064   976  1066 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:57330
+04-28 05:01:46.064   976  1066 I libPowerHal: [perfLockRel] hdl:57330, idx:6
+04-28 05:01:46.115  1548  4004 I AS.AudioService: getMode, get current owner's mode
+04-28 05:01:46.115  1548  4004 I AS.AudioService: getMode, currentModeHandler is null
+04-28 05:01:46.891   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:46.891   967  1048 I SCP-SensorSavedChannel: [-9371,2214,30]==>gyro_bias.json
+04-28 05:01:46.901  1548  4004 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e99e6056 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:46.903   976   989 I mtkpower@impl: [setMode] type:5, enabled:1
+04-28 05:01:46.905  1972  5352 W PopUpWinSceneDetector: Malformat: no colon symbol ':', so discard it.
+04-28 05:01:46.905  1972  5352 W PopUpWinSceneDetector: PopUpWinEvent format is wrong! Ignore it
+04-28 05:01:46.908  1548  4004 I PowerHalWrapper: <amsBoostResume> last:null, next:com.example.callassistantsim.testhasATProcess:false
+04-28 05:01:46.909   976  1066 I libPowerHal: [perfLockRel] hdl:57332, idx:8
+04-28 05:01:46.909   976  1066 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:0
+04-28 05:01:46.909   976  1066 I libPowerHal: [perfLockAcq] idx:3 hdl:57333 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57333
+04-28 05:01:46.909   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:46.909   976  1066 I libPowerHal: [perfLockRel] hdl:57329, idx:-1
+04-28 05:01:46.910  1548  4004 I PowerHalWrapper: amsBoostNotify pid:15118,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.callassistantsim.test, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.910  1548  4004 I PowerHalWrapper: state: 1
+04-28 05:01:46.910  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15118 activityId:259546057 state:1
+04-28 05:01:46.910   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.910   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim.test actName: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid: 15118 uid: 10322 state: 1
+04-28 05:01:46.910   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15118, uid=10322, state:RESUMED, fps:-1, win:0
+04-28 05:01:46.910   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:46.910   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid:15118, fps:-1, isMultiWindow:0
+04-28 05:01:46.910   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.910   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.example.callassistantsim.test, pid:15118, uid:10322
+04-28 05:01:46.910   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:46.911   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.911   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:46.911   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:46.911   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.911   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.example.callassistantsim => com.example.callassistantsim.test
+04-28 05:01:46.911   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:46.913  1972  5352 D TopAppSceneDetector: currentFocusApp=com.example.callassistantsim.test
+04-28 05:01:46.913  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.913  1548  4004 I PowerHalWrapper: amsBoostNotify pid:15118,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.callassistantsim.test, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.913  1548  4004 I PowerHalWrapper: state: 0
+04-28 05:01:46.913  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15118 activityId:259546057 state:0
+04-28 05:01:46.913   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.914   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim.test actName: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid: 15118 uid: 10322 state: 0
+04-28 05:01:46.914   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15118, uid=10322, state:PAUSED, fps:-1, win:0
+04-28 05:01:46.914   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:46.914   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.914   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:46.914   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.914   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:46.915   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:46.915   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.915  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.916  2227  2555 D Nt-Bpf-NtBpfControl: EVENT_RTT_UID: 10322
+04-28 05:01:46.916  2227  2555 D Nt-Bpf-Client: updateDataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10322, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:46.916  2227  2555 D Nt-Bpf-Client: dataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10322, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:46.916  1993  2064 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:46.917  2227  2575 D Nt-Bpf-Connection: sendMessage: Message{messageType=REQUEST_DATA_INFO, data={"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10322,"tcp_enable":true,"udp_enable":false}, len=148}
+04-28 05:01:46.917  2574  3053 D Nt-Bpf-Recive: Recive type: 4, len: 148, data: {"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10322,"tcp_enable":true,"udp_enable":false}
+04-28 05:01:46.927  1548  1642 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:46.929  2278  2278 I NT-TopTaskTracker: Call back onTaskMovedToFront taskId = 5269
+04-28 05:01:46.929  2278  2364 I NT-AppEventTracker: Begin non-home task duration timing:TaskDuration(taskId=5269, pkgName=com.example.callassistantsim.test, userId=UserHandle{0}, beginTime=1777332706929, endTime=0, windowType=1, duration=0, state=2)
+04-28 05:01:46.930  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+04-28 05:01:46.930  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.example.callassistantsim.MainActivity
+04-28 05:01:46.931  1972  5352 D GameSceneDetector: Failed to call isBoostTypeGame: java.lang.ClassNotFoundException: android.util.BoostFramework
+04-28 05:01:46.931  1972  5352 D GameSceneDetector: onTopChanged=com.example.callassistantsim.test, isBoostTypeGame=false, isCategoryGame=false, isTopGame=false
+04-28 05:01:46.932  1972  5352 D ThermalMitigationStrategy: onForegroundAppChange: app changed, should update buffer rate info next time
+04-28 05:01:46.936 15118 15118 D ActivityThread: handleResumeActivity#3 r.window=nulla.mFinished = falsewillBeVisible = true
+04-28 05:01:46.936 15118 15118 D ActivityThread: handleResumeActivity#4 addView a.mVisibleFromClient=truea.mWindowAdded=falsedecor=DecorView@ac67bec[]
+04-28 05:01:46.936 15118 15118 D ActivityThread: handleResumeActivity#5 addView decor=DecorView@ac67bec[]
+04-28 05:01:46.937 15118 15118 D VRI[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true, forceHwAccelerated = false
+04-28 05:01:46.938  1548  2298 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.938  1548  2298 I PowerHalWrapper: state: 0
+04-28 05:01:46.938  1548  2298 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:68198620 state:0
+04-28 05:01:46.938   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.938   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:46.938   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:46.938   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:46.938   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.938   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:46.939   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.939   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:46.939  1548  2298 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.939   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:46.939   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.941   975  1033 I libPerfCtl: xgfGetFPS pid:2278 fps:-1
+04-28 05:01:46.941   975  1033 I libPerfCtl: xgfGetFPS pid:11065 fps:-1
+04-28 05:01:46.941   975  1033 I libPerfCtl: xgfGetFPS pid:15083 fps:-1
+04-28 05:01:46.942   975  1033 I libPerfCtl: xgfGetFPS pid:15118 fps:-1
+04-28 05:01:46.942 15118 15118 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+04-28 05:01:46.942  1009  1009 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:46.966 15118 15118 D BufferQueueConsumer: [](id:3b0e00000001,api:0,p:-1,c:15118) connect: controlledByApp=false
+04-28 05:01:46.966 15118 15118 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:0) constructor()
+04-28 05:01:46.966 15118 15118 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:0) update width=1084 height=2412 format=-1 mTransformHint=0
+04-28 05:01:46.966  1993  2064 D PopUpViewTransitionObserver: onTransitionFinished: transition=android.os.BinderProxy@ac865a5, taskInfo=[]
+04-28 05:01:46.968   976   989 I mtkpower@impl: [setMode] type:5, enabled:0
+04-28 05:01:46.970  1548  1548 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+04-28 05:01:46.970 15083 15093 I TextToSpeech: Disconnected from TTS engine
+04-28 05:01:46.971 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@da68eb1 in: DESTROYED
+04-28 05:01:46.971 15083 15083 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-28 05:01:46.971 15083 15083 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@9ae4df5
+04-28 05:01:46.973 15118 15132 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74693439762834(auto) mPendingTransactions.size=0 graphicBufferId=64931315580946 transform=0
+04-28 05:01:46.974 15083 15083 D View    : [Warning] assignParent to null: this = DecorView@1bdd20f[MainActivity]
+04-28 05:01:46.975  1548  4004 I PowerHalWrapper: <amsBoostResume> last:null, next:com.nothing.launcherhasATProcess:true
+04-28 05:01:46.976 11065 11065 D VRI[SearchLauncher]: visibilityChanged oldVisibility=false newVisibility=true
+04-28 05:01:46.976  1548  4004 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.976  1548  4004 I PowerHalWrapper: state: 1
+04-28 05:01:46.976  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:1
+04-28 05:01:46.976   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.976   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 1
+04-28 05:01:46.976   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:RESUMED, fps:-1, win:0
+04-28 05:01:46.976   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:46.976   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid:2278, fps:-1, isMultiWindow:0
+04-28 05:01:46.976   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.976   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.nothing.launcher, pid:2278, uid:10215
+04-28 05:01:46.976   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:46.976   976  1066 I libPowerHal: [perfLockAcq] idx:4 hdl:57334 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57334
+04-28 05:01:46.976   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:46.977   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.977   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:46.977   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:46.977  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.977   976  1066 I libPowerHal: [perfLockRel] hdl:57333, idx:3
+04-28 05:01:46.977  1548  4004 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.977  1548  4004 I PowerHalWrapper: state: 1
+04-28 05:01:46.977  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:1
+04-28 05:01:46.978   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.example.callassistantsim.test => com.nothing.launcher
+04-28 05:01:46.978   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:46.978   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.978   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 1
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:RESUMED, fps:-1, win:0
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid:2278, fps:-1, isMultiWindow:0
+04-28 05:01:46.978   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.nothing.launcher, pid:2278, uid:10215
+04-28 05:01:46.978   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:46.979  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.979   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.979   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:46.980   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:46.980  1548  4004 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:46.980  1548  4004 I PowerHalWrapper: state: 0
+04-28 05:01:46.980  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:0
+04-28 05:01:46.981   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.981   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:46.981   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 0
+04-28 05:01:46.981  2227  2555 D Nt-Bpf-NtBpfControl: EVENT_RTT_UID: 0
+04-28 05:01:46.981   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:PAUSED, fps:-1, win:0
+04-28 05:01:46.981   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:46.981   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:46.981  2227  2555 D Nt-Bpf-Client: updateDataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=0, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:46.981   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:46.981  2227  2555 D Nt-Bpf-Client: dataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=0, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:46.982  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:46.982  1972  5352 D TopAppSceneDetector: currentFocusApp=com.nothing.launcher
+04-28 05:01:46.982  2227  2575 D Nt-Bpf-Connection: sendMessage: Message{messageType=REQUEST_DATA_INFO, data={"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":0,"tcp_enable":true,"udp_enable":false}, len=144}
+04-28 05:01:46.982   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.982  2574  3053 D Nt-Bpf-Recive: Recive type: 4, len: 144, data: {"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":0,"tcp_enable":true,"udp_enable":false}
+04-28 05:01:46.982   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:46.982   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:46.983   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:46.984  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.android.searchlauncher.SearchLauncher
+04-28 05:01:46.984  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.android.settings.SubSettings
+04-28 05:01:46.984  1972  5352 D GameSceneDetector: Failed to call isBoostTypeGame: java.lang.ClassNotFoundException: android.util.BoostFramework
+04-28 05:01:46.984  1972  5352 D GameSceneDetector: onTopChanged=com.nothing.launcher, isBoostTypeGame=false, isCategoryGame=false, isTopGame=false
+04-28 05:01:46.984  1972  5352 D ThermalMitigationStrategy: onForegroundAppChange: app changed, should update buffer rate info next time
+04-28 05:01:46.988  2278  2278 I NT-AIWidgetAIWidgetController: Lifecycle onStateChanged event=ON_START
+04-28 05:01:46.989  2278  2278 I NT-AIWidgetAIWidgetInputMonitor: Lifecycle onStateChanged event=ON_START
+04-28 05:01:46.989  2278  2278 I NT-AIWidgetAIWidgetController: Lifecycle onStateChanged event=ON_RESUME
+04-28 05:01:46.989  2278  2278 I NT-AIWidgetAIWidgetInputMonitor: Lifecycle onStateChanged event=ON_RESUME
+04-28 05:01:46.989  2278  2278 D ActivityThread: handleResumeActivity#3 r.window=com.android.internal.policy.PhoneWindow@e032f49a.mFinished = falsewillBeVisible = true
+04-28 05:01:46.990  1993  2064 D CaptionWindowDecorViewModel: Destroying window decoration for task 5268, decoration=null, callers=com.android.wm.shell.windowdecor.CaptionWindowDecorViewModel.onTaskVanished:234 com.android.wm.shell.fullscreen.FullscreenTaskListener.lambda$onTaskVanished$2:173 com.android.wm.shell.fullscreen.FullscreenTaskListener$$ExternalSyntheticLambda1.accept:0 java.util.Optional.ifPresent:178 com.android.wm.shell.fullscreen.FullscreenTaskListener.onTaskVanished:173
+04-28 05:01:46.991  2278  2278 I NT-AIWidgetAIWidgetInputMonitor: Lifecycle onStateChanged event=ON_PAUSE
+04-28 05:01:46.991  2278  2278 I NT-AIWidgetAIWidgetController: Lifecycle onStateChanged event=ON_PAUSE
+04-28 05:01:46.992  1548  1638 I ActivityTaskManager: Displayed com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +90ms
+04-28 05:01:46.992 15083 15154 D ProfileInstaller: Installing profile for com.example.callassistantsim
+04-28 05:01:46.992  2278  2278 W SplitSelectStateCtor: Missing session instanceIds
+04-28 05:01:46.992  2278  2278 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-28 05:01:46.992 15083 15098 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@d70e27d]
+04-28 05:01:46.993  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30095, name=4d29821 com.example.callassistantsim/com.example.callassistantsim.MainActivity#30095
+04-28 05:01:46.993 15083 15098 E TestRunner: failed: e2e_simulatedCallFlow_backendIntegration(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:46.994 15083 15098 E TestRunner: ----- begin exception -----
+04-28 05:01:46.994 15083 15098 E TestRunner: java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TestContext.getAllSemanticsNodes$ui_test_release(TestOwner.kt:87)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release(SemanticsNodeInteraction.kt:63)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:157)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:394)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.Actions_androidKt.performClickImpl(Actions.android.kt:20)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:54)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at com.example.callassistantsim.MainActivityUiTest.e2e_simulatedCallFlow_backendIntegration(MainActivityUiTest.kt:44)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:272)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:271)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.withDisposableContent(ComposeUiTest.android.kt:505)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:333)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withComposeIdlingResource(ComposeUiTest.android.kt:385)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withComposeIdlingResource(ComposeUiTest.android.kt:219)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1.invoke(ComposeUiTest.android.kt:332)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withWindowRecomposer(ComposeUiTest.android.kt:359)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withWindowRecomposer(ComposeUiTest.android.kt:219)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1.invoke(ComposeUiTest.android.kt:331)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTestCoroutines(ComposeUiTest.android.kt:372)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTestCoroutines(ComposeUiTest.android.kt:219)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1.invoke(ComposeUiTest.android.kt:330)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.EspressoLink.withStrategy(EspressoLink.android.kt:66)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1.invoke(ComposeUiTest.android.kt:329)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.IdlingResourceRegistry.withRegistry(IdlingResourceRegistry.jvm.kt:155)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1.invoke(ComposeUiTest.android.kt:328)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.ComposeRootRegistry.withRegistry(ComposeRootRegistry.android.kt:146)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:327)
+04-28 05:01:46.994 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+04-28 05:01:46.995 15083 15098 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2737)
+04-28 05:01:46.995 15083 15098 E TestRunner: ----- end exception -----
+04-28 05:01:46.996 15083 15098 I TestRunner: finished: e2e_simulatedCallFlow_backendIntegration(com.example.callassistantsim.MainActivityUiTest)

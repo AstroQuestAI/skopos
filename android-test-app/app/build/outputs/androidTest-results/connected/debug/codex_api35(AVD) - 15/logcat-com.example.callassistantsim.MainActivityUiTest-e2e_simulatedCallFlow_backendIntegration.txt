@@ -1,0 +1,395 @@
+04-28 05:01:43.573  8734  8749 I TestRunner: started: e2e_simulatedCallFlow_backendIntegration(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:43.584  8734  8749 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@108b50a]
+04-28 05:01:43.589  8734  8749 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-28 05:01:43.596   575  1596 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10220, packageName = null, attributionTag = null, token = android.os.Binder@ec8bdbe, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:43.759   837   921 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5a3435e
+04-28 05:01:43.764   575  2140 W InputManager-JNI: Input channel object '1fef875 Splash Screen com.example.callassistantsim.test (client)' was disposed without first being removed with the input manager!
+04-28 05:01:43.765  8771  8771 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:43.766   369   440 I netd    : tetherGetStats() -> {[]} <4.81ms>
+04-28 05:01:43.770  1324  1324 W SplitSelectStateCtor: Missing session instanceIds
+04-28 05:01:43.770  1324  1324 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-28 05:01:43.771   837   922 D SplashScreenView: Build android.window.SplashScreenView{19c7ea5 V.E...... ......ID 0,0-0,0}
+04-28 05:01:43.771   837   922 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-28 05:01:43.771   837   922 D SplashScreenView: Branding: view: android.view.View{6d6627a G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-28 05:01:43.775   412   412 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:43.784  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: PRE_ON_CREATE
+04-28 05:01:43.786  8734  8734 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-28 05:01:43.795  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: CREATED
+04-28 05:01:43.795  8734  8734 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.callassistantsim.MainActivity@fe6d4f
+04-28 05:01:43.796  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: STARTED
+04-28 05:01:43.796  8734  8734 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.callassistantsim.MainActivity@fe6d4f
+04-28 05:01:43.799  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: RESUMED
+04-28 05:01:43.799  8734  8734 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.callassistantsim.MainActivity@fe6d4f
+04-28 05:01:43.821  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=72, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.callassistantsim/.MainActivity }
+04-28 05:01:43.821  1324  1324 I TopTaskTracker: onTaskRemoved: taskId=70
+04-28 05:01:43.821  1324  1324 I TopTaskTracker: onTaskRemoved: taskId=70
+04-28 05:01:43.823  8734  8734 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-28 05:01:43.889  8734  8734 I TextToSpeech: Sucessfully bound to com.google.android.tts
+04-28 05:01:43.929  2376  2376 I GoogleTtsServicePeer: Creating Google TTS service, version googletts.google-speech-apk_20240319.00_p0.617183227
+04-28 05:01:43.929  2376  2376 I ExoPlayerImpl: Init 9b57f30 [AndroidXMedia3/1.3.0] [emu64a, sdk_gphone64_arm64, Google, 35]
+04-28 05:01:43.933   837   921 W FrameTracker: Missed App frame:UNKNOWN: 10, 77360, 58454979, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missed SF frame:UNKNOWN: 10, 77360, 58454979, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missed App frame:UNKNOWN: 74, 77375, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missed SF frame:UNKNOWN: 74, 77375, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missing HWUI jank callback for vsyncId: 77375, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missed App frame:UNKNOWN: 88, 77398, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missed SF frame:UNKNOWN: 88, 77398, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missing HWUI jank callback for vsyncId: 77398, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.933   837   921 W FrameTracker: Missing SF jank callback for vsyncId: 77431, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-28 05:01:43.942  8771  8771 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@971f9df
+04-28 05:01:43.943  2376  2376 I ExoPlayerImpl: Init e27f7a9 [AndroidXMedia3/1.3.0] [emu64a, sdk_gphone64_arm64, Google, 35]
+04-28 05:01:44.008   575  1603 W InputManager-JNI: Input channel object 'f87dc2 com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+04-28 05:01:44.011  8771  8776 I sistantsim.test: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+04-28 05:01:44.043  2376  2376 I PipelineReaderImpl: Initializing en-us-x-iog-seanet-embedded from disk
+04-28 05:01:44.171  1324  1324 I TopTaskTracker: onTaskRemoved: taskId=71
+04-28 05:01:44.171  1324  1324 I TopTaskTracker: onTaskRemoved: taskId=71
+04-28 05:01:44.293  1324  1594 D EGL_emulation: app_time_stats: avg=93.89ms min=31.98ms max=200.86ms count=11
+04-28 05:01:44.361  1324  1594 D EGL_emulation: app_time_stats: avg=112.91ms min=1.12ms max=277.90ms count=9
+04-28 05:01:44.414  1324  1324 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:44.415  1324  1324 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-28 05:01:44.484   837  1022 D EGL_emulation: app_time_stats: avg=110.56ms min=2.48ms max=507.72ms count=9
+04-28 05:01:44.561  8734  8734 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+04-28 05:01:44.578   575   618 W ziparchive: Unable to open '/data/app/~~y_H8lZYAi1l4PqG8C-fQyw==/com.example.callassistantsim-mM6fCTN2VVaa2HK3a5dweA==/base.dm': No such file or directory
+04-28 05:01:44.586  6589  6611 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+04-28 05:01:44.589   575   618 I ActivityTaskManager: Displayed com.example.callassistantsim/.MainActivity for user 0: +979ms
+04-28 05:01:44.621   575   715 I ImeTracker: com.example.callassistantsim:ae69885f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 05:01:44.626  8734  8746 I HWUI    : Davey! duration=768ms; Flags=1, FrameTimelineVsyncId=77643, IntendedVsync=10934854805838, Vsync=10934871472504, InputEventId=0, HandleInputStart=10934882544879, AnimationStart=10934882545504, PerformTraversalsStart=10934882545921, DrawStart=10935545625171, FrameDeadline=10934871472504, FrameInterval=10934882541713, FrameStartTime=16666666, SyncQueued=10935586848505, SyncStart=10935587419505, IssueDrawCommandsStart=10935587586296, SwapBuffers=10935609093463, FrameCompleted=10935624207713, DequeueBufferDuration=2792, QueueBufferDuration=474500, GpuCompleted=10935624207713, SwapBuffersCompleted=10935610139005, DisplayPresentTime=-70874124405951655, CommandSubmissionCompleted=10935609093463,
+04-28 05:01:44.632   575   715 I ImeTracker: com.example.callassistantsim:ae69885f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-28 05:01:44.637  1324  1324 D BaseDepthController: setSurface:
+04-28 05:01:44.637  1324  1324 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:44.637  1324  1324 D BaseDepthController: 	mSurface: null
+04-28 05:01:44.637  1324  1324 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+04-28 05:01:44.638  1324  1324 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+04-28 05:01:44.638  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+04-28 05:01:44.638  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+04-28 05:01:44.638  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+04-28 05:01:44.638  1324  1324 D StatsLog: LAUNCHER_ONSTOP
+04-28 05:01:44.638  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+04-28 05:01:44.640  1324  1324 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-28 05:01:44.641  1324  1722 D OneSearchSuggestProvider: Shut down the binder channel
+04-28 05:01:44.646  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+04-28 05:01:44.660  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 05:01:44.671  1324  2634 I IPCThreadState: oneway function results for code 2 on binder at 0xb400006fc62944c0 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:44.674  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:44.675  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-28 05:01:44.891   369   440 I netd    : tetherGetStats() -> {[]} <3.04ms>
+04-28 05:01:44.924   837   921 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@582c46
+04-28 05:01:44.924   575  1340 W InputManager-JNI: Input channel object '4b34207 Splash Screen com.example.callassistantsim (client)' was disposed without first being removed with the input manager!
+04-28 05:01:44.989  2376  2376 E tflite  : third_party/tensorflow/lite/core/subgraph.cc:1059 tensor.data.raw != nullptr was not true.
+04-28 05:01:45.256  2376  2376 I ComposerWrapperImpl: Done initializing en-us-x-iog-seanet-embedded
+04-28 05:01:45.259  8734  8746 I TextToSpeech: Connected to TTS engine
+04-28 05:01:45.314  2376  2388 W RankedDispatcher: The requested voice is not available for this app identifier
+04-28 05:01:45.314  2376  2388 I GoogleTTSServiceImpl: currentLocale = en-US
+04-28 05:01:45.325  2376  2388 W RankedDispatcher: The requested voice is not available for this app identifier
+04-28 05:01:45.325  2376  2388 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-iog-server)
+04-28 05:01:45.326  8734  8762 I TextToSpeech: Setting up the connection to TTS engine...
+04-28 05:01:45.695  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+04-28 05:01:45.708  8734  8734 D InsetsController: show(ime(), fromIme=false)
+04-28 05:01:45.711  8734  8734 I ImeTracker: com.example.callassistantsim:a0701cb0: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false
+04-28 05:01:45.711  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+04-28 05:01:45.711  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, false)
+04-28 05:01:45.711  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:45.711  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-28 05:01:45.712  8734  8734 D InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{d9b80e3 VFED..... .F....ID 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT_BY_INSETS_API
+04-28 05:01:45.721  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, true)
+04-28 05:01:45.721  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:45.721  1345  1345 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-28 05:01:45.721  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-28 05:01:45.722  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2098 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}}, false)
+04-28 05:01:45.722  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:45.778  8734  8751 D EGL_emulation: app_time_stats: avg=49.20ms min=16.37ms max=208.84ms count=22
+04-28 05:01:45.931   369   440 I netd    : tetherGetStats() -> {[]} <0.46ms>
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1773 Failed to get the input connection call's result.
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 500 milliseconds (plus 6 milliseconds, 20042 nanoseconds delay) for pxi@b63cbd5[status=PENDING, info=[task=[running=[RUNNING ON ICWrapper-1], kas@d56dfea]]]
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at pug.get(PG:52)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kbd.g(PG:9)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kbd.u(PG:84)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at tui.q(PG:24)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kbn.k(PG:8)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kbn.j(PG:3)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kbd.q(PG:8)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kfm.aU(PG:3)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at dia.l(PG:1175)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kfm.onStartInputView(PG:364)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.startViews(InputMethodService.java:3216)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.showWindow(InputMethodService.java:3115)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kfm.showWindow(PG:12)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInput(InputMethodService.java:1032)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at kfl.showSoftInput(PG:89)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInputWithToken(InputMethodService.java:992)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:232)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:317)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+04-28 05:01:46.229  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+04-28 05:01:46.229  1345  1345 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1694 IPC IC_GET_SURROUNDING_TEXT took 507 ms
+04-28 05:01:46.230  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():206 systemKeyboardHeightRatio:1.000000.
+04-28 05:01:46.230  1345  1345 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-28 05:01:46.230  1345  1345 I Delight5Facilitator: Delight5Facilitator.initializeForIme():747 initializeForIme() : Locale = [en_US], layout = qwerty
+04-28 05:01:46.230  1345  1345 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-28 05:01:46.231  1345  1345 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-28 05:01:46.231  1345  1345 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-28 05:01:46.232  1345  1345 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1174 inline flag updated to:false
+04-28 05:01:46.233  1345  1345 I InputBundle: InputBundle.consumeEvent():884 Skip consuming an event as keyboard status is 0
+04-28 05:01:46.236  1345  1345 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():575 activateKeyboard(): type=prime, status=0, imeDef=ktt{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=ktl{}, processors=kvl@a32a563, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kut@71f451, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-28 05:01:46.236  1345  1345 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_hover_light_phone_bottom4dp_navredesign
+04-28 05:01:46.236  1345  1345 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():239 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@e10848d
+04-28 05:01:46.236  1345  1345 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():606 doActivateKeyboard(): prime
+04-28 05:01:46.243  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.244  1345  7288 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-28 05:01:46.244  1345  1345 W Keyboard: Keyboard.getKeyboardViewHelper():574 null helper is returned: keyboardDef=kuo{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, keyboard_mode=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_hover_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170663, #0x7f1708e0], initialStates=0, keyboardViewDefs=[kvb{direction=null, id=#0x7f0b014d, isScalable=true, layoutId=#0x7f0e039d, type=BODY, touchable=true, defaultShow=true}, kvb{direction=null, id=#0x7f0b014d, isScalable=false, layoutId=#0x7f0e01aa, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kvb{direction=LOCALE, id=#0x7f0b014d, isScalable=false, layoutId=#0x7f0e0591, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e068d, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kib@5493c0b, kib@bfc1ae8, kib@1fa5501, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.8 fontWeightAdjustment=0}
+04-28 05:01:46.244  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.250  1345  7288 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-28 05:01:46.297  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3728 startInputIfInputViewStarted(): default prime
+04-28 05:01:46.299  1345  1345 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():625 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-28 05:01:46.299  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:46.299  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.299  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.299  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.299  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.299  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:46.300  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.300  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.300  1345  1345 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():613 setInputView() : supportsOneHandedMode=true, supportSplitMode=true
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1773 Failed to get the input connection call's result.
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 4 milliseconds, 483792 nanoseconds delay) for pxi@f1a6afa[status=PENDING, info=[task=[running=[NOT STARTED YET], fch@233e8ab]]]
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at pug.get(PG:52)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kbd.g(PG:9)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kbd.f(PG:20)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kbd.t(PG:27)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kef.i(PG:7)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kef.h(PG:40)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kef.d(PG:38)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kfm.en(PG:15)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at joy.en(PG:3)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at fto.j(PG:9)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at jow.a(PG:13)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at joy.af(PG:15)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at jos.w(PG:141)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at jos.y(PG:7)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at jos.c(PG:49)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at jos.m(PG:128)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at dia.l(PG:1268)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kfm.onStartInputView(PG:364)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.startViews(InputMethodService.java:3216)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.showWindow(InputMethodService.java:3115)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kfm.showWindow(PG:12)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInput(InputMethodService.java:1032)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at kfl.showSoftInput(PG:89)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInputWithToken(InputMethodService.java:992)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:232)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:317)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+04-28 05:01:46.406  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+04-28 05:01:46.406  1345  1345 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1694 IPC IC_REQUEST_CURSOR_UPDATES took 106 ms
+04-28 05:01:46.408  1345  1345 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-28 05:01:46.423  8734  8734 I ImeTracker: com.example.callassistantsim:6e6b2920: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-28 05:01:46.423  8734  8734 D InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{d9b80e3 VFED..... .F....ID 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+04-28 05:01:46.426  1345  1345 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():308 Accessory input mode started: null
+04-28 05:01:46.426  1345  1345 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():159 keyboard accessory_candidates_consumer is not activated before!
+04-28 05:01:46.427  8734  8734 I Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+04-28 05:01:46.434  1345  1345 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-28 05:01:46.439  1345  1345 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+04-28 05:01:46.447  1645  1645 D BoundBrokerSvc: onBind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+04-28 05:01:46.447  1645  1645 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+04-28 05:01:46.453  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:46.453  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:46.453  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:46.553  1345  1345 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():494 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{7213b4 V.E...... ........ 0,0-1080,116}
+04-28 05:01:46.553  1345  1345 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():494 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{9f8b447 V.E...... ........ 0,0-1080,641}
+04-28 05:01:46.553  1345  1345 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():104 Not show new language banner: no change in enabled input method entries
+04-28 05:01:46.553  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:46.553  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:46.553  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:46.553  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:46.553  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:46.554  1345  1345 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():152 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-28 05:01:46.556  1345  1735 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():511 setKeyboardLayout()
+04-28 05:01:46.559  8734  8805 D ProfileInstaller: Installing profile for com.example.callassistantsim
+04-28 05:01:46.568  1345  8113 I HWUI    : Davey! duration=809ms; Flags=1, FrameTimelineVsyncId=79046, IntendedVsync=10936788139094, Vsync=10937488139066, InputEventId=0, HandleInputStart=10937503132339, AnimationStart=10937503133089, PerformTraversalsStart=10937503133256, DrawStart=10937537007631, FrameDeadline=10936804805760, FrameInterval=10937502056547, FrameStartTime=16666666, SyncQueued=10937537540714, SyncStart=10937552708547, IssueDrawCommandsStart=10937553034922, SwapBuffers=10937573487131, FrameCompleted=10937612498047, DequeueBufferDuration=2541, QueueBufferDuration=1013500, GpuCompleted=10937612498047, SwapBuffersCompleted=10937589579922, DisplayPresentTime=0, CommandSubmissionCompleted=10937573487131,
+04-28 05:01:46.590  8734  8734 D InsetsController: show(ime(), fromIme=true)
+04-28 05:01:46.604  8734  8734 D InsetsController: show(ime(), fromIme=true)
+04-28 05:01:46.605  8734  8734 I ImeTracker: com.example.callassistantsim:6e6b2920: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+04-28 05:01:46.621  8734  8746 I HWUI    : Davey! duration=774ms; Flags=0, FrameTimelineVsyncId=79067, IntendedVsync=10936804805760, Vsync=10937488139066, InputEventId=0, HandleInputStart=10937490916797, AnimationStart=10937490918089, PerformTraversalsStart=10937490918672, DrawStart=10937490958547, FrameDeadline=10937604805728, FrameInterval=10937490707256, FrameStartTime=16666666, SyncQueued=10937515395464, SyncStart=10937567406047, IssueDrawCommandsStart=10937567549047, SwapBuffers=10937615298381, FrameCompleted=10937630976714, DequeueBufferDuration=1833, QueueBufferDuration=244667, GpuCompleted=10937630976714, SwapBuffersCompleted=10937616856839, DisplayPresentTime=-30555028711054928, CommandSubmissionCompleted=10937615298381,
+04-28 05:01:46.622  8734  8806 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.callassistantsim
+04-28 05:01:46.797  8734  8751 D EGL_emulation: app_time_stats: avg=25.70ms min=5.23ms max=50.08ms count=29
+04-28 05:01:46.867  8734  8734 I ImeTracker: com.example.callassistantsim:a0701cb0: onShown
+04-28 05:01:47.181  1345  1345 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():152 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-28 05:01:47.260   575   715 I ImeTracker: com.example.callassistantsim:244111f7: onRequestShow at ORIGIN_SERVER reason ATTACH_NEW_INPUT fromUser false
+04-28 05:01:47.262  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, true)
+04-28 05:01:47.262  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:47.262  1345  1345 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-28 05:01:47.262  1345  1345 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1777332705721, IME_SESSION=1777332706230, INPUT_VIEW_SESSION=1777332705722, TRAINING_CACHE_SESSION=1777332706230}], ending it now.
+04-28 05:01:47.262  1345  1345 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1777332705721, IME_SESSION=1777332706230, INPUT_VIEW_SESSION=1777332705722, TRAINING_CACHE_SESSION=1777332706230}], ending it now.
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1773 Failed to get the input connection call's result.
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 1 milliseconds, 394417 nanoseconds delay) for pxi@9a7b14c[status=PENDING, info=[task=[running=[RUNNING ON ICWrapper-1], fch@133d595]]]
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at pug.get(PG:52)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kbd.g(PG:9)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kbd.f(PG:20)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kbd.t(PG:27)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kef.i(PG:7)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kef.h(PG:40)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kef.d(PG:38)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at kfm.onStartInput(PG:473)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3390)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.restartInput(InputMethodService.java:875)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:890)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:317)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+04-28 05:01:47.365  1345  1345 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+04-28 05:01:47.365  1345  1345 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1694 IPC IC_REQUEST_CURSOR_UPDATES took 103 ms
+04-28 05:01:47.365  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-28 05:01:47.366  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2098 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}}, true)
+04-28 05:01:47.367  1345  1345 I InputBundle: InputBundle.consumeEvent():884 Skip consuming an event as keyboard status is 0
+04-28 05:01:47.367  1345  1345 I VoiceInputHandler: VoiceInputHandler.onDeactivateIme():115 unregistering TalkbackStateListener
+04-28 05:01:47.367  1345  1345 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():124 shutdown()
+04-28 05:01:47.367  1345  1345 I AndroidIME: AbstractIme.onDeactivate():202 LatinIme.onDeactivate()
+04-28 05:01:47.367  1345  1345 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+04-28 05:01:47.368  1345  1501 W ModuleManager: ModuleManager.loadModule():473 Module mgc is not available
+04-28 05:01:47.370  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:47.415  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():206 systemKeyboardHeightRatio:1.000000.
+04-28 05:01:47.416  1345  1345 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.callassistantsim, inputType=28001, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=42000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-28 05:01:47.418  1345  1345 I Delight5Facilitator: Delight5Facilitator.initializeForIme():747 initializeForIme() : Locale = [en_US], layout = qwerty
+04-28 05:01:47.418  1345  1345 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-28 05:01:47.418  1345  1345 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-28 05:01:47.418  1345  1345 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-28 05:01:47.418  1345  1345 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1174 inline flag updated to:false
+04-28 05:01:47.420  1345  1345 I InputBundle: InputBundle.consumeEvent():884 Skip consuming an event as keyboard status is 0
+04-28 05:01:47.420  1345  1345 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():575 activateKeyboard(): type=prime, status=0, imeDef=ktt{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=ktl{}, processors=kvl@a32a563, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kut@71f451, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-28 05:01:47.420  1345  1345 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_hover_light_phone_bottom4dp_navredesign
+04-28 05:01:47.420  1345  1345 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():239 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@e10848d
+04-28 05:01:47.421  1345  1345 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():606 doActivateKeyboard(): prime
+04-28 05:01:47.422  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.422  1345  1345 W Keyboard: Keyboard.getKeyboardViewHelper():574 null helper is returned: keyboardDef=kuo{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, keyboard_mode=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_hover_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170663, #0x7f1708e0], initialStates=0, keyboardViewDefs=[kvb{direction=null, id=#0x7f0b014d, isScalable=true, layoutId=#0x7f0e039d, type=BODY, touchable=true, defaultShow=true}, kvb{direction=null, id=#0x7f0b014d, isScalable=false, layoutId=#0x7f0e01aa, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kvb{direction=LOCALE, id=#0x7f0b014d, isScalable=false, layoutId=#0x7f0e0591, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e068d, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kib@5493c0b, kib@bfc1ae8, kib@1fa5501, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.8 fontWeightAdjustment=0}
+04-28 05:01:47.422  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.428  1345  7288 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-28 05:01:47.429  1345  7288 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-28 05:01:47.437  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3728 startInputIfInputViewStarted(): default prime
+04-28 05:01:47.437  1345  1345 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():625 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-28 05:01:47.437  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:47.437  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.437  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.437  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.437  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.437  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:47.438  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.438  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.438  1345  1345 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():613 setInputView() : supportsOneHandedMode=true, supportSplitMode=true
+04-28 05:01:47.511  1345  1345 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-28 05:01:47.513  1345  1345 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():308 Accessory input mode started: null
+04-28 05:01:47.513  1345  1345 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():159 keyboard accessory_candidates_consumer is not activated before!
+04-28 05:01:47.513  1345  1345 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-28 05:01:47.523  1345  1345 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-28 05:01:47.523  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:47.523  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:47.529  1345  1345 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():494 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{7213b4 V.E...... ........ 0,0-1080,116}
+04-28 05:01:47.529  1345  1345 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():494 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{9f8b447 V.E...... ........ 0,0-1080,641}
+04-28 05:01:47.529  1345  1345 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():104 Not show new language banner: no change in enabled input method entries
+04-28 05:01:47.529  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:47.529  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:47.529  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:47.529  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:47.530  1345  1345 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-28 05:01:47.536  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():113
+04-28 05:01:47.536  1345  1345 I WindowMetricsNotification: WindowMetricsNotification.notify():106 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-28 05:01:47.536  8734  8734 D InsetsController: show(ime(), fromIme=true)
+04-28 05:01:47.536  8734  8734 I ImeTracker: com.example.callassistantsim:244111f7: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+04-28 05:01:47.537  1345  1735 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():511 setKeyboardLayout()
+04-28 05:01:47.623  1345  1345 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():152 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-28 05:01:47.707   575  2140 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10221, packageName = null, attributionTag = null, token = android.os.Binder@ec8bdbe, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:47.726  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=73, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+04-28 05:01:47.731   837   922 D SplashScreenView: Build android.window.SplashScreenView{aa345a6 V.E...... ......ID 0,0-0,0}
+04-28 05:01:47.731   837   922 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-28 05:01:47.731   837   922 D SplashScreenView: Branding: view: android.view.View{b216be7 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-28 05:01:47.731  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: PAUSED
+04-28 05:01:47.731  8734  8734 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.callassistantsim.MainActivity@fe6d4f
+04-28 05:01:47.747   369   440 I netd    : tetherGetStats() -> {[]} <0.21ms>
+04-28 05:01:47.759   412   412 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:47.834  8734  8751 D EGL_emulation: app_time_stats: avg=37.46ms min=14.76ms max=81.62ms count=21
+04-28 05:01:47.915  8771  8785 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-28 05:01:47.932  8771  8785 I EGL_emulation: Opening libGLESv2_emulation.so
+04-28 05:01:47.984  8771  8785 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-28 05:01:47.985  8771  8785 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-28 05:01:48.089   837  1022 D EGL_emulation: app_time_stats: avg=503.21ms min=15.47ms max=2770.68ms count=7
+04-28 05:01:48.211   575  1340 D WifiNl80211Manager: Scan result ready event
+04-28 05:01:48.211   575  1340 D WifiNative: Scan result ready event
+04-28 05:01:48.216   575   618 W ziparchive: Unable to open '/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/base.dm': No such file or directory
+04-28 05:01:48.219   575   618 I ActivityTaskManager: Displayed com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +505ms
+04-28 05:01:48.220  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=40, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+04-28 05:01:48.226   575   743 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+04-28 05:01:48.260  1324  1324 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+04-28 05:01:48.280  1324  1324 D BaseDepthController: setSurface:
+04-28 05:01:48.280  1324  1324 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:48.280  1324  1324 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xb54d19f
+04-28 05:01:48.390  1324  1324 D StatsLog: LAUNCHER_ONRESUME
+04-28 05:01:48.393  1324  1424 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+04-28 05:01:48.395   575  1538 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+04-28 05:01:48.397  1469  1564 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-28 05:01:48.397  1469  1564 I AiAiEcho: EchoTargets:
+04-28 05:01:48.397  1469  1564 I AiAiEcho: Filtered by AiAi flag check:
+04-28 05:01:48.397  1469  1564 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-28 05:01:48.397  1469  1564 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+04-28 05:01:48.397  1469  1564 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-28 05:01:48.398  1469  1564 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+04-28 05:01:48.399  1324  1324 D SsBaseTemplateCard: No text view can be set up
+04-28 05:01:48.399  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:48.399  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:48.399  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:48.399  1324  1324 I SsBaseTemplateCard: Secondary card pane is null
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+04-28 05:01:48.400  1324  1722 D OneSearchSuggestProvider: 	... 8 more
+04-28 05:01:48.401  1324  1722 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=77, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@583dc71
+04-28 05:01:48.428  1615  1615 I A       : (REDACTED) Created gRPC endpoint for service %s
+04-28 05:01:48.471  1324  1594 D EGL_emulation: app_time_stats: avg=439.13ms min=2.77ms max=3787.19ms count=9
+04-28 05:01:48.483  8734  8734 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:48.500  1324  1324 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+04-28 05:01:48.500  1324  1324 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:22)
+04-28 05:01:48.500  1324  1324 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:11)
+04-28 05:01:48.500  1324  1324 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:735)
+04-28 05:01:48.563  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: STOPPED
+04-28 05:01:48.567  8734  8734 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.callassistantsim.MainActivity@fe6d4f
+04-28 05:01:48.650  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@fe6d4f in: DESTROYED
+04-28 05:01:48.650  8734  8734 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-28 05:01:48.650  8734  8734 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6e5e617
+04-28 05:01:48.655   575   575 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+04-28 05:01:48.656  8734  8744 I TextToSpeech: Disconnected from TTS engine
+04-28 05:01:48.663  8734  8749 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@108b50a]
+04-28 05:01:48.667   575  2140 W InputManager-JNI: Input channel object 'a5a4aa0 com.example.callassistantsim/com.example.callassistantsim.MainActivity (client)' was disposed without first being removed with the input manager!
+04-28 05:01:48.755   837   921 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ae1632
+04-28 05:01:48.756  8734  8734 I ImeTracker: com.example.callassistantsim:f1d73223: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-28 05:01:48.756  8734  8734 I ImeTracker: com.example.callassistantsim:f1d73223: onFailed at PHASE_CLIENT_VIEW_SERVED
+04-28 05:01:48.760   575  2163 W InputManager-JNI: Input channel object '7e7145 Splash Screen com.example.callassistantsim.test (client)' was disposed without first being removed with the input manager!
+04-28 05:01:48.778  8734  8749 I TestRunner: finished: e2e_simulatedCallFlow_backendIntegration(com.example.callassistantsim.MainActivityUiTest)

@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.callassistantsim"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:4:5-75
+12-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:4:22-72
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:5:5-77
+13-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:5:22-74
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:6:5-71
+14-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:6:22-68
+15
+16    <permission
+16-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.callassistantsim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.callassistantsim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:8:5-32:19
+23        android:allowBackup="true"
+23-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.15.0] /Users/apple/.gradle/caches/9.4.1/transforms/a6a986228664dc9aaf68953f2f621691/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="Call Assistant Sim"
+28-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:11:9-43
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:14:9-35
+31        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+31-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:15:9-72
+32        android:usesCleartextTraffic="true" >
+32-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:13:9-44
+33        <activity
+33-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:16:9-23:20
+34            android:name="com.example.callassistantsim.MainActivity"
+34-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:17:13-41
+35            android:exported="true" >
+35-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:18:13-36
+36            <intent-filter>
+36-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:19:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:20:17-69
+37-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:20:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:21:17-77
+39-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <receiver
+43-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:24:9-31:20
+44            android:name="com.example.callassistantsim.IncomingCallReceiver"
+44-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:25:13-49
+45            android:enabled="true"
+45-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:26:13-35
+46            android:exported="true" >
+46-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:27:13-36
+47            <intent-filter>
+47-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:28:13-30:29
+48                <action android:name="android.intent.action.PHONE_STATE" />
+48-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:29:17-76
+48-->/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/src/main/AndroidManifest.xml:29:25-73
+49            </intent-filter>
+50        </receiver>
+51
+52        <activity
+52-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/c5801da214904c49786f8b13912d9749/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+53            android:name="androidx.compose.ui.tooling.PreviewActivity"
+53-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/c5801da214904c49786f8b13912d9749/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+54            android:exported="true" />
+54-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/c5801da214904c49786f8b13912d9749/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+55        <activity
+55-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/802166001a62fdcea997b95c5f4fea10/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.activity.ComponentActivity"
+56-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/802166001a62fdcea997b95c5f4fea10/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:24:13-63
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/apple/.gradle/caches/9.4.1/transforms/802166001a62fdcea997b95c5f4fea10/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:25:13-36
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.callassistantsim.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/apple/.gradle/caches/9.4.1/transforms/90c638e68a6e589348e34b594a4a1303/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/apple/.gradle/caches/9.4.1/transforms/bd43e3fe0e4d7da2861302e45d94d2e1/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/apple/.gradle/caches/9.4.1/transforms/bd43e3fe0e4d7da2861302e45d94d2e1/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/apple/.gradle/caches/9.4.1/transforms/bd43e3fe0e4d7da2861302e45d94d2e1/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.4.1/transforms/374974b80aee7ddacfe3a9acedefcfb8/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

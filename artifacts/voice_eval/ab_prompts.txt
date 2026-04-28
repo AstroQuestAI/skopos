@@ -1,0 +1,10 @@
+1. Hello, this is Alex assistant. May I know who is calling?
+2. నమస్తే, దయచేసి మీ పేరు చెప్పండి.
+3. नमस्ते, कृपया अपना नाम बताइए।
+4. Please share your callback number slowly.
+5. మీ కాల్ అత్యవసరమా లేక సాధారణమా?
+6. क्या यह कॉल बहुत जरूरी है या सामान्य?
+7. Thanks, I will pass this along.
+8. ధన్యవాదాలు, నేను వివరాలు పంపిస్తాను.
+9. धन्यवाद, मैं ये जानकारी आगे भेज दूँगा।
+10. Please repeat the company name once again.

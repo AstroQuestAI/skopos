@@ -1,0 +1,429 @@
+04-28 05:01:46.999 15083 15098 I TestRunner: started: inputs_areEditable(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:47.002 15083 15098 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@aeba852]
+04-28 05:01:47.002  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30101, name=Task=5268#30101
+04-28 05:01:47.002  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30094, name=ActivityRecord{68198620 u0 com.example.callassistantsim/.MainActivity t5268}#30094
+04-28 05:01:47.003 15083 15098 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-28 05:01:47.008 11065 11065 D BufferQueueConsumer: [](id:2b3900000045,api:0,p:-1,c:11065) connect: controlledByApp=false
+04-28 05:01:47.009 11065 11065 D BLASTBufferQueue: [VRI[SearchLauncher]#37](f:0,a:0) constructor()
+04-28 05:01:47.009 11065 11065 D BLASTBufferQueue: [VRI[SearchLauncher]#37](f:0,a:0) update width=1084 height=2412 format=-2 mTransformHint=0
+04-28 05:01:47.010  2278  2278 D BufferQueueConsumer: [](id:8e60000026a,api:0,p:-1,c:2278) connect: controlledByApp=false
+04-28 05:01:47.011  2278  2278 D BLASTBufferQueue: [VRI[SearchLauncher]#346](f:0,a:0) constructor()
+04-28 05:01:47.011  2278  2278 D BLASTBufferQueue: [VRI[SearchLauncher]#346](f:0,a:0) update width=1084 height=2412 format=-2 mTransformHint=0
+04-28 05:01:47.012  2278  2278 D BaseDepthController: setSurface:
+04-28 05:01:47.012  2278  2278 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:47.012  2278  2278 D BaseDepthController: 	mBaseSurface: Surface(name=com.nothing.launcher/com.android.searchlauncher.SearchLauncher)/@0x5e4e340
+04-28 05:01:47.013  1548  4003 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e7e987b7 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:47.016   976   989 I mtkpower@impl: [setMode] type:5, enabled:1
+04-28 05:01:47.016 11065 11160 D BLASTBufferQueue: [VRI[SearchLauncher]#37](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74693484356372(auto) mPendingTransactions.size=0 graphicBufferId=47523813132954 transform=0
+04-28 05:01:47.016  2278  4188 D BLASTBufferQueue: [VRI[SearchLauncher]#346](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74693484617295(auto) mPendingTransactions.size=0 graphicBufferId=9783935505359 transform=0
+04-28 05:01:47.017 11065 11065 I bvtw    : onStart
+04-28 05:01:47.017  2278  2278 I NT-TopTaskTracker: Found recent activity taskId = 5050
+04-28 05:01:47.018  2278  2278 D RecentsView: onTaskRemoved: 5268, not handling task stack changes
+04-28 05:01:47.018  2278  2278 D RecentsView: onTaskRemoved: 5268, not handling task stack changes
+04-28 05:01:47.018 11065 11065 I btpr    : (REDACTED) [%s] onStart()
+04-28 05:01:47.018 11065 11065 I btry    : Reloading theme data
+04-28 05:01:47.019 11065 11065 I bvtw    : onResume
+04-28 05:01:47.023  1972  5352 W PopUpWinSceneDetector: Malformat: no colon symbol ':', so discard it.
+04-28 05:01:47.023  1972  5352 W PopUpWinSceneDetector: PopUpWinEvent format is wrong! Ignore it
+04-28 05:01:47.029  1548  4003 I PowerHalWrapper: <amsBoostResume> last:null, next:com.example.callassistantsimhasATProcess:false
+04-28 05:01:47.030   976  1066 I libPowerHal: [perfLockAcq] idx:3 hdl:57335 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57335
+04-28 05:01:47.030   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:47.031   976  1066 I libPowerHal: [perfLockRel] hdl:57334, idx:4
+04-28 05:01:47.031  1548  4003 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:47.031  1548  4003 I PowerHalWrapper: state: 1
+04-28 05:01:47.031  1548  4003 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:174252316 state:1
+04-28 05:01:47.031   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:47.031   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 1
+04-28 05:01:47.031   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:RESUMED, fps:-1, win:0
+04-28 05:01:47.031   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:47.031   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid:15083, fps:-1, isMultiWindow:0
+04-28 05:01:47.031   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:47.031   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.example.callassistantsim, pid:15083, uid:10321
+04-28 05:01:47.031   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:47.032   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.032   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:47.032   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:47.032   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.032   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.nothing.launcher => com.example.callassistantsim
+04-28 05:01:47.033   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:47.033  1548  4003 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:47.033  1548  4003 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:47.033  1548  4003 I PowerHalWrapper: state: 0
+04-28 05:01:47.033  1548  4003 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:174252316 state:0
+04-28 05:01:47.033   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:47.033   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:47.033   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:47.033   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:47.033   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:47.033   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:47.034   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.034   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:47.034   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:47.034   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.035  1548  4003 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:47.036  1972  5352 D TopAppSceneDetector: currentFocusApp=com.example.callassistantsim
+04-28 05:01:47.036  2227  2555 D Nt-Bpf-NtBpfControl: EVENT_RTT_UID: 10321
+04-28 05:01:47.036  2227  2555 D Nt-Bpf-Client: updateDataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10321, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:47.036  2227  2555 D Nt-Bpf-Client: dataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10321, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:47.037  2227  2575 D Nt-Bpf-Connection: sendMessage: Message{messageType=REQUEST_DATA_INFO, data={"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10321,"tcp_enable":true,"udp_enable":false}, len=148}
+04-28 05:01:47.037  2574  3053 D Nt-Bpf-Recive: Recive type: 4, len: 148, data: {"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10321,"tcp_enable":true,"udp_enable":false}
+04-28 05:01:47.037  1993  2064 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:47.037  1548  4177 I PowerHalWrapper: amsBoostNotify pid:15118,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.callassistantsim.test, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:47.037  1548  4177 I PowerHalWrapper: state: 0
+04-28 05:01:47.038  1548  4177 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15118 activityId:259546057 state:0
+04-28 05:01:47.038   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:47.038   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim.test actName: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid: 15118 uid: 10322 state: 0
+04-28 05:01:47.038   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15118, uid=10322, state:PAUSED, fps:-1, win:0
+04-28 05:01:47.038   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:47.038   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:47.038   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:47.039   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.039   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:47.040  2278  2278 I NT-TopTaskTracker: Call back onTaskMovedToFront taskId = 5270
+04-28 05:01:47.040   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:47.040   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.041  1548  4177 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:47.041  1548  4177 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:47.041  1548  4177 I PowerHalWrapper: state: 0
+04-28 05:01:47.041  1548  4177 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:0
+04-28 05:01:47.041   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:47.041   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 0
+04-28 05:01:47.041   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:PAUSED, fps:-1, win:0
+04-28 05:01:47.041   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:47.041   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:47.041   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:47.042   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.042   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:47.042   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:47.043   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.043  1548  4177 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:47.043  1548  4177 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false, AMS_BOOST_PROCESS_CREATE_FOR_GAME:false, AMS_BOOST_HOT_LAUNCH:false
+04-28 05:01:47.043   976   988 I mtkpower@impl: [mtkPowerHint] hint:22, hold:500, ext:30, ext_hold:1500
+04-28 05:01:47.043   976  1066 I libPowerHal: [perfLockAcq] idx:4 hdl:57336 hint:22 pid:976 tid:976 duration:500 lock_user:mtkpower@1.0-se => ret_hdl:57336
+04-28 05:01:47.043   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:47.044 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: PRE_ON_CREATE
+04-28 05:01:47.044 15083 15083 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-28 05:01:47.045   976  1066 I libPowerHal: [perfLockRel] hdl:57335, idx:3
+04-28 05:01:47.046   976  1066 I libPowerHal: [perfLockAcq] idx:5 hdl:57337 hint:30 pid:976 tid:976 duration:1500 lock_user:mtkpower@1.0-se => ret_hdl:57337
+04-28 05:01:47.046   976  1066 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000, param:31
+04-28 05:01:47.049 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: CREATED
+04-28 05:01:47.049 15083 15083 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.callassistantsim.MainActivity@adf844e
+04-28 05:01:47.049 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: STARTED
+04-28 05:01:47.049  2278  2364 I NT-AppEventTracker: Begin non-home task duration timing:TaskDuration(taskId=5270, pkgName=com.example.callassistantsim, userId=UserHandle{0}, beginTime=1777332707049, endTime=0, windowType=1, duration=0, state=2)
+04-28 05:01:47.049 15083 15083 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.callassistantsim.MainActivity@adf844e
+04-28 05:01:47.049 15083 15083 I ContentCaptureHelper: Setting logging level to OFF
+04-28 05:01:47.050 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: RESUMED
+04-28 05:01:47.050 15083 15083 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.callassistantsim.MainActivity@adf844e
+04-28 05:01:47.051 15083 15083 D ActivityThread: handleResumeActivity#3 r.window=nulla.mFinished = falsewillBeVisible = true
+04-28 05:01:47.051 15083 15083 D ActivityThread: handleResumeActivity#4 addView a.mVisibleFromClient=truea.mWindowAdded=falsedecor=DecorView@e5b9cfe[]
+04-28 05:01:47.051 15083 15083 D ActivityThread: handleResumeActivity#5 addView decor=DecorView@e5b9cfe[]
+04-28 05:01:47.052 15083 15083 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+04-28 05:01:47.058 15118 15123 W sistantsim.test: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+04-28 05:01:47.064 15083 15083 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+04-28 05:01:47.064  1548  1642 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:47.065  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.example.callassistantsim.MainActivity
+04-28 05:01:47.065  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.android.searchlauncher.SearchLauncher
+04-28 05:01:47.066  1972  5352 D GameSceneDetector: Failed to call isBoostTypeGame: java.lang.ClassNotFoundException: android.util.BoostFramework
+04-28 05:01:47.066  1972  5352 D GameSceneDetector: onTopChanged=com.example.callassistantsim, isBoostTypeGame=false, isCategoryGame=false, isTopGame=false
+04-28 05:01:47.067  2278  2278 I NT-AIWidgetAIWidgetInputMonitor: Lifecycle onStateChanged event=ON_STOP
+04-28 05:01:47.067 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: PAUSED
+04-28 05:01:47.067 15083 15083 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.callassistantsim.MainActivity@adf844e
+04-28 05:01:47.067  2278  2278 I NT-AIWidgetAIWidgetController: Lifecycle onStateChanged event=ON_STOP
+04-28 05:01:47.068  2278  2278 I NT-AsyncServiceBinder: Release service for = com.nothing.search.searchui current binder = m6.d@e65b7d4
+04-28 05:01:47.070  2278  2278 D BaseDepthController: setSurface:
+04-28 05:01:47.070  2278  2278 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:47.070  2278  2278 D BaseDepthController: 	mBaseSurface: null
+04-28 05:01:47.070  2278  2278 I AutofillManager: onInvisibleForAutofill(): expiringResponse
+04-28 05:01:47.071  2278  2278 W NT-NTLauncher: onTrimMemory: level = 20
+04-28 05:01:47.074 11065 11065 I bvtw    : onPause
+04-28 05:01:47.076 11065 11065 I bvtw    : onStop
+04-28 05:01:47.077  2278  2278 I NT-LifecycleHelper: onActivitySaveInstanceState set Lifecycle.State.CREATED
+04-28 05:01:47.080  1009  1009 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:47.082 15118 15118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@a9715bb
+04-28 05:01:47.082 15118 15132 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:1) destructor()
+04-28 05:01:47.082 15118 15132 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1(BLAST Consumer)1](id:3b0e00000001,api:0,p:-1,c:15118) disconnect
+04-28 05:01:47.083  2278  4188 D BLASTBufferQueue: [VRI[SearchLauncher]#346](f:0,a:1) destructor()
+04-28 05:01:47.083  2278  4188 D BufferQueueConsumer: [VRI[SearchLauncher]#346(BLAST Consumer)346](id:8e60000026a,api:0,p:-1,c:2278) disconnect
+04-28 05:01:47.083 15118 15118 D ViewRootImpl: Skipping stats log for color mode
+04-28 05:01:47.083 15118 15118 D View    : [Warning] assignParent to null: this = DecorView@ac67bec[InstrumentationActivityInvoker$EmptyActivity]
+04-28 05:01:47.084 15083 15083 I allassistantsim: AssetManager2(0xb4000078e8203f18) locale list changing from [] to [en-GB]
+04-28 05:01:47.085 15083 15083 I TextToSpeech: Sucessfully bound to com.google.android.tts
+04-28 05:01:47.089 15083 15093 I TextToSpeech: Connected to TTS engine
+04-28 05:01:47.095 11065 11065 D VRI[SearchLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:47.097  1441 19690 I GoogleTTSServiceImpl: currentLocale = en-GB
+04-28 05:01:47.101  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30099, name=95da7c1 com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#30099
+04-28 05:01:47.101  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30100, name=com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#30100
+04-28 05:01:47.101  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30103, name=com.nothing.launcher/com.android.searchlauncher.SearchLauncher#30103
+04-28 05:01:47.102  1441 19690 I GoogleTTSServiceImpl: For default lang en-gb is name en-GB-language (en-gb-x-gbg-server)
+04-28 05:01:47.103 15083 15112 I TextToSpeech: Setting up the connection to TTS engine...
+04-28 05:01:47.103  2278  2278 D RecentsView: onTaskRemoved: 5269, not handling task stack changes
+04-28 05:01:47.104  2278  2278 D RecentsView: onTaskRemoved: 5269, not handling task stack changes
+04-28 05:01:47.105  1993  2064 D CaptionWindowDecorViewModel: Destroying window decoration for task 5269, decoration=null, callers=com.android.wm.shell.windowdecor.CaptionWindowDecorViewModel.onTaskVanished:234 com.android.wm.shell.fullscreen.FullscreenTaskListener.lambda$onTaskVanished$2:173 com.android.wm.shell.fullscreen.FullscreenTaskListener$$ExternalSyntheticLambda1.accept:0 java.util.Optional.ifPresent:178 com.android.wm.shell.fullscreen.FullscreenTaskListener.onTaskVanished:173
+04-28 05:01:47.111  1009  1520 I SurfaceFlinger: onHandleDestroyed: layerId=30107, name=Task=5269#30107
+04-28 05:01:47.119 11065 11065 D BLASTBufferQueue: [VRI[SearchLauncher]#37](f:0,a:1) destructor()
+04-28 05:01:47.119 11065 11065 D BufferQueueConsumer: [VRI[SearchLauncher]#37(BLAST Consumer)37](id:2b3900000045,api:0,p:-1,c:11065) disconnect
+04-28 05:01:47.119  1009  3119 I SurfaceFlinger: onHandleDestroyed: layerId=30102, name=com.nothing.launcher/com.android.searchlauncher.SearchLauncher#30102
+04-28 05:01:47.221 15083 15083 D BufferQueueConsumer: [](id:3aeb00000002,api:0,p:-1,c:15083) connect: controlledByApp=false
+04-28 05:01:47.221 15083 15083 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:0) constructor()
+04-28 05:01:47.221 15083 15083 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:0) update width=1084 height=2412 format=-1 mTransformHint=0
+04-28 05:01:47.221  1993  2064 D PopUpViewTransitionObserver: onTransitionFinished: transition=android.os.BinderProxy@ffeb721, taskInfo=[]
+04-28 05:01:47.222   976   989 I mtkpower@impl: [setMode] type:5, enabled:0
+04-28 05:01:47.225  1548  1641 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:47.225  1548  1641 I PowerHalWrapper: state: 0
+04-28 05:01:47.225  1548  1641 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:174252316 state:0
+04-28 05:01:47.225   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:47.225   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:47.225   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:47.225   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:47.225   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:47.225   975   975 I MTK_APPList: [notifyNetdUID] 10321
+04-28 05:01:47.226   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.226   975   975 I MTK_APPList: [notifyPID] 15083
+04-28 05:01:47.226   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15083
+04-28 05:01:47.226   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:47.227  1548  1641 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:47.227  1009  1520 I SurfaceFlinger: onHandleDestroyed: layerId=30098, name=ActivityRecord{259546057 u0 com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t5269}#30098
+04-28 05:01:47.259 15083 15102 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74693727301526(auto) mPendingTransactions.size=0 graphicBufferId=64780991725588 transform=0
+04-28 05:01:47.264  1548  1638 I ActivityTaskManager: Displayed com.example.callassistantsim/.MainActivity for user 0: +253ms
+04-28 05:01:47.305 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: STOPPED
+04-28 05:01:47.305 15083 15083 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.callassistantsim.MainActivity@adf844e
+04-28 05:01:47.307 15083 15102 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:1) destructor()
+04-28 05:01:47.308 15083 15102 D BufferQueueConsumer: [VRI[MainActivity]#2(BLAST Consumer)2](id:3aeb00000002,api:0,p:-1,c:15083) disconnect
+04-28 05:01:47.317  1548  2228 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:false, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false, AMS_BOOST_PROCESS_CREATE_FOR_GAME:false, AMS_BOOST_HOT_LAUNCH:false
+04-28 05:01:47.318  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30108, name=com.example.callassistantsim/com.example.callassistantsim.MainActivity#30108
+04-28 05:01:47.544   976  1066 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:57336
+04-28 05:01:47.544   976  1066 I libPowerHal: [perfLockRel] hdl:57336, idx:4
+04-28 05:01:47.893   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:47.893   967  1048 I SCP-SensorSavedChannel: [-9369,2211,30]==>gyro_bias.json
+04-28 05:01:47.942   975  1033 I libPerfCtl: xgfGetFPS pid:2278 fps:-1
+04-28 05:01:47.942   975  1033 I libPerfCtl: xgfGetFPS pid:11065 fps:-1
+04-28 05:01:47.942   975  1033 I libPerfCtl: xgfGetFPS pid:15083 fps:-1
+04-28 05:01:47.942   975  1033 I libPerfCtl: xgfGetFPS pid:15118 fps:-1
+04-28 05:01:48.366  1222  1542 D ULogGuard: Monitoring: 6 threads, 0 requests, 0 time-bombs; 5 guards. ResetFlags = 0x7
+04-28 05:01:48.413   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:48.413   967  1048 I SCP-SensorSavedChannel: [-9368,2210,30]==>gyro_bias.json
+04-28 05:01:48.547   976  1066 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:57337
+04-28 05:01:48.547   976  1066 I libPowerHal: [perfLockRel] hdl:57337, idx:5
+04-28 05:01:48.547   976  1066 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:0
+04-28 05:01:48.609  9347  9375 I Finsky  : [843] AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+04-28 05:01:48.745   976   990 D power@timer: [mtkPowerTimer] visRead:0
+04-28 05:01:48.890   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:48.892   967  1048 I SCP-SensorSavedChannel: [-9366,2207,30]==>gyro_bias.json
+04-28 05:01:48.942   975  1033 I libPerfCtl: xgfGetFPS pid:2278 fps:-1
+04-28 05:01:48.942   975  1033 I libPerfCtl: xgfGetFPS pid:11065 fps:-1
+04-28 05:01:48.942   975  1033 I libPerfCtl: xgfGetFPS pid:15083 fps:-1
+04-28 05:01:48.942   975  1033 I libPerfCtl: xgfGetFPS pid:15118 fps:-1
+04-28 05:01:49.358  1548  2228 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e99e6056 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:49.360   976   989 I mtkpower@impl: [setMode] type:5, enabled:1
+04-28 05:01:49.362  1972  5352 W PopUpWinSceneDetector: Malformat: no colon symbol ':', so discard it.
+04-28 05:01:49.362  1972  5352 W PopUpWinSceneDetector: PopUpWinEvent format is wrong! Ignore it
+04-28 05:01:49.364  1548  2228 I PowerHalWrapper: <amsBoostResume> last:null, next:com.example.callassistantsim.testhasATProcess:false
+04-28 05:01:49.364   976  1066 I libPowerHal: [perfLockRel] hdl:57337, idx:-1
+04-28 05:01:49.365   976  1066 I libPowerHal: [perfLockAcq] idx:3 hdl:57338 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57338
+04-28 05:01:49.365   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:49.365   976  1066 I libPowerHal: [perfLockRel] hdl:57336, idx:-1
+04-28 05:01:49.366  1548  2228 I PowerHalWrapper: amsBoostNotify pid:15118,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.callassistantsim.test, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.366  1548  2228 I PowerHalWrapper: state: 1
+04-28 05:01:49.366  1548  2228 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15118 activityId:176482881 state:1
+04-28 05:01:49.366   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.366   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim.test actName: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid: 15118 uid: 10322 state: 1
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15118, uid=10322, state:RESUMED, fps:-1, win:0
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid:15118, fps:-1, isMultiWindow:0
+04-28 05:01:49.366   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.example.callassistantsim.test, pid:15118, uid:10322
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:49.366   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.366   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:49.366  1548  2228 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.367   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:49.367  1548  2228 I PowerHalWrapper: amsBoostNotify pid:15118,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.callassistantsim.test, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.367   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.367  1548  2228 I PowerHalWrapper: state: 0
+04-28 05:01:49.367   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.example.callassistantsim => com.example.callassistantsim.test
+04-28 05:01:49.367  1548  2228 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15118 activityId:176482881 state:0
+04-28 05:01:49.367   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:49.367   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.367   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim.test actName: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid: 15118 uid: 10322 state: 0
+04-28 05:01:49.367   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15118, uid=10322, state:PAUSED, fps:-1, win:0
+04-28 05:01:49.367   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:49.367   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.367   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:49.368  1548  2228 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.368   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.368   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:49.368   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:49.368   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.369  1993  2064 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:49.372  2227  2555 D Nt-Bpf-NtBpfControl: EVENT_RTT_UID: 10322
+04-28 05:01:49.372  2227  2555 D Nt-Bpf-Client: updateDataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10322, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:49.372  2227  2555 D Nt-Bpf-Client: dataInfoSwitch: dataInfoConfig = [DataInfoConfig{feature_enable=true, if_index=36, tcp_enable=true, tcp_rtt_enable=false, tcp_rtt_uid=10322, udp_enable=false, dns_enable=false, icmp_enable=true}]
+04-28 05:01:49.373  2227  2575 D Nt-Bpf-Connection: sendMessage: Message{messageType=REQUEST_DATA_INFO, data={"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10322,"tcp_enable":true,"udp_enable":false}, len=148}
+04-28 05:01:49.373  2574  3053 D Nt-Bpf-Recive: Recive type: 4, len: 148, data: {"dns_enable":false,"feature_enable":true,"icmp_enable":true,"if_index":36,"rtt_to_file":false,"rtt_uid":10322,"tcp_enable":true,"udp_enable":false}
+04-28 05:01:49.375  1972  5352 D TopAppSceneDetector: currentFocusApp=com.example.callassistantsim.test
+04-28 05:01:49.379  1548  1642 W BoostModuleDispatcher: Not found identify scenario.
+04-28 05:01:49.380  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+04-28 05:01:49.380  1972  5352 D NearbyDetector: onTopActivityChanged: top class name: com.example.callassistantsim.MainActivity
+04-28 05:01:49.380  1972  5352 D GameSceneDetector: Failed to call isBoostTypeGame: java.lang.ClassNotFoundException: android.util.BoostFramework
+04-28 05:01:49.380  1972  5352 D GameSceneDetector: onTopChanged=com.example.callassistantsim.test, isBoostTypeGame=false, isCategoryGame=false, isTopGame=false
+04-28 05:01:49.381  2278  2364 I NT-AppEventTracker: Begin non-home task duration timing:TaskDuration(taskId=5271, pkgName=com.example.callassistantsim.test, userId=UserHandle{0}, beginTime=1777332709381, endTime=0, windowType=1, duration=0, state=2)
+04-28 05:01:49.381  2278  2278 I NT-TopTaskTracker: Call back onTaskMovedToFront taskId = 5271
+04-28 05:01:49.383  1972  5352 D ThermalMitigationStrategy: onForegroundAppChange: app changed, should update buffer rate info next time
+04-28 05:01:49.387 15118 15118 D ActivityThread: handleResumeActivity#3 r.window=nulla.mFinished = falsewillBeVisible = true
+04-28 05:01:49.387 15118 15118 D ActivityThread: handleResumeActivity#4 addView a.mVisibleFromClient=truea.mWindowAdded=falsedecor=DecorView@c46604c[]
+04-28 05:01:49.387 15118 15118 D ActivityThread: handleResumeActivity#5 addView decor=DecorView@c46604c[]
+04-28 05:01:49.388 15118 15118 D VRI[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true, forceHwAccelerated = false
+04-28 05:01:49.389  1548  4004 I PowerHalWrapper: amsBoostNotify pid:15083,activity:com.example.callassistantsim.MainActivity, package:com.example.callassistantsim, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.389  1548  4004 I PowerHalWrapper: state: 0
+04-28 05:01:49.389  1548  4004 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.example.callassistantsim/com.example.callassistantsim.MainActivity pid=15083 activityId:174252316 state:0
+04-28 05:01:49.390   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.390   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.example.callassistantsim actName: com.example.callassistantsim.MainActivity pid: 15083 uid: 10321 state: 0
+04-28 05:01:49.390   975   975 I MTK_APPList: [notifyAPPstate] com.example.callassistantsim/com.example.callassistantsim.MainActivity, pid=15083, uid=10321, state:PAUSED, fps:-1, win:0
+04-28 05:01:49.390   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:49.390   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.390   975   975 I MTK_APPList: [notifyNetdUID] 10322
+04-28 05:01:49.390   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.390   975   975 I MTK_APPList: [notifyPID] 15118
+04-28 05:01:49.391   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 15118
+04-28 05:01:49.391   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.391  1548  4004 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.393  1009  1009 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:49.395 15118 15118 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+04-28 05:01:49.413   967  1048 W AString : ctor got NULL, using empty string instead
+04-28 05:01:49.413   967  1048 I SCP-SensorSavedChannel: [-9364,2205,31]==>gyro_bias.json
+04-28 05:01:49.420 15083 15083 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@adf844e in: DESTROYED
+04-28 05:01:49.420 15083 15083 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-28 05:01:49.420 15083 15083 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@e9acf3c
+04-28 05:01:49.421  1993  2064 D PopUpViewTransitionObserver: onTransitionFinished: transition=android.os.BinderProxy@beea45d, taskInfo=[]
+04-28 05:01:49.421  1548  1548 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+04-28 05:01:49.422 15083 15094 I TextToSpeech: Disconnected from TTS engine
+04-28 05:01:49.423 15118 15118 D BufferQueueConsumer: [](id:3b0e00000002,api:0,p:-1,c:15118) connect: controlledByApp=false
+04-28 05:01:49.423 15118 15118 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2](f:0,a:0) constructor()
+04-28 05:01:49.423 15118 15118 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2](f:0,a:0) update width=1084 height=2412 format=-1 mTransformHint=0
+04-28 05:01:49.423   976   989 I mtkpower@impl: [setMode] type:5, enabled:0
+04-28 05:01:49.425 15083 15083 D View    : [Warning] assignParent to null: this = DecorView@e5b9cfe[MainActivity]
+04-28 05:01:49.429 15118 15132 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2](f:0,a:1) acquireNextBufferLocked size=1084x2412 mFrameNumber=1 applyTransaction=true mTimestamp=74695896783757(auto) mPendingTransactions.size=0 graphicBufferId=64931315580953 transform=0
+04-28 05:01:49.434  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=30106, name=2c42761 com.example.callassistantsim/com.example.callassistantsim.MainActivity#30106
+04-28 05:01:49.436  1548  2228 I PowerHalWrapper: <amsBoostResume> last:null, next:com.nothing.launcherhasATProcess:true
+04-28 05:01:49.436   976  1066 I libPowerHal: [perfLockAcq] idx:4 hdl:57339 hint:22 pid:976 tid:976 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:57339
+04-28 05:01:49.436   976  1066 I libPowerHal: [setClusterFreq] MTKPOWER_HINT_PACK_SWITCH set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2800000 max:-1
+04-28 05:01:49.436 11065 11065 D VRI[SearchLauncher]: visibilityChanged oldVisibility=false newVisibility=true
+04-28 05:01:49.437  1548  2228 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.437  1548  2228 I PowerHalWrapper: state: 1
+04-28 05:01:49.437   976  1066 I libPowerHal: [perfLockRel] hdl:57338, idx:3
+04-28 05:01:49.437  1548  2228 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:1
+04-28 05:01:49.437   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.437   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 1
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:RESUMED, fps:-1, win:0
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid:2278, fps:-1, isMultiWindow:0
+04-28 05:01:49.438   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.nothing.launcher, pid:2278, uid:10215
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:49.438  1548  2228 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.438  1548  2228 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.438  1548  2228 I PowerHalWrapper: state: 1
+04-28 05:01:49.438  1548  2228 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:1
+04-28 05:01:49.438   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.438   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:49.438   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:49.438   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.example.callassistantsim.test => com.nothing.launcher
+04-28 05:01:49.439  1548  2228 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.439   975   975 I mtkpower_client: PowerHal_Wrap_querySysInfo, data:1
+04-28 05:01:49.439   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.439   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 1
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:RESUMED, fps:-1, win:0
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid:2278, fps:-1, isMultiWindow:0
+04-28 05:01:49.439   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.nothing.launcher, pid:2278, uid:10215
+04-28 05:01:49.439   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:49.439  1548  2228 I PowerHalWrapper: amsBoostNotify pid:2278,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.example.callassistantsim.test
+04-28 05:01:49.439  1548  2228 I PowerHalWrapper: state: 0
+04-28 05:01:49.439  1548  2228 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.nothing.launcher/com.android.searchlauncher.SearchLauncher pid=2278 activityId:34891417 state:0
+04-28 05:01:49.440   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.440   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:49.440 15083 15098 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@aeba852]
+04-28 05:01:49.440   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:49.440  1548  2228 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+04-28 05:01:49.440   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.441   975   975 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007a548ec990 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:49.441   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.nothing.launcher actName: com.android.searchlauncher.SearchLauncher pid: 2278 uid: 10215 state: 0
+04-28 05:01:49.441   975   975 I MTK_APPList: [notifyAPPstate] com.nothing.launcher/com.android.searchlauncher.SearchLauncher, pid=2278, uid=10215, state:PAUSED, fps:-1, win:0
+04-28 05:01:49.441   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+04-28 05:01:49.441   975   975 I MTK_APPList: [getForegroundAPPCount] 1
+04-28 05:01:49.441   975   975 I MTK_APPList: [notifyNetdUID] 10215
+04-28 05:01:49.441 15083 15098 E TestRunner: failed: inputs_areEditable(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:49.442  1993  2064 D CaptionWindowDecorViewModel: Destroying window decoration for task 5270, decoration=null, callers=com.android.wm.shell.windowdecor.CaptionWindowDecorViewModel.onTaskVanished:234 com.android.wm.shell.fullscreen.FullscreenTaskListener.lambda$onTaskVanished$2:173 com.android.wm.shell.fullscreen.FullscreenTaskListener$$ExternalSyntheticLambda1.accept:0 java.util.Optional.ifPresent:178 com.android.wm.shell.fullscreen.FullscreenTaskListener.onTaskVanished:173
+04-28 05:01:49.442   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.442   975   975 I MTK_APPList: [notifyPID] 2278
+04-28 05:01:49.442 15083 15098 E TestRunner: ----- begin exception -----
+04-28 05:01:49.442 15083 15098 E TestRunner: java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TestContext.getAllSemanticsNodes$ui_test_release(TestOwner.kt:87)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release(SemanticsNodeInteraction.kt:63)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:157)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TextActionsKt.getNodeAndFocus(TextActions.kt:114)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TextActionsKt.getNodeAndFocus$default(TextActions.kt:108)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TextActionsKt.performTextReplacement(TextActions.kt:73)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.TextActionsKt.performTextClearance(TextActions.kt:33)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at com.example.callassistantsim.MainActivityUiTest.inputs_areEditable(MainActivityUiTest.kt:33)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:272)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:271)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.withDisposableContent(ComposeUiTest.android.kt:505)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:333)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withComposeIdlingResource(ComposeUiTest.android.kt:385)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withComposeIdlingResource(ComposeUiTest.android.kt:219)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1.invoke(ComposeUiTest.android.kt:332)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withWindowRecomposer(ComposeUiTest.android.kt:359)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withWindowRecomposer(ComposeUiTest.android.kt:219)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1.invoke(ComposeUiTest.android.kt:331)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTestCoroutines(ComposeUiTest.android.kt:372)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTestCoroutines(ComposeUiTest.android.kt:219)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1.invoke(ComposeUiTest.android.kt:330)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.EspressoLink.withStrategy(EspressoLink.android.kt:66)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1.invoke(ComposeUiTest.android.kt:329)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.IdlingResourceRegistry.withRegistry(IdlingResourceRegistry.jvm.kt:155)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1.invoke(ComposeUiTest.android.kt:328)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.ComposeRootRegistry.withRegistry(ComposeRootRegistry.android.kt:146)
+04-28 05:01:49.442 15083 15098 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:327)
+04-28 05:01:49.443   976  1066 I libPowerHal: [perfSetSysInfo] pid type:24, 2278
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+04-28 05:01:49.443 15083 15098 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2737)
+04-28 05:01:49.443 15083 15098 E TestRunner: ----- end exception -----
+04-28 05:01:49.443   975   975 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+04-28 05:01:49.444 15083 15098 I TestRunner: finished: inputs_areEditable(com.example.callassistantsim.MainActivityUiTest)

@@ -1,0 +1,3 @@
+file '/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/google-telugu-sample-16k.wav'
+file '/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/ab_telugu_sil.wav'
+file '/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/omnivoice-telugu-sample-16k.wav'

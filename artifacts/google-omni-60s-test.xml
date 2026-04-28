@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="integration.google_omni_60s" tests="1" failures="0" errors="0" skipped="0" time="60.00">
+  <testcase classname="integration.google_omni_60s" name="simulate_google_caller_omni_responder_60s" time="60.00">
+    
+  </testcase>
+</testsuite>

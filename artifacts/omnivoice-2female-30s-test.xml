@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="integration.omnivoice_2female_30s" tests="1" failures="0" errors="0" skipped="0" time="30.00">
+  <testcase classname="integration.omnivoice_2female_30s" name="simulate_omnivoice_two_female_30s" time="30.00">
+    
+  </testcase>
+</testsuite>

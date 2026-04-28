@@ -1,0 +1,12 @@
+01. Assistant(OmniVoice) [en-IN]: Hi, you have reached Alex assistant. May I know who is calling and what this is regarding?
+02. Caller(Google) [en-IN]: Hello, this is Ravi from Hyderabad calling about invoice follow up.
+03. Assistant(OmniVoice) [te-IN]: మీ కాల్ విషయం ఏంటో కాస్త వివరంగా చెప్పండి.
+04. Caller(Google) [te-IN]: ఇది పెండింగ్ చెల్లింపు గురించి కాల్. ఈరోజే కన్ఫర్మేషన్ కావాలి.
+05. Assistant(OmniVoice) [hi-IN]: ठीक है, मैं इसे प्राथमिकता के साथ नोट कर रहा हूँ।
+06. Caller(Google) [hi-IN]: कृपया इसे हाई अर्जेंसी में डाल दीजिए, आज जवाब चाहिए।
+07. Assistant(OmniVoice) [en-IN]: Sure, please share your callback number slowly so I can capture it correctly.
+08. Caller(Google) [en-IN]: Please note nine eight seven six five four three two one zero.
+09. Assistant(OmniVoice) [te-IN]: ధన్యవాదాలు, నేను ఈ వివరాలు అలెక్స్‌కి వెంటనే పంపిస్తాను.
+10. Caller(Google) [te-IN]: బాగుంది, దయచేసి పేమెంట్ టీం నుండి కూడా ఒక అప్డేట్ ఇవ్వండి.
+11. Assistant(OmniVoice) [hi-IN]: ज़रूर, मैं कॉल का सारांश और नंबर तुरंत शेयर कर दूँगा।
+12. Caller(Google) [hi-IN]: धन्यवाद, मैं आपके अपडेट का इंतज़ार करूँगा।

@@ -1,0 +1,256 @@
+04-28 05:01:40.744  8734  8749 I TestRunner: started: initialScreenElements_areVisible(com.example.callassistantsim.MainActivityUiTest)
+04-28 05:01:40.780  8734  8749 W FileTestStorage: Output properties is not supported.
+04-28 05:01:40.781  8734  8749 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+04-28 05:01:40.784  8734  8734 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-28 05:01:40.784  8734  8734 W allassistantsim: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+04-28 05:01:40.785  8734  8734 W allassistantsim: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+04-28 05:01:40.785  8734  8734 W allassistantsim: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+04-28 05:01:40.788  8734  8734 W allassistantsim: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+04-28 05:01:40.789  8734  8734 W allassistantsim: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+04-28 05:01:40.789  8734  8734 W allassistantsim: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+04-28 05:01:40.790  8734  8749 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@dfd11ad]
+04-28 05:01:40.800  8734  8749 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-28 05:01:40.809   575  1596 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10220, packageName = null, attributionTag = null, token = android.os.Binder@ec8bdbe, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:40.815  1324  1324 W SplitSelectStateCtor: Missing session instanceIds
+04-28 05:01:40.815  1324  1324 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-28 05:01:40.822  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=70, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.callassistantsim/.MainActivity }
+04-28 05:01:40.823   837   922 D SplashScreenView: Build android.window.SplashScreenView{7b80026 V.E...... ......ID 0,0-0,0}
+04-28 05:01:40.823   837   922 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-28 05:01:40.823   837   922 D SplashScreenView: Branding: view: android.view.View{cc7d467 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-28 05:01:40.825   412   412 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:40.894  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: PRE_ON_CREATE
+04-28 05:01:40.900  8734  8734 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-28 05:01:40.915  8734  8734 D CompatChangeReporter: Compat change id reported: 309578419; UID 10220; state: ENABLED
+04-28 05:01:40.935  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: CREATED
+04-28 05:01:40.935  8734  8734 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.callassistantsim.MainActivity@b185463
+04-28 05:01:40.936  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: STARTED
+04-28 05:01:40.937  8734  8734 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.callassistantsim.MainActivity@b185463
+04-28 05:01:40.938  1324  1594 D EGL_emulation: app_time_stats: avg=135.12ms min=14.74ms max=1232.46ms count=12
+04-28 05:01:40.955  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: RESUMED
+04-28 05:01:40.955  8734  8734 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.callassistantsim.MainActivity@b185463
+04-28 05:01:41.031  8734  8734 W HWUI    : Unknown dataspace 0
+04-28 05:01:41.207   837  1022 D EGL_emulation: app_time_stats: avg=22760.76ms min=22760.76ms max=22760.76ms count=1
+04-28 05:01:41.209  1324  1594 D EGL_emulation: app_time_stats: avg=3016.30ms min=1.05ms max=29782.69ms count=10
+04-28 05:01:41.376  1324  1324 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:41.376  1324  1324 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-28 05:01:41.645  8734  8734 W allassistantsim: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-28 05:01:41.645  8734  8734 W allassistantsim: Common causes for lock verification issues are non-optimized dex code
+04-28 05:01:41.645  8734  8734 W allassistantsim: and incorrect proguard optimizations.
+04-28 05:01:41.646  8734  8734 W allassistantsim: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-28 05:01:41.646  8734  8734 W allassistantsim: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-28 05:01:41.646  8734  8734 W allassistantsim: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-28 05:01:41.646  8734  8734 W allassistantsim: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-28 05:01:41.661  8734  8734 I TextToSpeech: Sucessfully bound to com.google.android.tts
+04-28 05:01:41.670  2376  2376 I GoogleTtsServicePeer: Creating Google TTS service, version googletts.google-speech-apk_20240319.00_p0.617183227
+04-28 05:01:41.671  2376  2376 I ExoPlayerImpl: Init bcebf32 [AndroidXMedia3/1.3.0] [emu64a, sdk_gphone64_arm64, Google, 35]
+04-28 05:01:41.674  2376  2376 I ExoPlayerImpl: Init 7f4d483 [AndroidXMedia3/1.3.0] [emu64a, sdk_gphone64_arm64, Google, 35]
+04-28 05:01:41.682   369   440 I netd    : tetherGetStats() -> {[]} <0.36ms>
+04-28 05:01:41.686  2376  2376 I PipelineReaderImpl: Initializing en-us-x-iog-seanet-embedded from disk
+04-28 05:01:41.710  8734  8738 I allassistantsim: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+04-28 05:01:41.880  2376  2376 E tflite  : third_party/tensorflow/lite/core/subgraph.cc:1059 tensor.data.raw != nullptr was not true.
+04-28 05:01:41.897   827   827 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS
+04-28 05:01:41.965  2376  2376 I ComposerWrapperImpl: Done initializing en-us-x-iog-seanet-embedded
+04-28 05:01:41.967  8734  8746 I TextToSpeech: Connected to TTS engine
+04-28 05:01:41.976  2376  8402 W RankedDispatcher: The requested voice is not available for this app identifier
+04-28 05:01:41.976  2376  8402 I GoogleTTSServiceImpl: currentLocale = en-US
+04-28 05:01:41.980  2376  8402 W RankedDispatcher: The requested voice is not available for this app identifier
+04-28 05:01:41.980  2376  8402 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-iog-server)
+04-28 05:01:41.980  8734  8762 I TextToSpeech: Setting up the connection to TTS engine...
+04-28 05:01:41.989   412   524 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10220 pid=0
+04-28 05:01:41.989   412   524 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10220 => denied (457 us)
+04-28 05:01:41.989   412  1025 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10220 pid=8734
+04-28 05:01:41.989   412  1025 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10220 => denied (448 us)
+04-28 05:01:41.989   412  1025 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10220 pid=8734
+04-28 05:01:41.989   412  1025 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10220 => denied (220 us)
+04-28 05:01:41.989   412   524 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10220 pid=0
+04-28 05:01:41.989   412   524 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10220 => denied (547 us)
+04-28 05:01:41.990   412  1025 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10220 pid=8734
+04-28 05:01:41.990   412  1025 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10220 => denied (517 us)
+04-28 05:01:41.990   412   524 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10220 pid=0
+04-28 05:01:41.990   412   524 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10220 => denied (807 us)
+04-28 05:01:41.992  8734  8751 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-28 05:01:42.006  8734  8751 I EGL_emulation: Opening libGLESv2_emulation.so
+04-28 05:01:42.011  8734  8751 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-28 05:01:42.011  8734  8751 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-28 05:01:42.054   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+04-28 05:01:42.055  8734  8751 I Gralloc4: mapper 4.x is not supported
+04-28 05:01:42.120  8734  8734 I Choreographer: Skipped 58 frames!  The application may be doing too much work on its main thread.
+04-28 05:01:42.120   575  1706 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10220 pid=0
+04-28 05:01:42.120   575  1706 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10220 => denied (58 us)
+04-28 05:01:42.120   575  1706 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10220 pid=0
+04-28 05:01:42.120   575  1706 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10220 => denied (7 us)
+04-28 05:01:42.120   575  1706 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10220 pid=0
+04-28 05:01:42.120   575  1706 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10220 => denied (5 us)
+04-28 05:01:42.121   575   618 W ziparchive: Unable to open '/data/app/~~y_H8lZYAi1l4PqG8C-fQyw==/com.example.callassistantsim-mM6fCTN2VVaa2HK3a5dweA==/base.dm': No such file or directory
+04-28 05:01:42.122   575   618 I ActivityTaskManager: Displayed com.example.callassistantsim/.MainActivity for user 0: +1s313ms
+04-28 05:01:42.143  1324  1324 D BaseDepthController: setSurface:
+04-28 05:01:42.143  1324  1324 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:42.143  1324  1324 D BaseDepthController: 	mSurface: null
+04-28 05:01:42.143  1324  1324 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+04-28 05:01:42.143  1324  1324 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+04-28 05:01:42.143  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+04-28 05:01:42.143  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+04-28 05:01:42.143  1324  1324 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+04-28 05:01:42.143  1324  1324 D StatsLog: LAUNCHER_ONSTOP
+04-28 05:01:42.143  8734  8743 I HWUI    : Davey! duration=1082ms; Flags=1, FrameTimelineVsyncId=76278, IntendedVsync=10932104805948, Vsync=10932104805948, InputEventId=0, HandleInputStart=10932106583295, AnimationStart=10932106584128, PerformTraversalsStart=10932106584545, DrawStart=10933122702504, FrameDeadline=10932121472614, FrameInterval=10932106578128, FrameStartTime=16666666, SyncQueued=10933139673837, SyncStart=10933141005087, IssueDrawCommandsStart=10933141552295, SwapBuffers=10933169377337, FrameCompleted=10933188582379, DequeueBufferDuration=1791, QueueBufferDuration=136458, GpuCompleted=10933188582379, SwapBuffersCompleted=10933170516795, DisplayPresentTime=0, CommandSubmissionCompleted=10933169377337,
+04-28 05:01:42.163  1324  1324 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-28 05:01:42.163  1324  1722 D OneSearchSuggestProvider: Shut down the binder channel
+04-28 05:01:42.166  1324  1543 I IPCThreadState: oneway function results for code 2 on binder at 0xb400006fc628f750 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-28 05:01:42.172   575   715 I ImeTracker: com.example.callassistantsim:186bbb4d: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 05:01:42.172   575   715 I ImeTracker: com.example.callassistantsim:186bbb4d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-28 05:01:42.205  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+04-28 05:01:42.205  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+04-28 05:01:42.206  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.callassistantsim, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 05:01:42.206  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:42.206  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-28 05:01:42.223  1082  1095 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+04-28 05:01:42.223  1082  1095 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+04-28 05:01:42.246  1082  1095 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+04-28 05:01:42.278  1082  1095 I FontLog : Pulling font file for id = 24, cache size = 4 [CONTEXT service_id=132 ]
+04-28 05:01:42.330  1082  1095 I FontLog : Pulling font file for id = 24, cache size = 4 [CONTEXT service_id=132 ]
+04-28 05:01:42.494   575  1596 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10221, packageName = null, attributionTag = null, token = android.os.Binder@ec8bdbe, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:42.522  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=71, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.callassistantsim.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+04-28 05:01:42.523   575   621 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10221, packageName = null, attributionTag = null, token = android.os.Binder@ec8bdbe, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-28 05:01:42.524   837   921 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2770214
+04-28 05:01:42.524   575  1706 W InputManager-JNI: Input channel object '3faf8db Splash Screen com.example.callassistantsim (client)' was disposed without first being removed with the input manager!
+04-28 05:01:42.526   412   412 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-28 05:01:42.528   837   922 D SplashScreenView: Build android.window.SplashScreenView{e53cb9d V.E...... ......ID 0,0-0,0}
+04-28 05:01:42.528   837   922 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-28 05:01:42.528   837   922 D SplashScreenView: Branding: view: android.view.View{a25b812 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-28 05:01:42.537  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: PAUSED
+04-28 05:01:42.537  8734  8734 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.callassistantsim.MainActivity@b185463
+04-28 05:01:42.539   370   370 D Zygote  : Forked child process 8771
+04-28 05:01:42.583  8771  8771 I sistantsim.test: Late-enabling -Xcheck:jni
+04-28 05:01:42.621  8771  8771 I sistantsim.test: Using CollectorTypeCMC GC.
+04-28 05:01:42.634   418   470 I adbd    : jdwp connection from 8771
+04-28 05:01:42.637  8771  8771 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-28 05:01:42.704   369   440 I netd    : tetherGetStats() -> {[]} <2.32ms>
+04-28 05:01:42.706  8771  8771 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-28 05:01:42.715  8771  8771 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.mock.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.callassistantsim.test
+04-28 05:01:42.715  8771  8771 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-28 05:01:42.716  8771  8771 D nativeloader: Configuring clns-8 for other apk /system/framework/android.test.runner.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.callassistantsim.test
+04-28 05:01:42.716  8771  8771 W ziparchive: Unable to open '/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/base.dm': No such file or directory
+04-28 05:01:42.716  8771  8771 W ziparchive: Unable to open '/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/base.dm': No such file or directory
+04-28 05:01:42.742  8771  8771 D nativeloader: Configuring clns-9 for other apk /data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~CTitbp-GEyRJdm19bkYdiw==/com.example.callassistantsim.test-E8r3Yen5GOWeXKyiQWiHPQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.callassistantsim.test
+04-28 05:01:42.742  8771  8771 D CompatChangeReporter: Compat change id reported: 202956589; UID 10221; state: ENABLED
+04-28 05:01:42.770  8771  8771 V GraphicsEnvironment: Currently set values for:
+04-28 05:01:42.770  8771  8771 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-28 05:01:42.770  8771  8771 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-28 05:01:42.770  8771  8771 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+04-28 05:01:42.770  8771  8771 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-28 05:01:42.842  8771  8771 D CompatChangeReporter: Compat change id reported: 279646685; UID 10221; state: ENABLED
+04-28 05:01:42.845  8771  8771 D CompatChangeReporter: Compat change id reported: 309578419; UID 10221; state: ENABLED
+04-28 05:01:42.874  8771  8771 W HWUI    : Unknown dataspace 0
+04-28 05:01:42.943   412   523 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10221 pid=0
+04-28 05:01:42.943   412   523 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10221 => denied (451 us)
+04-28 05:01:42.943   412   524 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10221 pid=8771
+04-28 05:01:42.943   412   524 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10221 => denied (258 us)
+04-28 05:01:42.943   412   524 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10221 pid=8771
+04-28 05:01:42.943   412   524 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10221 => denied (143 us)
+04-28 05:01:42.955   412   523 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10221 pid=0
+04-28 05:01:42.955   412   523 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10221 => denied (11438 us)
+04-28 05:01:42.955   412   524 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10221 pid=8771
+04-28 05:01:42.955   412   524 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10221 => denied (11244 us)
+04-28 05:01:42.960   412   523 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10221 pid=0
+04-28 05:01:42.960   412   523 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10221 => denied (5220 us)
+04-28 05:01:42.963  8771  8785 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-28 05:01:42.963  8771  8785 I EGL_emulation: Opening libGLESv2_emulation.so
+04-28 05:01:42.982  8771  8785 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-28 05:01:42.984  8771  8785 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-28 05:01:43.066   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+04-28 05:01:43.066  8771  8785 I Gralloc4: mapper 4.x is not supported
+04-28 05:01:43.100   575  2140 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10221 pid=0
+04-28 05:01:43.100   575  2140 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10221 => denied (90 us)
+04-28 05:01:43.100   575  2140 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10221 pid=0
+04-28 05:01:43.100   575  2140 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10221 => denied (9 us)
+04-28 05:01:43.100   575  2140 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10221 pid=0
+04-28 05:01:43.100   575  2140 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10221 => denied (5 us)
+04-28 05:01:43.104  1324  1324 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=40, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+04-28 05:01:43.132  1324  1324 D StatsLog: LAUNCHER_ONRESUME
+04-28 05:01:43.134   575  1538 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+04-28 05:01:43.135  1324  1722 D OneSearchSuggestProvider: 	... 8 more
+04-28 05:01:43.137  1324  1424 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+04-28 05:01:43.139  1324  1722 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=73, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@46386aa
+04-28 05:01:43.140  1469  1564 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-28 05:01:43.140  1469  1564 I AiAiEcho: EchoTargets:
+04-28 05:01:43.140  1469  1564 I AiAiEcho: Filtered by AiAi flag check:
+04-28 05:01:43.140  1469  1564 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-28 05:01:43.140  1469  1564 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+04-28 05:01:43.140  1469  1564 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-28 05:01:43.140  1469  1564 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+04-28 05:01:43.142  1324  1324 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+04-28 05:01:43.168  1324  1324 D BaseDepthController: setSurface:
+04-28 05:01:43.168  1324  1324 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-28 05:01:43.168  1324  1324 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xb54d19f
+04-28 05:01:43.168  1615  1615 I A       : (REDACTED) Created gRPC endpoint for service %s
+04-28 05:01:43.183  1324  1324 D SsBaseTemplateCard: No text view can be set up
+04-28 05:01:43.183  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:43.183  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:43.183  1324  1324 D SsBaseTemplateCard: Passed-in item info is null
+04-28 05:01:43.183  1324  1324 I SsBaseTemplateCard: Secondary card pane is null
+04-28 05:01:43.216  8734  8734 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-28 05:01:43.234  1324  1324 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+04-28 05:01:43.234  1324  1324 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:22)
+04-28 05:01:43.234  1324  1324 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:11)
+04-28 05:01:43.234  1324  1324 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:735)
+04-28 05:01:43.329  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: STOPPED
+04-28 05:01:43.330  8734  8734 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.callassistantsim.MainActivity@b185463
+04-28 05:01:43.338  1324  1594 D EGL_emulation: app_time_stats: avg=227.95ms min=0.92ms max=1777.73ms count=9
+04-28 05:01:43.403  1615  1638 W earchbox:search: Missing inline cache for java.lang.Object com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.provider.l.b(com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.p, com.google.android.libraries.search.ab.b.z, com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.r, java.lang.String, p.c.g)
+04-28 05:01:43.420   837  1022 D EGL_emulation: app_time_stats: avg=346.45ms min=1.55ms max=1944.36ms count=6
+04-28 05:01:43.421  1324  1324 D SearchTargetUtil: query= size=15
+04-28 05:01:43.421  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=lm2 engine timing chain failure,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=lm2 engine timing chain failure searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 2c37d099-5297-49f4-9e90-fe306e08e995
+04-28 05:01:43.421  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=princess cruise ship recovers,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=princess cruise ship recovers searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 69ddafa7-883c-45af-8190-af2b74289e79
+04-28 05:01:43.421  1324  1324 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=pokémon mega evolution chaos rising,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=Pokemon Mega Evolution Chaos Rising searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: e83caab5-08f9-4dd4-8d67-3babab1708d0
+04-28 05:01:43.421  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=northern lights forecast,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=northern lights forecast searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 6c2df744-b054-4f76-8ab8-e0358d5f34c5
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=nfl draft free agents,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=nfl draft free agents searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: d0e35814-4213-478f-8358-00c590fac313
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=today wordle hints,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=today wordle hints searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 3923c7a1-742d-42c3-97a7-5a975ed5c93c
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=costco rotisserie chicken lawsuit,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=costco rotisserie chicken lawsuit searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 87c8b7df-5e8c-4219-9d3a-59c3872ab5a0
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=aldi kirkton house drawer organizer,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=aldi kirkton house drawer organizer searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 09f2bb67-9d34-4d53-a70b-6e893fe3326a
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=heavy snow warning which states,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=heavy snow warning which states searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: ba05b621-cfff-4597-a2ef-8248c9e435b9
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=sega universe,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=sega universe searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 853cc0f8-fa1a-471b-9a84-a1f320a83765
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=minnesota vikings news,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=minnesota vikings news searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 4971d8ad-4538-4d70-963f-658cb985a365
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=nyt connections hints,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=nyt connections hints searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: cfafee54-2ddb-4e54-a976-f0d30111faa6
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=norwegian cruise ship man overboard,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=norwegian cruise ship man overboard searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: bc2819a6-8c11-4feb-8687-28fc7a8cc1e3
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=bj wholesale club,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=bj wholesale club searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 10eee39e-bf38-41b4-8977-46c3923a9654
+04-28 05:01:43.422  1324  1324 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=the cheerleading worlds results,input_query=android.app.search.Query@69b4fe0,group_id=web10934197,response_id=7224d303-8860-42f1-a212-82f404c78e2d,support_query_builder=false,} searchAction=the cheerleading worlds results searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 0dfa54a2-e234-4899-bce1-82495ffb5306
+04-28 05:01:43.423   575   715 I ImeTracker: com.google.android.apps.nexuslauncher:8841c2a1: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 05:01:43.423   575   715 I ImeTracker: com.google.android.apps.nexuslauncher:8841c2a1: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-28 05:01:43.425  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+04-28 05:01:43.438   575   575 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+04-28 05:01:43.444  8734  8734 D LifecycleMonitor: Lifecycle status change: com.example.callassistantsim.MainActivity@b185463 in: DESTROYED
+04-28 05:01:43.444  8734  8734 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-28 05:01:43.444  8734  8734 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aec40be
+04-28 05:01:43.483  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+04-28 05:01:43.484  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 05:01:43.486  8734  8743 I TextToSpeech: Disconnected from TTS engine
+04-28 05:01:43.516  8734  8749 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@dfd11ad]
+04-28 05:01:43.519  1345  1345 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-28 05:01:43.519  1345  1345 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.523  1324  1331 W System  : A resource failed to call release.
+04-28 05:01:43.566   575  1340 W InputManager-JNI: Input channel object '267cecb com.example.callassistantsim/com.example.callassistantsim.MainActivity (client)' was disposed without first being removed with the input manager!
+04-28 05:01:43.570  8734  8749 I TestRunner: finished: initialScreenElements_areVisible(com.example.callassistantsim.MainActivityUiTest)

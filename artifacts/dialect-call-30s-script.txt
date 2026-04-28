@@ -1,0 +1,10 @@
+Assistant: Namaste, you have reached Alex's assistant. May I know who is calling?
+Caller: Hello madam, main Hyderabad se Ramesh bol raha hoon, from Sri Lakshmi Traders.
+Assistant: Thank you Ramesh garu. Please tell me what this call is regarding.
+Caller: Koncham urgent undi, payment confirmation pending since yesterday.
+Assistant: Understood. Is this urgent for today, or can it wait until tomorrow morning?
+Caller: Aaj hi better hai, but tomorrow morning also okay if he confirms by ten.
+Assistant: Sure. Please share your callback number slowly.
+Caller: Number note cheyandi, nine eight seven six five four three two one zero.
+Assistant: Got it. I will pass this to Alex with medium urgency.
+Caller: Dhanyavadam, thank you so much.

@@ -1,0 +1,23 @@
+assistant|Hello, you have reached Alex assistant. May I know who is calling please?
+caller|Hi, this is Rahul Sharma from HDFC Bank compliance team.
+assistant|Thank you Rahul. Could you share the purpose of this call?
+caller|We need a pending K Y C profile verification from Alex today.
+assistant|Understood. Is this affecting account access right now?
+caller|No, account access is active, but compliance window closes tonight.
+assistant|Got it. Please share your callback number slowly.
+caller|Sure. Nine eight seven six five four three two one zero.
+assistant|Thank you. I captured nine eight seven six five four three two one zero. Is that correct?
+caller|Yes, that is correct.
+assistant|Please also share your department and company name for logging.
+caller|Retail compliance, HDFC Bank Mumbai operations.
+assistant|Noted. Do you have a reference number for this request?
+caller|Yes. Reference K Y C two zero two six four one seven.
+assistant|Thanks. What exact action is needed from Alex?
+caller|He needs to confirm identity and upload one updated address document.
+assistant|Understood. How urgent should I mark this, low medium or high?
+caller|High priority please, because deadline is before ten p m tonight.
+assistant|Captured. I will pass this to Alex with high priority and reference number.
+caller|Please ask him to call back within thirty minutes if possible.
+assistant|Done. I have captured your name, company, request, urgency and callback number.
+caller|Perfect, thank you for the support.
+assistant|You are welcome. Ending this call now.

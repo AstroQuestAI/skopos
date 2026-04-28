@@ -1,0 +1,172 @@
+# 2026-04-27T23:31:53.539327Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MainActivityUiTest"
+    test_package: "com.example.callassistantsim"
+    test_method: "initialScreenElements_areVisible"
+    start_time {
+      seconds: 1777332701
+      nanos: 589000000
+    }
+    end_time {
+      seconds: 1777332704
+      nanos: 429000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/logcat-com.example.callassistantsim.MainActivityUiTest-initialScreenElements_areVisible.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityUiTest"
+    test_package: "com.example.callassistantsim"
+    test_method: "e2e_simulatedCallFlow_backendIntegration"
+    start_time {
+      seconds: 1777332704
+      nanos: 461000000
+    }
+    end_time {
+      seconds: 1777332709
+      nanos: 627000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/logcat-com.example.callassistantsim.MainActivityUiTest-e2e_simulatedCallFlow_backendIntegration.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityUiTest"
+    test_package: "com.example.callassistantsim"
+    test_method: "inputs_areEditable"
+    start_time {
+      seconds: 1777332709
+      nanos: 660000000
+    }
+    end_time {
+      seconds: 1777332712
+      nanos: 633000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/logcat-com.example.callassistantsim.MainActivityUiTest-inputs_areEditable.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/android-test-app/app/build/outputs/androidTest-results/connected/debug/codex_api35(AVD) - 15/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

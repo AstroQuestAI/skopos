@@ -1,0 +1,59 @@
+version: "3.9"
+
+services:
+  app:
+    image: call-assistant-api:latest
+    ports:
+      - target: 8000
+        published: 8010
+        protocol: tcp
+        mode: ingress
+    environment:
+      APP_ENV: production
+      APP_PUBLIC_BASE_URL: https://api.example.com
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_DB: call_assistant
+      MONGODB_COLLECTION: calls
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      OPENAI_MODEL: "${OPENAI_MODEL:-gpt-4.1-mini}"
+      DEEPGRAM_API_KEY: "${DEEPGRAM_API_KEY}"
+      ELEVENLABS_API_KEY: "${ELEVENLABS_API_KEY}"
+      ELEVENLABS_VOICE_ID: "${ELEVENLABS_VOICE_ID}"
+      PUSH_WEBHOOK_URL: "${PUSH_WEBHOOK_URL}"
+    deploy:
+      mode: replicated
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      update_config:
+        parallelism: 1
+        delay: 10s
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 1024M
+        reservations:
+          cpus: "0.25"
+          memory: 256M
+    networks:
+      - appnet
+
+  mongo:
+    image: mongo:7
+    volumes:
+      - mongo_data:/data/db
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: on-failure
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: overlay
+
+volumes:
+  mongo_data:

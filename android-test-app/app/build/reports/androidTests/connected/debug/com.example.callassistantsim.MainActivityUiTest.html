@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class com.example.callassistantsim.MainActivityUiTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.callassistantsim.MainActivityUiTest</h1>
+<div class="breadcrumbs">
+<a href="index.html">all</a> &gt; 
+<a href="com.example.callassistantsim.html">com.example.callassistantsim</a> &gt; MainActivityUiTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">3</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="skipped">
+<div class="counter">0</div>
+<p>skipped</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">19.138s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Devices</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="e2e_simulatedCallFlow_backendIntegration"></a>
+<h3 class="failures">e2e_simulatedCallFlow_backendIntegration [A142P - 16] (on 1/2 devices)</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+at androidx.compose.ui.test.TestContext.getAllSemanticsNodes$ui_test_release(TestOwner.kt:87)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release(SemanticsNodeInteraction.kt:63)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:157)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:394)
+at androidx.compose.ui.test.Actions_androidKt.performClickImpl(Actions.android.kt:20)
+at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:54)
+at com.example.callassistantsim.MainActivityUiTest.e2e_simulatedCallFlow_backendIntegration(MainActivityUiTest.kt:44)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="initialScreenElements_areVisible"></a>
+<h3 class="failures">initialScreenElements_areVisible [A142P - 16] (on 1/2 devices)</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+at androidx.compose.ui.test.TestContext.getAllSemanticsNodes$ui_test_release(TestOwner.kt:87)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release(SemanticsNodeInteraction.kt:63)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release$default(SemanticsNodeInteraction.kt:56)
+at androidx.compose.ui.test.AndroidAssertions_androidKt.checkIsDisplayed(AndroidAssertions.android.kt:29)
+at androidx.compose.ui.test.AssertionsKt.isDisplayed(Assertions.kt:359)
+at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:33)
+at com.example.callassistantsim.MainActivityUiTest.initialScreenElements_areVisible(MainActivityUiTest.kt:22)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="inputs_areEditable"></a>
+<h3 class="failures">inputs_areEditable [A142P - 16] (on 1/2 devices)</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+at androidx.compose.ui.test.TestContext.getAllSemanticsNodes$ui_test_release(TestOwner.kt:87)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNodes$ui_test_release(SemanticsNodeInteraction.kt:63)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:157)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+at androidx.compose.ui.test.TextActionsKt.getNodeAndFocus(TextActions.kt:114)
+at androidx.compose.ui.test.TextActionsKt.getNodeAndFocus$default(TextActions.kt:108)
+at androidx.compose.ui.test.TextActionsKt.performTextReplacement(TextActions.kt:73)
+at androidx.compose.ui.test.TextActionsKt.performTextClearance(TextActions.kt:33)
+at com.example.callassistantsim.MainActivityUiTest.inputs_areEditable(MainActivityUiTest.kt:33)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>A142P - 16</th>
+<th>codex_api35(AVD) - 15</th>
+</tr>
+</thead>
+<tr>
+<td>e2e_simulatedCallFlow_backendIntegration</td>
+<td class="failures">failed (2.484s)</td>
+<td class="success">passed (5.170s)</td>
+</tr>
+<tr>
+<td>initialScreenElements_areVisible</td>
+<td class="failures">failed (3.189s)</td>
+<td class="success">passed (2.859s)</td>
+</tr>
+<tr>
+<td>inputs_areEditable</td>
+<td class="failures">failed (2.460s)</td>
+<td class="success">passed (2.976s)</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Devices</h2>
+<table>
+<thead>
+<tr>
+<th>Devices</th>
+<th>Tests</th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Duration</th>
+<th>Success rate</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">A142P - 16</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>8.133s</td>
+<td>0%</td>
+</tr>
+<tr>
+<td class="success">codex_api35(AVD) - 15</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>11.005s</td>
+<td>100%</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 9.4.1</a> at Apr 28, 2026, 5:01:53 AM</p>
+</div>
+</div>
+</body>

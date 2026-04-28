@@ -1,0 +1,17 @@
+assistant|Hello, you've reached Alex's assistant. May I know who's calling and what this is regarding?
+caller|Hi, this is Rahul Sharma from H D F C Bank. I need to discuss an urgent K Y C verification update.
+assistant|Thanks Rahul. Please share your callback number so Alex can return your call.
+caller|Sure, you can call me on nine eight seven six five four three two one zero.
+assistant|Got it. Could you briefly explain what action is required from Alex?
+caller|We need him to confirm his identity and submit one updated document before end of day.
+assistant|Understood. Is this related to account access or just profile verification?
+caller|This is profile verification only. His account access is not blocked right now.
+assistant|Okay. How urgent would you rate this request: low, medium, or high?
+caller|I would rate it high, because the compliance window closes tonight.
+assistant|Noted. Do you have a reference number for this request?
+caller|Yes, reference number is K Y C two zero two six four one seven.
+assistant|Thank you. I will pass this summary to Alex with high priority.
+caller|Thanks. Please ask him to return the call in the next thirty minutes.
+assistant|Absolutely. I have captured your name, company, urgency, callback number, and next steps.
+caller|Perfect. Appreciate your help.
+assistant|You're welcome. Ending the call now.

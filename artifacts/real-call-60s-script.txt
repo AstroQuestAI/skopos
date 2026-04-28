@@ -1,0 +1,12 @@
+Assistant: Namaste, you have reached Alex assistant. May I know who is calling and what this is regarding?
+Caller: Hello, my name is Suresh. Main Bengaluru se bol raha hoon from Apex Logistics.
+Assistant: Thank you Suresh. Please tell me the subject of your call.
+Caller: This is about pending invoice approval for last month shipment.
+Assistant: Understood. Should I mark this as low, medium, or high urgency?
+Caller: Medium for now, but we need confirmation today if possible.
+Assistant: Sure. Please share your callback number.
+Caller: Note this please, nine eight seven six five zero zero one one two.
+Assistant: Thank you. Can you also confirm the company name once more?
+Caller: Apex Logistics India Private Limited.
+Assistant: Got it. I have captured all details and will pass this to Alex.
+Caller: Great, thank you. Dhanyavaad.

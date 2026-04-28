@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="integration.real_call_60s" tests="1" failures="0" errors="0" skipped="0" time="60.00">
+  <testcase classname="integration.real_call_60s" name="automated_real_call_conversation_60s" time="60.00">
+    
+  </testcase>
+</testsuite>

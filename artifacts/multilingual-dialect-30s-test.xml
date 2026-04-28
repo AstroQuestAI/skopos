@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="integration.multilingual_dialect_30s" tests="1" failures="0" errors="0" skipped="0" time="30.00">
+  <testcase classname="integration.multilingual_dialect_30s" name="simulate_caller_and_callee_multilingual_dialects_30s" time="30.00">
+    
+  </testcase>
+</testsuite>

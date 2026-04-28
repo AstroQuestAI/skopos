@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "assistant",
+    "lang": "en-IN",
+    "text": "Hi, you have reached Alex assistant. May I know who is calling and what this is regarding?"
+  },
+  {
+    "speaker": "caller",
+    "lang": "en-IN",
+    "text": "Hello, this is Ravi from Hyderabad calling about invoice follow up."
+  },
+  {
+    "speaker": "assistant",
+    "lang": "te-IN",
+    "text": "మీ కాల్ విషయం ఏంటో కాస్త వివరంగా చెప్పండి."
+  },
+  {
+    "speaker": "caller",
+    "lang": "te-IN",
+    "text": "ఇది పెండింగ్ చెల్లింపు గురించి కాల్. ఈరోజే కన్ఫర్మేషన్ కావాలి."
+  },
+  {
+    "speaker": "assistant",
+    "lang": "hi-IN",
+    "text": "ठीक है, मैं इसे प्राथमिकता के साथ नोट कर रहा हूँ।"
+  },
+  {
+    "speaker": "caller",
+    "lang": "hi-IN",
+    "text": "कृपया इसे हाई अर्जेंसी में डाल दीजिए, आज जवाब चाहिए।"
+  },
+  {
+    "speaker": "assistant",
+    "lang": "en-IN",
+    "text": "Sure, please share your callback number slowly so I can capture it correctly."
+  },
+  {
+    "speaker": "caller",
+    "lang": "en-IN",
+    "text": "Please note nine eight seven six five four three two one zero."
+  },
+  {
+    "speaker": "assistant",
+    "lang": "te-IN",
+    "text": "ధన్యవాదాలు, నేను ఈ వివరాలు అలెక్స్‌కి వెంటనే పంపిస్తాను."
+  },
+  {
+    "speaker": "caller",
+    "lang": "te-IN",
+    "text": "బాగుంది, దయచేసి పేమెంట్ టీం నుండి కూడా ఒక అప్డేట్ ఇవ్వండి."
+  },
+  {
+    "speaker": "assistant",
+    "lang": "hi-IN",
+    "text": "ज़रूर, मैं कॉल का सारांश और नंबर तुरंत शेयर कर दूँगा।"
+  },
+  {
+    "speaker": "caller",
+    "lang": "hi-IN",
+    "text": "धन्यवाद, मैं आपके अपडेट का इंतज़ार करूँगा।"
+  }
+]

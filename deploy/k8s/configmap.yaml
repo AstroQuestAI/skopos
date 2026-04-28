@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: call-assistant-config
+  namespace: call-assistant
+data:
+  APP_ENV: "production"
+  APP_PUBLIC_BASE_URL: "https://api.example.com"
+  OPENAI_MODEL: "gpt-4.1-mini"
+  MONGODB_DB: "call_assistant"
+  MONGODB_COLLECTION: "calls"

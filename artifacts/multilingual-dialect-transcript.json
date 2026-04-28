@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "assistant",
+    "text": "Hi, you've reached Alex's assistant. May I know who's calling and what this is regarding?"
+  },
+  {
+    "speaker": "caller",
+    "text": "Hello, this is Rahul Verma calling from Hyderabad for invoice follow-up."
+  },
+  {
+    "speaker": "assistant",
+    "text": "What is the best callback number?"
+  },
+  {
+    "speaker": "caller",
+    "text": "నమస్తే అండి, నేను శ్రీ లక్ష్మి ట్రేడర్స్ నుంచి మాట్లాడుతున్నాను."
+  },
+  {
+    "speaker": "assistant",
+    "text": "Best callback number cheppandi."
+  },
+  {
+    "speaker": "caller",
+    "text": "नमस्ते, भुगतान लंबित है और अपडेट चाहिए।"
+  },
+  {
+    "speaker": "assistant",
+    "text": "Best callback number kya hai?"
+  },
+  {
+    "speaker": "caller",
+    "text": "This is about last month shipment payment approval."
+  },
+  {
+    "speaker": "assistant",
+    "text": "What is the best callback number?"
+  },
+  {
+    "speaker": "caller",
+    "text": "Koncham urgent andi, ivala update kavali."
+  },
+  {
+    "speaker": "assistant",
+    "text": "Best callback number cheppandi."
+  },
+  {
+    "speaker": "caller",
+    "text": "कृपया callback आज ही कर दीजिए।"
+  },
+  {
+    "speaker": "assistant",
+    "text": "Best callback number kya hai?"
+  },
+  {
+    "speaker": "caller",
+    "text": "Mee daggara callback kosam number note cheyandi, 9876543210."
+  },
+  {
+    "speaker": "assistant",
+    "text": "Dhanyavaadalu, ee vivaralu Alex ki pampistaanu."
+  }
+]
