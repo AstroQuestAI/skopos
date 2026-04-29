@@ -1,0 +1,282 @@
+{
+  "_comment": "AstroQuest UAT — theme manifest. Edit this file (or use uat/cli.py) then run `python3 uat/generate.py` to rebuild static HTML. The frontend (uat/shared/theme-switcher.js) fetches /themes.json at runtime, so changes go live as soon as the file is deployed to /var/www/astroquest/uat/.",
+  "display": {
+    "mode": "latest_n",
+    "max_show": 25,
+    "exclude_oldest": 5,
+    "fallback_when_few": true,
+    "_doc": "mode='latest_n' shows the newest max_show themes in the marquee (default 25). 'exclude_oldest' drops the first N by createdAt. 'all' shows everything. Themes that fall out of the visible window are NOT removed — they're rendered in the 'archive' strip above the marquee, reachable by scrolling the bar upward."
+  },
+  "themes": [
+    {
+      "id": "theme1",
+      "name": "Sacred Saffron",
+      "color": "#F4A52E",
+      "createdAt": "2025-04-22",
+      "legacy": true
+    },
+    {
+      "id": "theme2",
+      "name": "Midnight Cosmos",
+      "color": "#D4AF37",
+      "createdAt": "2025-04-22",
+      "legacy": true
+    },
+    {
+      "id": "theme3",
+      "name": "Temple Marble",
+      "color": "#8B6F47",
+      "createdAt": "2025-04-22",
+      "legacy": true
+    },
+    {
+      "id": "theme4",
+      "name": "Forest Sage",
+      "color": "#4A7C59",
+      "createdAt": "2025-04-22",
+      "legacy": true
+    },
+    {
+      "id": "theme5",
+      "name": "Royal Maroon",
+      "color": "#8B1A3A",
+      "createdAt": "2025-04-22",
+      "legacy": true
+    },
+    {
+      "id": "theme6",
+      "name": "Lotus Bloom",
+      "color": "#D63384",
+      "createdAt": "2025-04-25",
+      "mood": "Soft pink & cream — feminine, serene, devotional bloom of the lotus.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#FFF5F8",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#3D2233",
+        "c-ink-soft": "#7A4D63",
+        "c-primary": "#D63384",
+        "c-accent": "#F5C6D9",
+        "c-accent-2": "#A21561",
+        "c-accent-soft": "#FFE4EC",
+        "c-rule": "#F0DAE3",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#A21561",
+        "c-accent-ink": "#7C2255"
+      }
+    },
+    {
+      "id": "theme7",
+      "name": "Brass Temple",
+      "color": "#A0673A",
+      "createdAt": "2025-04-25",
+      "mood": "Aged brass against ivory — heritage, sanctum lamps, ancestral depth.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#F8EFD9",
+        "c-surface": "#FFFAF0",
+        "c-ink": "#3E2814",
+        "c-ink-soft": "#7A5A3A",
+        "c-primary": "#A0673A",
+        "c-accent": "#D4A85F",
+        "c-accent-2": "#7A4A1F",
+        "c-accent-soft": "#F2E1B8",
+        "c-rule": "#E5D2A8",
+        "c-on-primary": "#FFFAF0",
+        "c-stamp-ink": "#5C2F12",
+        "c-accent-ink": "#3E2814"
+      }
+    },
+    {
+      "id": "theme8",
+      "name": "Monsoon Sky",
+      "color": "#2B6CB0",
+      "createdAt": "2025-04-25",
+      "mood": "Slate blue with a teal whisper — refreshing, the sky just before rain.",
+      "fontDisplay": "'Inter', -apple-system, sans-serif",
+      "palette": {
+        "c-bg": "#EFF4FA",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#1A2440",
+        "c-ink-soft": "#5C6A8A",
+        "c-primary": "#2B6CB0",
+        "c-accent": "#4FD1C5",
+        "c-accent-2": "#1B4F8C",
+        "c-accent-soft": "#D6EFEC",
+        "c-rule": "#D4DFEF",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#1B4F8C",
+        "c-accent-ink": "#0F3E6E"
+      }
+    },
+    {
+      "id": "theme9",
+      "name": "Sunrise Tilak",
+      "color": "#E85D2D",
+      "createdAt": "2025-04-25",
+      "mood": "First saffron rays touching the horizon — the moment the day begins.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#FFF6F0",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#5C1E0A",
+        "c-ink-soft": "#8C4E32",
+        "c-primary": "#E85D2D",
+        "c-accent": "#F4A52E",
+        "c-accent-2": "#B23C17",
+        "c-accent-soft": "#FFE0C2",
+        "c-rule": "#F4D9C2",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#5C1E0A",
+        "c-accent-ink": "#5C1E0A"
+      }
+    },
+    {
+      "id": "theme10",
+      "name": "Nakshatra Black",
+      "color": "#9F00FF",
+      "createdAt": "2025-04-25",
+      "mood": "Pure obsidian sky lit by violet & cyan stars — modern, mystical, futuristic.",
+      "fontDisplay": "'Inter', -apple-system, sans-serif",
+      "palette": {
+        "c-bg": "#0A0A14",
+        "c-surface": "#14141F",
+        "c-ink": "#F0F0F0",
+        "c-ink-soft": "#9090A0",
+        "c-primary": "#9F00FF",
+        "c-accent": "#00F5FF",
+        "c-accent-2": "#FF6FE9",
+        "c-accent-soft": "#1F1A2E",
+        "c-rule": "#2A2A38",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#FFFFFF",
+        "c-accent-ink": "#0A0A14",
+        "c-card-shadow": "0 8px 28px rgba(159,0,255,.18), 0 0 0 1px rgba(255,255,255,.04)",
+        "c-vidhaata-bg": "#1F1535",
+        "c-input-bg": "#1F1535",
+        "c-tile-bg": "linear-gradient(135deg,#1F1535,#0A0A14)",
+        "c-feedback-bg": "linear-gradient(135deg,#1F1535,#0A0A14)"
+      }
+    },
+    {
+      "id": "theme11",
+      "name": "Pearl & Pearl",
+      "color": "#9C8E6C",
+      "createdAt": "2025-04-25",
+      "mood": "Champagne, pearl & sand — premium minimal, wabi-sabi quietude.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#FBF8F1",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#2A2A2A",
+        "c-ink-soft": "#7A7468",
+        "c-primary": "#9C8E6C",
+        "c-accent": "#D4C2A0",
+        "c-accent-2": "#6B5F44",
+        "c-accent-soft": "#F0E8D4",
+        "c-rule": "#E8E0CE",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#2A2A2A",
+        "c-accent-ink": "#5C4F33"
+      }
+    },
+    {
+      "id": "theme12",
+      "name": "Banaras Ghat",
+      "color": "#B23C17",
+      "createdAt": "2025-04-25",
+      "mood": "Aged paper, terracotta & saffron — Ganges sunrise, ancient stones, ghats.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#F4E4C6",
+        "c-surface": "#FFFAF0",
+        "c-ink": "#3B1B0E",
+        "c-ink-soft": "#7C4D2E",
+        "c-primary": "#B23C17",
+        "c-accent": "#E6A645",
+        "c-accent-2": "#7A2008",
+        "c-accent-soft": "#F8D9A8",
+        "c-rule": "#E2C896",
+        "c-on-primary": "#FFFAF0",
+        "c-stamp-ink": "#3B1B0E",
+        "c-accent-ink": "#3B1B0E"
+      }
+    },
+    {
+      "id": "theme13",
+      "name": "Himalayan Snow",
+      "color": "#1F6F8B",
+      "createdAt": "2025-04-25",
+      "mood": "Glacier teal on virgin snow — calm, airy, stillness of high peaks.",
+      "fontDisplay": "'Inter', -apple-system, sans-serif",
+      "palette": {
+        "c-bg": "#F0F7FA",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#1B3A4E",
+        "c-ink-soft": "#5A7A8E",
+        "c-primary": "#1F6F8B",
+        "c-accent": "#88D4DD",
+        "c-accent-2": "#0F4D66",
+        "c-accent-soft": "#E0F2F4",
+        "c-rule": "#D8E5EA",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#0F4D66",
+        "c-accent-ink": "#0F4D66"
+      }
+    },
+    {
+      "id": "theme14",
+      "name": "Sandalwood Ivory",
+      "color": "#7B5E3C",
+      "createdAt": "2025-04-25",
+      "mood": "Sandalwood paste, ivory paper, fresh leaf — grounded, fragrant, earthy.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#FAF6E8",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#2D2616",
+        "c-ink-soft": "#7A6A4A",
+        "c-primary": "#7B5E3C",
+        "c-accent": "#A8C26F",
+        "c-accent-2": "#4F3B1F",
+        "c-accent-soft": "#E8DEC2",
+        "c-rule": "#E0D4B0",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#4F3B1F",
+        "c-accent-ink": "#3B2D14"
+      }
+    },
+    {
+      "id": "theme15",
+      "name": "Rajwada Ruby",
+      "color": "#9B1B30",
+      "createdAt": "2025-04-25",
+      "mood": "Royal ruby, gold leaf, ivory silk — Rajasthani palace opulence.",
+      "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+      "palette": {
+        "c-bg": "#FFF5F2",
+        "c-surface": "#FFFFFF",
+        "c-ink": "#460011",
+        "c-ink-soft": "#8C2A40",
+        "c-primary": "#9B1B30",
+        "c-accent": "#D4AF37",
+        "c-accent-2": "#6B0E1F",
+        "c-accent-soft": "#F8DCC8",
+        "c-rule": "#F2D2C8",
+        "c-on-primary": "#FFFFFF",
+        "c-stamp-ink": "#460011",
+        "c-accent-ink": "#460011"
+      }
+    },
+    {
+      "id": "theme26",
+      "name": "Vidhaata Cosmic",
+      "color": "#C9A84C",
+      "createdAt": "2026-04-25",
+      "mood": "Deep indigo night, gold glow, glass surfaces — the Flutter-app design system rendered as a full app screen (daily briefing + AI orb + transits + insights + glass chat). Cloned from the rocket.new POC.",
+      "fontDisplay": "'Plus Jakarta Sans', -apple-system, sans-serif",
+      "custom": true,
+      "_doc": "theme26 is HAND-CRAFTED — not generated from generate.py. Has its own full-screen mobile-app-style layout. Do NOT regenerate this theme via cli.py."
+    }
+  ]
+}

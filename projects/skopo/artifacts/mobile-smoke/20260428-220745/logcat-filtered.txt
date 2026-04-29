@@ -1,0 +1,116 @@
+04-28 22:07:45.507  1548  4077 I ActivityManager: Force stopping com.anonymous.astroquest appid=10327 user=0: from pid 18350
+04-28 22:07:45.512  1548  4077 I START_DEBUG: remove START_TIMEOUT removeProcess    ProcessRecord :ProcessRecord{69c4f1 16503:com.anonymous.astroquest/u0a327}
+04-28 22:07:45.512  1548  4077 I ActivityManager: Killing 16503:com.anonymous.astroquest/u0a327 (adj 900): stop com.anonymous.astroquest due to from pid 18350
+04-28 22:07:45.514  1548  4077 I START_DEBUG: remove ALL_TIMEOUT cleanup   ProcessRecord :ProcessRecord{69c4f1 16503:com.anonymous.astroquest/u0a327}
+04-28 22:07:45.514  1548  4077 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest pid=16503 activityId:16503 state:3
+04-28 22:07:45.515   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest pid: 16503 uid: 10327 state: 3
+04-28 22:07:45.515   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest, pid=16503, uid=10327, state:DEAD, fps:-1, win:0
+04-28 22:07:45.515   975   975 I MTK_APPList: [notifyAPPstate] pack:com.anonymous.astroquest, pid:16503, STATE_DEAD
+04-28 22:07:45.517  1548  4077 W ActivityTaskManager: Force removing ActivityRecord{120942790 u0 com.anonymous.astroquest/.MainActivity t5411 f}}: app died, no saved state
+04-28 22:07:45.518  1548  1765 W UsageStatsService: Unexpected activity event reported! (com.anonymous.astroquest/com.anonymous.astroquest.MainActivity event : 23 instanceId : 132805556)
+04-28 22:07:45.525  1548  4077 I AppsFilter: interaction: PackageSetting{893d0ab com.android.microdroid.empty_payload/10241} -> PackageSetting{be13356 com.anonymous.astroquest/10327} BLOCKED
+04-28 22:07:45.525  1548  4077 I AppsFilter: interaction: PackageSetting{6398aa1 com.example.callassistantsim/10323} -> PackageSetting{be13356 com.anonymous.astroquest/10327} BLOCKED
+04-28 22:07:45.526  1548  4077 W ActivityManager: Invalid packageName: com.anonymous.astroquest
+04-28 22:07:45.531  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=41987, name=ActivityRecord{120942790 u0 com.anonymous.astroquest/.MainActivity t5411}#41987
+04-28 22:07:45.531  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=44901, name=bdf5d com.anonymous.astroquest/com.anonymous.astroquest.MainActivity#44901
+04-28 22:07:45.717 18354 18354 I AndroidRuntime: Using default boot image
+04-28 22:07:45.717 18354 18354 I AndroidRuntime: Leaving lock profiling enabled
+04-28 22:07:46.042 18354 18354 W Monkey  : args: [-p, com.anonymous.astroquest, -c, android.intent.category.LAUNCHER, 1]
+04-28 22:07:46.048 18354 18354 W PlatformAconfigPackage: android.os.flagging.AconfigStorageReadException: ERROR_CANNOT_READ_STORAGE_FILE: Fail to mmap storage
+04-28 22:07:46.053 18354 18354 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.xr cannot be found on the device
+04-28 22:07:46.062 18354 18354 W Monkey  :  arg: "com.anonymous.astroquest"
+04-28 22:07:46.062 18354 18354 W Monkey  : data="com.anonymous.astroquest"
+04-28 22:07:46.106  1548  4172 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.anonymous.astroquest/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 pid 18354 (BAL_ALLOW_PERMISSION) result code=0
+04-28 22:07:46.109  1548  1641 I PowerHalWrapper: amsBoostProcessCreate package:com.anonymous.astroquest 
+04-28 22:07:46.125  1548  1654 I ActivityManager: Start proc 18374:com.anonymous.astroquest/u0a327 for next-top-activity {com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+04-28 22:07:46.141  1548  1654 I START_DEBUG: send START_TIMEOUT message    ProcessRecord :ProcessRecord{aae1578 18374:com.anonymous.astroquest/u0a327}
+04-28 22:07:46.148  1548  4090 I START_DEBUG: send BINDTIMEOUT    ProcessRecord :ProcessRecord{aae1578 18374:com.anonymous.astroquest/u0a327}
+04-28 22:07:46.148  1548  4090 I START_DEBUG: remove START_TIMEOUT finish    ProcessRecord :ProcessRecord{aae1578 18374:com.anonymous.astroquest/u0a327}
+04-28 22:07:46.150  1548  4021 I AppsFilter: interaction: PackageSetting{893d0ab com.android.microdroid.empty_payload/10241} -> PackageSetting{c2aa149 com.anonymous.astroquest/10327} BLOCKED
+04-28 22:07:46.150  1548  4021 I AppsFilter: interaction: PackageSetting{6398aa1 com.example.callassistantsim/10323} -> PackageSetting{c2aa149 com.anonymous.astroquest/10327} BLOCKED
+04-28 22:07:46.153  1548  4021 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.153  1548  4021 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:1
+04-28 22:07:46.153   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 1
+04-28 22:07:46.153   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:RESUMED, fps:-1, win:0
+04-28 22:07:46.153   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid:18374, fps:-1, isMultiWindow:0
+04-28 22:07:46.153   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.anonymous.astroquest, pid:18374, uid:10327
+04-28 22:07:46.154   975   975 I MTK_APPList: [notifyAPPstate] pc:0, com.nothing.launcher => com.anonymous.astroquest
+04-28 22:07:46.165 18347 18435 I NT-AppEventTracker: Begin non-home task duration timing:TaskDuration(taskId=5433, pkgName=com.anonymous.astroquest, userId=UserHandle{0}, beginTime=1777394266164, endTime=0, windowType=1, duration=0, state=2)
+04-28 22:07:46.182 18354 18354 I AndroidRuntime: VM exiting with result code 0.
+04-28 22:07:46.227 18374 18374 W SoLoader: Recording new base apk path: /data/app/~~0caUL4MCMFQpAcEaXGIRfg==/com.anonymous.astroquest-poRI8k6Go76W3tF2_4apGA==/base.apk
+04-28 22:07:46.228 18374 18374 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~0caUL4MCMFQpAcEaXGIRfg==/com.anonymous.astroquest-poRI8k6Go76W3tF2_4apGA==/base.apk!/lib/arm64-v8a]]
+04-28 22:07:46.229 18374 18374 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~0caUL4MCMFQpAcEaXGIRfg==/com.anonymous.astroquest-poRI8k6Go76W3tF2_4apGA==/lib/arm64 flags = 0]]
+04-28 22:07:46.265  1548  4172 I START_DEBUG: remove BIND_TIMEOUT finish    ProcessRecord :ProcessRecord{aae1578 18374:com.anonymous.astroquest/u0a327}
+04-28 22:07:46.318 18374 18374 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+04-28 22:07:46.318 18374 18374 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+04-28 22:07:46.321 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+04-28 22:07:46.321 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+04-28 22:07:46.321 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+04-28 22:07:46.322 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+04-28 22:07:46.322 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+04-28 22:07:46.329 18374 18374 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+04-28 22:07:46.357  1548  4172 W WindowManager: Changing focus from null to Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:494 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6824 com.android.server.wm.WindowManagerService.relayoutWindow:2788 com.android.server.wm.Session.relayout:288 
+04-28 22:07:46.362  1548  4172 I WindowManager: Relayout Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 1084 requestedHeight = 2412 outFrames = ClientWindowFrames{frame=[0,0][1084,2412] display=[0,0][1084,2412] parentFrame=[0,0][0,0]} outSurfaceControl = Surface(name=com.anonymous.astroquest/com.anonymous.astroquest.MainActivity)/@0x3821c37
+04-28 22:07:46.394 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+04-28 22:07:46.395 18374 18407 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+04-28 22:07:46.396 18374 18407 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+04-28 22:07:46.399 18374 18374 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+04-28 22:07:46.433 18374 18409 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+04-28 22:07:46.557 18374 18409 I ReactNativeJS: Running "main"
+04-28 22:07:46.712  1548  4090 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.712  1548  4090 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:0
+04-28 22:07:46.712   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 0
+04-28 22:07:46.712   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:PAUSED, fps:-1, win:0
+04-28 22:07:46.713  1548  4090 I PowerHalWrapper: <amsBoostResume> last:com.anonymous.astroquest, next:com.google.android.permissioncontrollerhasATProcess:false 
+04-28 22:07:46.731 18374 18374 W unknown:BridgelessReact: ReactHost{0}.onUserLeaveHint(activity)
+04-28 22:07:46.732 18374 18374 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+04-28 22:07:46.734  1548  4020 W WindowManager: Changing focus from Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:494 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6824 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:5275 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:2419 
+04-28 22:07:46.740  1548  4020 I PowerHalWrapper: amsBoostNotify pid:13088,activity:com.android.permissioncontroller.permission.ui.GrantPermissionsActivity, package:com.google.android.permissioncontroller, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.742   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.anonymous.astroquest => com.google.android.permissioncontroller
+04-28 22:07:46.790  1548  2144 I PowerHalWrapper: amsBoostNotify pid:18347,activity:com.android.searchlauncher.SearchLauncher, package:com.nothing.launcher, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.867  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=45019, name=Surface(name=191c4e4 Splash Screen com.anonymous.astroquest)/@0x2b7582e - animation-leash of starting_reveal#45019
+04-28 22:07:46.890  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=45004, name=191c4e4 Splash Screen com.anonymous.astroquest#45004
+04-28 22:07:46.890  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=45005, name=Splash Screen com.anonymous.astroquest#45005
+04-28 22:07:46.922  1548  1751 I PowerHalWrapper: amsBoostNotify pid:13088,activity:com.android.permissioncontroller.permission.ui.GrantPermissionsActivity, package:com.google.android.permissioncontroller, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.924  1548  1751 I PowerHalWrapper: <amsBoostResume> last:com.google.android.permissioncontroller, next:com.anonymous.astroquesthasATProcess:true 
+04-28 22:07:46.946  1548  1751 W WindowManager: Changing focus from Window{fbe29c4 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} to Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:494 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6824 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:5275 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:2419 
+04-28 22:07:46.950  1548  1751 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.951  1548  1751 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:1
+04-28 22:07:46.951   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 1
+04-28 22:07:46.951   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:RESUMED, fps:-1, win:0
+04-28 22:07:46.951   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid:18374, fps:-1, isMultiWindow:0
+04-28 22:07:46.951   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.anonymous.astroquest, pid:18374, uid:10327
+04-28 22:07:46.951   975   975 I MTK_APPList: [notifyAPPstate] pc:1, com.google.android.permissioncontroller => com.anonymous.astroquest
+04-28 22:07:46.953  1548  1751 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.953  1548  1751 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:1
+04-28 22:07:46.953   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 1
+04-28 22:07:46.953   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:RESUMED, fps:-1, win:0
+04-28 22:07:46.953   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid:18374, fps:-1, isMultiWindow:0
+04-28 22:07:46.953   975   975 I MTK_APPList: [notifyAPPstate] foreground:com.anonymous.astroquest, pid:18374, uid:10327
+04-28 22:07:46.955   975   975 I MTK_APPList: [notifyAPPstate] act com.android.searchlauncher.SearchLauncher => com.anonymous.astroquest.MainActivity
+04-28 22:07:46.959 18374 18374 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+04-28 22:07:46.973  1548  1641 I PowerHalWrapper: amsBoostNotify pid:13088,activity:com.android.permissioncontroller.permission.ui.GrantPermissionsActivity, package:com.google.android.permissioncontroller, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:46.974   975   975 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid:18374, fps:-1, isMultiWindow:0
+04-28 22:07:47.008  1548  1808 I ImeTracker: com.anonymous.astroquest:a726a6b2: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 22:07:47.018 18374 18374 I ImeTracker: com.anonymous.astroquest:a726a6b2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-28 22:07:47.021 15417 15417 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1444 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.astroquest, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 22:07:47.023  1548  4221 W PackageConfigPersister: App-specific configuration not found for packageName: com.anonymous.astroquest and userId: 0
+04-28 22:07:48.260  1009  1009 I BufferQueueProducer: [com.anonymous.astroquest/com.anonymous.astroquest.MainActivity#45010](this:0xb400007314c78d08,id:-1,api:0,p:-1,c:1009) queueBuffer: fps=31.31 dur=1469.30 max=959.55 min=4.68
+04-28 22:07:49.562  1197  1984 I NtCameraUtil: Current ActivityName: com.anonymous.astroquest.MainActivity
+04-28 22:07:49.593  1197  1197 I NtCameraUtil: Activity:com.anonymous.astroquest.MainActivity Default stream size is (640x480) cameraId: 1 format: 35
+04-28 22:07:49.634  3901 10302 W System.err: java.lang.NullPointerException
+04-28 22:07:49.634  3901 10302 W System.err: 	at java.util.Objects.throwNullPointerException(Objects.java:524)
+04-28 22:07:57.476  1548  1751 W WindowManager: Changing focus from Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity} to Window{58562f1 u0 NotificationShade} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:494 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6824 com.android.server.wm.WindowManagerService.relayoutWindow:2788 com.android.server.wm.Session.relayout:288 
+04-28 22:07:58.883  1548  2296 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:58.883  1548  2296 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:0
+04-28 22:07:58.883   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 0
+04-28 22:07:58.883   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:PAUSED, fps:-1, win:0
+04-28 22:07:58.951 26955 27032 W AlarmManager: java.lang.IllegalArgumentException: alarm "NetworkLocationActivityDetection" has short window length
+04-28 22:07:59.004 18374 18374 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+04-28 22:07:59.006  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=45007, name=d21e7de ActivityRecordInputSink com.anonymous.astroquest/.MainActivity#45007
+04-28 22:07:59.008  1548  1641 I PowerHalWrapper: amsBoostNotify pid:18374,activity:com.anonymous.astroquest.MainActivity, package:com.anonymous.astroquest, mProcessCreatePackcom.anonymous.astroquest 
+04-28 22:07:59.008  1548  1641 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity pid=18374 activityId:45857932 state:0
+04-28 22:07:59.008   975   975 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.anonymous.astroquest actName: com.anonymous.astroquest.MainActivity pid: 18374 uid: 10327 state: 0
+04-28 22:07:59.008   975   975 I MTK_APPList: [notifyAPPstate] com.anonymous.astroquest/com.anonymous.astroquest.MainActivity, pid=18374, uid=10327, state:PAUSED, fps:-1, win:0
+04-28 22:07:59.036  1009  1009 I SurfaceFlinger: onHandleDestroyed: layerId=45010, name=com.anonymous.astroquest/com.anonymous.astroquest.MainActivity#45010
+04-28 22:07:59.059 26955 27032 W AlarmManager: java.lang.IllegalArgumentException: alarm "NetworkLocationActivityDetection" has short window length

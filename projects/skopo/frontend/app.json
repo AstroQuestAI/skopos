@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Skopo",
+    "slug": "skopo",
+    "version": "1.0.0",
+    "description": "Skopo is a private, India-first call assistant for screening unknown callers.",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Skopo",
+      "shortName": "Skopo",
+      "description": "Private, India-first call assistant for screening unknown callers.",
+      "themeColor": "#17713A",
+      "backgroundColor": "#F7F8FF"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-image.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.assistant.skopo"
+    }
+  }
+}

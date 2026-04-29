@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Theme 26 · Vidhaata Chat — UAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-deep:#0D0B1E;
+  --bg-mid:#1A1535;
+  --bg-surface:#231D45;
+  --gold:#C9A84C;
+  --gold-light:#E8C96A;
+  --gold-dim:#8A6F2E;
+  --terracotta:#C4622D;
+  --terracotta-light:#E07A45;
+  --text:#F5EDD6;
+  --text-2:rgba(245,237,214,.6);
+  --text-mu:rgba(245,237,214,.35);
+  --glass:rgba(255,255,255,.07);
+  --glass-strong:rgba(255,255,255,.12);
+  --border:rgba(201,168,76,.20);
+  --border-sub:rgba(255,255,255,.15);
+  --glow-soft:0 0 22px rgba(201,168,76,.16), 0 0 70px rgba(201,168,76,.06);
+  --glow-strong:0 0 30px rgba(232,201,106,.32), 0 0 80px rgba(201,168,76,.12);
+  --r-card:20px;
+  --r-pill:100px;
+  --r-bubble:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  color:var(--text);background:var(--bg-deep);
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  letter-spacing:-.01em;
+  text-shadow:0 0 1px rgba(245,237,214,.35), 0 0 14px rgba(201,168,76,.06);
+}
+body{
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(201,168,76,.12) 0%, transparent 38%),
+    radial-gradient(circle at 82% 78%, rgba(196,98,45,.10) 0%, transparent 42%),
+    radial-gradient(circle at 50% 50%, #1A1535 0%, #0D0B1E 70%);
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:-50% -50% 0 -50%;
+  background:conic-gradient(from 0deg at 50% 50%,
+    transparent 0deg,
+    rgba(201,168,76,.04) 70deg,
+    transparent 140deg,
+    rgba(196,98,45,.04) 220deg,
+    transparent 290deg);
+  animation:cosmic-rotate 60s linear infinite;
+  pointer-events:none;z-index:-1;
+}
+@keyframes cosmic-rotate{to{transform:rotate(360deg)}}
+body::after{
+  content:"";position:fixed;inset:0;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,.55), transparent 60%),
+    radial-gradient(1px 1px at 27% 78%, rgba(255,255,255,.4), transparent 60%),
+    radial-gradient(1.5px 1.5px at 41% 32%, rgba(232,201,106,.55), transparent 60%),
+    radial-gradient(1px 1px at 58% 64%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(1px 1px at 73% 22%, rgba(255,255,255,.35), transparent 60%),
+    radial-gradient(1.5px 1.5px at 86% 86%, rgba(232,201,106,.6), transparent 60%);
+  background-repeat:no-repeat;
+  pointer-events:none;z-index:-1;
+}
+
+/* heading & accent text glow */
+h1,h2,h3,h4,.bubble-name,.session-meta strong{
+  text-shadow:0 0 1px rgba(245,237,214,.5), 0 0 16px rgba(201,168,76,.10), 0 0 32px rgba(201,168,76,.05);
+}
+.gold-accent,.bubble.ai .planet,.eyebrow,.suggest-chip,.cite-tag,.thinking-dots{
+  text-shadow:0 0 6px rgba(232,201,106,.35), 0 0 18px rgba(201,168,76,.18);
+}
+
+/* ── chat shell — phone-frame on desktop, full-bleed on mobile ── */
+.chat-shell{
+  max-width:480px;margin:0 auto;
+  min-height:100vh;
+  display:flex;flex-direction:column;
+  position:relative;
+  background:linear-gradient(180deg,rgba(35,29,69,.18) 0%,rgba(13,11,30,.0) 100%);
+  border-left:1px solid rgba(255,255,255,.04);
+  border-right:1px solid rgba(255,255,255,.04);
+}
+@media (min-width:760px){
+  .chat-shell{
+    margin-top:24px;margin-bottom:24px;
+    min-height:calc(100vh - 48px);
+    border-radius:24px;overflow:hidden;
+    border:1px solid rgba(255,255,255,.06);
+    box-shadow:0 30px 80px rgba(0,0,0,.55), var(--glow-soft);
+  }
+}
+
+/* ── header (orb + name + status) ── */
+.chat-head{
+  position:sticky;top:0;z-index:5;
+  display:flex;align-items:center;gap:14px;
+  padding:14px 18px;
+  background:linear-gradient(180deg,rgba(13,11,30,.92) 0%,rgba(13,11,30,.55) 100%);
+  backdrop-filter:saturate(150%) blur(28px);
+  -webkit-backdrop-filter:saturate(150%) blur(28px);
+  border-bottom:1px solid var(--border-sub);
+}
+.chat-head .back{
+  width:36px;height:36px;border-radius:50%;
+  display:grid;place-items:center;cursor:pointer;
+  background:var(--glass);border:1px solid var(--border-sub);color:var(--text);
+}
+.chat-head .back svg{width:16px;height:16px;}
+.head-orb{position:relative;width:42px;height:42px;flex:0 0 42px;}
+.head-orb .ring{
+  position:absolute;inset:0;border-radius:50%;
+  border:1px solid rgba(201,168,76,.32);
+  animation:ring-pulse 2.4s ease-in-out infinite;
+}
+.head-orb .ring.r2{inset:3px;animation-delay:.4s;border-color:rgba(201,168,76,.22)}
+@keyframes ring-pulse{0%,100%{transform:scale(1);opacity:.75}50%{transform:scale(1.05);opacity:1}}
+.head-orb .core{
+  position:absolute;inset:7px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%, var(--gold-light), var(--gold) 55%, var(--gold-dim));
+  box-shadow:0 0 14px rgba(232,201,106,.5),0 0 30px rgba(201,168,76,.18);
+}
+.head-info h2{font-size:14px;font-weight:700;letter-spacing:-.1px;margin-bottom:2px;}
+.head-info .status{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-light);
+}
+.head-info .status .dot{
+  width:5px;height:5px;border-radius:50%;background:#a6dfb0;
+  box-shadow:0 0 8px #a6dfb0;animation:pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse{50%{opacity:.4;}}
+.chat-head .spacer{flex:1;}
+.chat-head .ico{
+  width:36px;height:36px;border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--glass);border:1px solid var(--border-sub);
+  color:var(--text);cursor:pointer;
+}
+.chat-head .ico svg{width:16px;height:16px;}
+
+/* ── session meta strip ── */
+.session-meta{
+  padding:10px 18px;
+  font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--text-mu);text-align:center;
+  border-bottom:1px dashed rgba(255,255,255,.08);
+}
+.session-meta strong{color:var(--gold);}
+
+/* ── message scroll area ── */
+.messages{
+  flex:1;overflow-y:auto;
+  padding:18px 14px 22px;
+  display:flex;flex-direction:column;gap:14px;
+}
+.messages::-webkit-scrollbar{width:4px;}
+.messages::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:2px;}
+
+/* ── timestamp divider ── */
+.ts-divider{
+  align-self:center;
+  font-size:10px;color:var(--text-mu);letter-spacing:.2em;text-transform:uppercase;
+  padding:4px 12px;background:rgba(255,255,255,.04);border-radius:var(--r-pill);
+  border:1px solid rgba(255,255,255,.06);
+}
+
+/* ── bubble ── */
+.bubble-row{display:flex;gap:8px;align-items:flex-end;}
+.bubble-row.me{justify-content:flex-end;}
+.bubble-avatar{
+  width:30px;height:30px;border-radius:50%;flex:0 0 30px;
+  background:radial-gradient(circle at 35% 30%, var(--gold-light), var(--gold) 55%, var(--gold-dim));
+  box-shadow:0 0 12px rgba(232,201,106,.35);
+  display:grid;place-items:center;font-size:14px;color:#0D0B1E;font-weight:700;
+}
+.bubble{
+  max-width:78%;padding:11px 15px;border-radius:var(--r-bubble);
+  font-size:13.5px;line-height:1.6;
+  position:relative;
+}
+.bubble.ai{
+  background:rgba(255,255,255,.06);border:1px solid var(--border-sub);
+  color:var(--text);
+  border-bottom-left-radius:6px;
+  backdrop-filter:blur(28px) saturate(150%);
+  -webkit-backdrop-filter:blur(28px) saturate(150%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05);
+}
+.bubble.ai .planet{color:var(--gold-light);font-weight:700;display:inline-block;margin-right:3px;}
+.bubble.me{
+  background:linear-gradient(135deg,rgba(201,168,76,.18),rgba(196,98,45,.10));
+  border:1px solid var(--border);color:var(--text);
+  border-bottom-right-radius:6px;
+  box-shadow:0 4px 14px rgba(201,168,76,.10);
+}
+.bubble.ai b,.bubble.me b{color:var(--gold-light);font-weight:700;}
+.bubble.ai i{font-style:italic;color:var(--text-2);}
+
+/* citation chip inside ai bubble */
+.cite-tag{
+  display:inline-flex;align-items:center;gap:5px;margin-top:8px;
+  font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  padding:3px 9px;border-radius:var(--r-pill);
+  background:rgba(201,168,76,.10);border:1px solid var(--border);
+  color:var(--gold-light);
+}
+.cite-tag svg{width:9px;height:9px;}
+.cite-tag + .cite-tag{margin-left:6px;}
+.bubble-name{
+  font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:4px;
+}
+
+/* voice playback chip on user message */
+.voice-bubble{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 14px 10px 11px;
+  border-radius:var(--r-bubble);
+  background:linear-gradient(135deg,rgba(201,168,76,.18),rgba(196,98,45,.10));
+  border:1px solid var(--border);
+  border-bottom-right-radius:6px;
+  min-width:180px;
+}
+.voice-bubble .play{
+  width:28px;height:28px;border-radius:50%;
+  background:linear-gradient(135deg,var(--gold-light),var(--gold));
+  color:#0D0B1E;display:grid;place-items:center;cursor:pointer;
+  box-shadow:0 0 10px rgba(232,201,106,.4);
+}
+.voice-bubble .play svg{width:11px;height:11px;}
+.waveform{display:flex;align-items:center;gap:2px;flex:1;}
+.waveform .bar{
+  width:2px;background:var(--gold-light);border-radius:1px;
+  animation:wave 1.2s ease-in-out infinite alternate;
+}
+.waveform .bar:nth-child(odd){animation-duration:.9s;}
+.waveform .bar:nth-child(3n){animation-duration:1.5s;}
+@keyframes wave{from{height:4px}to{height:18px}}
+.voice-bubble .dur{
+  font-size:11px;font-weight:600;color:var(--text-2);font-variant-numeric:tabular-nums;
+}
+
+/* ── thinking state ── */
+.thinking-row{display:flex;gap:8px;align-items:flex-end;}
+.thinking-bubble{
+  padding:14px 18px;border-radius:var(--r-bubble);
+  background:rgba(255,255,255,.06);border:1px solid var(--border-sub);
+  border-bottom-left-radius:6px;
+  display:flex;align-items:center;gap:10px;
+  backdrop-filter:blur(28px) saturate(150%);
+  -webkit-backdrop-filter:blur(28px) saturate(150%);
+}
+.thinking-bubble .label{
+  font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);
+}
+.thinking-dots{display:inline-flex;gap:3px;}
+.thinking-dots span{
+  width:4px;height:4px;border-radius:50%;background:var(--gold-light);
+  animation:dots 1.3s ease-in-out infinite;
+}
+.thinking-dots span:nth-child(2){animation-delay:.18s;}
+.thinking-dots span:nth-child(3){animation-delay:.36s;}
+@keyframes dots{0%,80%,100%{opacity:.25;transform:translateY(0)}40%{opacity:1;transform:translateY(-3px)}}
+
+/* ── inline transit / chart card inside chat ── */
+.inline-card{
+  margin-top:6px;padding:14px;
+  border-radius:14px;background:rgba(13,11,30,.55);
+  border:1px solid var(--border);
+  display:flex;align-items:center;gap:14px;
+  box-shadow:var(--glow-soft);
+}
+.inline-card .glyph{
+  width:42px;height:42px;border-radius:50%;
+  background:rgba(201,168,76,.14);border:1px solid var(--border);
+  display:grid;place-items:center;
+  font-size:20px;color:var(--gold-light);
+  box-shadow:inset 0 0 12px rgba(201,168,76,.18);
+}
+.inline-card .info h4{font-size:12.5px;font-weight:700;margin-bottom:2px;letter-spacing:-.05px;}
+.inline-card .info p{font-size:11px;color:var(--text-2);line-height:1.45;}
+
+/* ── suggested follow-up chips ── */
+.suggest-row{
+  display:flex;flex-wrap:wrap;gap:6px;
+  padding:0 14px 0 50px;
+  margin-top:-6px;
+}
+.suggest-chip{
+  font-size:11px;font-weight:600;color:var(--gold);
+  padding:6px 12px;border-radius:var(--r-pill);
+  background:rgba(201,168,76,.07);border:1px solid rgba(201,168,76,.22);
+  letter-spacing:.02em;cursor:pointer;
+}
+.suggest-chip:hover{background:rgba(201,168,76,.14);}
+
+/* ── input bar (sticky bottom) ── */
+.composer{
+  position:sticky;bottom:0;z-index:5;
+  padding:12px 14px 16px;
+  background:linear-gradient(180deg,rgba(13,11,30,.0) 0%,rgba(13,11,30,.92) 30%);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+}
+.input-bar{
+  display:flex;align-items:center;gap:8px;
+  padding:5px 5px 5px 16px;
+  background:rgba(255,255,255,.10);
+  border:1px solid var(--border-sub);
+  border-radius:var(--r-pill);
+  box-shadow:var(--glow-soft);
+  backdrop-filter:blur(28px) saturate(150%);
+  -webkit-backdrop-filter:blur(28px) saturate(150%);
+}
+.input-bar input{
+  flex:1;background:transparent;border:none;outline:none;
+  color:var(--text);font:500 13px/1.4 'Plus Jakarta Sans',sans-serif;
+}
+.input-bar input::placeholder{color:var(--text-mu);}
+.input-bar .add-btn,.input-bar .send-btn,.input-bar .mic-btn{
+  width:36px;height:36px;border-radius:50%;
+  display:grid;place-items:center;cursor:pointer;border:none;
+  transition:transform .15s ease;
+}
+.input-bar .add-btn{background:transparent;color:var(--text-2);}
+.input-bar .add-btn:hover{color:var(--gold-light);}
+.input-bar .add-btn svg{width:16px;height:16px;}
+.input-bar .mic-btn{
+  background:linear-gradient(135deg,var(--gold-light),var(--gold));color:#0D0B1E;
+  box-shadow:0 4px 12px rgba(201,168,76,.30),0 0 0 1px rgba(232,201,106,.35);
+}
+.input-bar .mic-btn:hover{transform:scale(1.05);}
+.input-bar .mic-btn svg{width:14px;height:14px;}
+.holdhint{
+  text-align:center;margin-top:6px;
+  font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-mu);
+}
+
+/* mic press-and-hold ripple state */
+@media (max-width:480px){
+  .chat-shell{border:none;border-radius:0;}
+}
+</style>
+</head>
+<body>
+
+<div class="chat-shell">
+
+  <!-- header -->
+  <header class="chat-head">
+    <div class="back" title="Back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg>
+    </div>
+    <div class="head-orb">
+      <div class="ring"></div>
+      <div class="ring r2"></div>
+      <div class="core"></div>
+    </div>
+    <div class="head-info">
+      <h2>Vidhaata</h2>
+      <span class="status"><span class="dot"></span> Listening · Saturday</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="ico" title="Voice mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12c0-2 1-4 4-4 2 0 3 1 4 3v2c-1 2-2 3-4 3-3 0-4-2-4-4z"/><path d="M14 7c2 1 3 3 3 5s-1 4-3 5"/><path d="M18 4c4 2 5 5 5 8s-1 6-5 8"/></svg>
+    </div>
+    <div class="ico" title="History">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    </div>
+  </header>
+
+  <div class="session-meta">
+    <strong>Today, 6:47 AM</strong> · Moon in Cancer · 3 active transits
+  </div>
+
+  <!-- conversation -->
+  <main class="messages" id="msgs">
+
+    <div class="ts-divider">Today · Morning</div>
+
+    <!-- AI greeting -->
+    <div class="bubble-row">
+      <div class="bubble-avatar">V</div>
+      <div>
+        <div class="bubble-name">Vidhaata</div>
+        <div class="bubble ai">
+          Ayushmaan Bhava, Priya. <b>The Moon is conjunct Neptune</b> in your 7th house this morning — your intuition is at its sharpest. What weighs on your heart today?
+        </div>
+      </div>
+    </div>
+
+    <!-- user voice message -->
+    <div class="bubble-row me">
+      <div class="voice-bubble">
+        <button class="play" aria-label="Play voice message">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="waveform">
+          <div class="bar" style="height:6px"></div>
+          <div class="bar" style="height:14px"></div>
+          <div class="bar" style="height:10px"></div>
+          <div class="bar" style="height:18px"></div>
+          <div class="bar" style="height:8px"></div>
+          <div class="bar" style="height:16px"></div>
+          <div class="bar" style="height:11px"></div>
+          <div class="bar" style="height:6px"></div>
+          <div class="bar" style="height:14px"></div>
+          <div class="bar" style="height:9px"></div>
+          <div class="bar" style="height:18px"></div>
+          <div class="bar" style="height:5px"></div>
+          <div class="bar" style="height:13px"></div>
+          <div class="bar" style="height:10px"></div>
+          <div class="bar" style="height:7px"></div>
+        </div>
+        <span class="dur">0:08</span>
+      </div>
+    </div>
+
+    <!-- transcribed below voice -->
+    <div class="bubble-row me">
+      <div class="bubble me" style="font-style:italic;color:var(--text-2);font-size:12.5px;">
+        "I felt restless when I woke up. Everything seemed too loud."
+      </div>
+    </div>
+
+    <!-- AI deep response with citation -->
+    <div class="bubble-row">
+      <div class="bubble-avatar">V</div>
+      <div>
+        <div class="bubble-name">Vidhaata</div>
+        <div class="bubble ai">
+          That restlessness is <b>Neptune asking you to soften the edges</b> of your day. Begin with something quiet — tea, a walk, a single page of a book. The clarity will arrive when you stop chasing it.
+          <br><br>
+          <i>Phaladeepika 6.21:</i> "When the lord of the seventh sees the watery sign at dawn, the seeker must let stillness do the listening."
+          <span class="cite-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 4h12a4 4 0 0 1 4 4v12"/><path d="M4 4v16h16"/></svg>
+            Phaladeepika 6.21
+          </span>
+          <span class="cite-tag">Brihat Parashara 5.32</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="suggest-row">
+      <span class="suggest-chip">Tell me about Neptune today</span>
+      <span class="suggest-chip">What's a quiet morning ritual?</span>
+      <span class="suggest-chip">My 7th house</span>
+    </div>
+
+    <!-- user typed message -->
+    <div class="bubble-row me">
+      <div class="bubble me">Will I find clarity by the afternoon?</div>
+    </div>
+
+    <!-- AI response with inline transit card -->
+    <div class="bubble-row">
+      <div class="bubble-avatar">V</div>
+      <div style="max-width:82%">
+        <div class="bubble-name">Vidhaata</div>
+        <div class="bubble ai">
+          Yes — by 2:15 PM, the <b>Moon shifts past Neptune</b> and your mind begins to find its edges again. A favourable Abhijit muhurta opens at 11:51 AM through 12:42 PM; that is when your intuition meets your decisiveness. Use that window for the email you've been hesitating on.
+          <div class="inline-card">
+            <div class="glyph">☽</div>
+            <div class="info">
+              <h4>Abhijit Muhurta</h4>
+              <p>11:51 AM – 12:42 PM · Auspicious for new ventures and difficult decisions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- user follow up -->
+    <div class="bubble-row me">
+      <div class="bubble me">What about my 7th house? You mentioned Saturn there yesterday.</div>
+    </div>
+
+    <!-- AI thinking state -->
+    <div class="thinking-row">
+      <div class="bubble-avatar">V</div>
+      <div class="thinking-bubble">
+        <span class="label">Consulting your chart</span>
+        <span class="thinking-dots"><span></span><span></span><span></span></span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- composer -->
+  <footer class="composer">
+    <form class="input-bar" onsubmit="event.preventDefault();">
+      <button type="button" class="add-btn" aria-label="More options" title="Attach chart / photo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
+      <input type="text" placeholder="Ask Vidhaata anything…" />
+      <button type="button" class="mic-btn" aria-label="Press and hold to speak">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 2a4 4 0 0 0-4 4v6a4 4 0 0 0 8 0V6a4 4 0 0 0-4-4z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></svg>
+      </button>
+    </form>
+    <div class="holdhint">Press and hold mic to speak</div>
+  </footer>
+
+</div>
+
+<script>
+  // auto-scroll to thinking bubble on load
+  document.addEventListener('DOMContentLoaded', () => {
+    const m = document.getElementById('msgs');
+    if (m) m.scrollTop = m.scrollHeight;
+  });
+</script>
+
+</body>
+</html>

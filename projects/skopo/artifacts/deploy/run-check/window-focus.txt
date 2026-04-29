@@ -1,0 +1,27 @@
+      Window #2: WindowStateAnimator{27e1322 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mPackageName=com.anonymous.astroquest
+  deepestLastOrientationSource=ActivityRecord{999f97f u0 com.anonymous.astroquest/.MainActivity t43}
+  mCurrentFocus=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  mFocusedApp=ActivityRecord{999f97f u0 com.anonymous.astroquest/.MainActivity t43}
+  mObscuringWindow=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      mPreferredTopFocusableRootTask=Task{7ce1d4c #43 type=standard A=10207:com.anonymous.astroquest}
+      mLastFocusedRootTask=Task{7ce1d4c #43 type=standard A=10207:com.anonymous.astroquest}
+      * Task{7ce1d4c #43 type=standard A=10207:com.anonymous.astroquest U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{999f97f u0 com.anonymous.astroquest/.MainActivity t43}
+    mFocusedWindow=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mTopFullscreenOpaqueWindowState=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mSystemBarColorApps={ActivityRecord{999f97f u0 com.anonymous.astroquest/.MainActivity t43}}
+    mNavBarColorWindowCandidate=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mNavBarBackgroundWindowCandidate=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+        mControlTarget=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+        mControlTarget=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+        mControlTarget=Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  ActivityRecord{999f97f u0 com.anonymous.astroquest/.MainActivity t43}
+  Window #8 Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+    mOwnerUid=10207 showForAllUsers=false package=com.anonymous.astroquest appop=NONE
+    WindowStateAnimator{27e1322 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+  imeLayeringTarget in display# 0 Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeInputTarget in display# 0 Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeControlTarget in display# 0 Window{b1be75 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}

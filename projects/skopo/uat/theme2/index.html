@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AstroQuest — Theme 2 · Midnight Cosmos</title>
+<meta name="theme-color" content="#0B1437">
+<style>
+  /* ===== Theme 2 — Midnight Cosmos (premium dark, planetary glow) ===== */
+  :root {
+    --c-bg:        #07091F;
+    --c-bg-2:      #0B1437;
+    --c-surface:   #121A45;
+    --c-surface-2: #1A2358;
+    --c-ink:       #ECEEFF;
+    --c-ink-soft:  #9CA3D9;
+    --c-primary:   #D4AF37;     /* gold */
+    --c-primary-2: #FFE082;
+    --c-accent:    #C7CEEA;     /* silver-mist */
+    --c-rule:      #2A3470;
+    --c-success:   #6EE7B7;
+    --radius:      18px;
+    --font-display:'Playfair Display', Georgia, serif;
+    --font-body:   'Inter', -apple-system, system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body {
+    background: radial-gradient(ellipse at top, #1A2358 0%, var(--c-bg) 60%) fixed;
+    color: var(--c-ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    background-attachment: fixed;
+  }
+  /* Subtle starfield */
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image:
+      radial-gradient(1px 1px at 20% 30%, #fff8 50%, transparent 100%),
+      radial-gradient(1px 1px at 60% 70%, #fff6 50%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 80% 20%, #FFE082AA 50%, transparent 100%),
+      radial-gradient(1px 1px at 35% 80%, #fff8 50%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 90% 50%, #C7CEEAAA 50%, transparent 100%);
+    background-size: 100% 100%;
+  }
+  body > * { position: relative; z-index: 1; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; margin: 0 0 .4em; letter-spacing: -.01em; }
+  h1 { font-size: 2.4rem; background: linear-gradient(135deg, #FFE082, #D4AF37); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  h2 { font-size: 1.5rem; color: var(--c-primary-2); }
+  h3 { font-size: 1.15rem; color: var(--c-accent); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  .label { text-transform: uppercase; letter-spacing: .2em; font-size: 11px; font-weight: 700; color: var(--c-primary); }
+
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(11,20,55,.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--c-rule);
+    padding: 12px 20px; display: flex; align-items: center; gap: 12px;
+  }
+  .topbar .logo {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #FFE082, #B8860B 65%);
+    box-shadow: 0 0 14px #D4AF3766, inset 0 0 6px #FFE08288;
+  }
+  .topbar .brand { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--c-primary-2); }
+  .topbar .badge { margin-left: auto; background: var(--c-surface); color: var(--c-primary); border: 1px solid var(--c-primary); font-weight: 700; font-size: 12px; padding: 4px 10px; border-radius: 999px; }
+
+  .hero {
+    text-align: center; padding: 70px 20px 50px;
+  }
+  .hero .stamp {
+    width: 130px; height: 130px; margin: 0 auto 20px; border-radius: 50%;
+    background: radial-gradient(circle, #2A3470 30%, #0B1437 70%);
+    box-shadow: 0 0 0 2px var(--c-primary), 0 0 60px #D4AF3755, inset 0 0 30px #D4AF3733;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-size: 50px; color: var(--c-primary); font-weight: 700;
+  }
+  .hero p { color: var(--c-ink-soft); max-width: 520px; margin: 8px auto 0; }
+
+  .card {
+    background: linear-gradient(160deg, var(--c-surface), var(--c-surface-2));
+    border: 1px solid var(--c-rule);
+    border-radius: var(--radius);
+    padding: 24px; margin-bottom: 20px;
+    box-shadow: 0 18px 50px rgba(0,0,0,.45), inset 0 1px 0 #ffffff10;
+  }
+  .section-title { display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; border-bottom: 1px solid var(--c-rule); padding-bottom: 14px; }
+  .section-title h2 { margin: 0; }
+  .login-card { max-width: 420px; margin: 0 auto; text-align: center; }
+  .btn-google {
+    width: 100%; padding: 14px;
+    background: linear-gradient(135deg, var(--c-primary), #B8860B); color: #0B1437;
+    border: none; border-radius: 999px; font-weight: 700; font-size: 15px;
+    display: flex; align-items: center; justify-content: center; gap: 10px; cursor: pointer;
+    box-shadow: 0 0 30px #D4AF3744;
+  }
+  .btn-google .g { width: 22px; height: 22px; border-radius: 50%; background: #0B1437; color: var(--c-primary); font-weight: 800; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; }
+
+  .chat .bubble { padding: 14px 16px; border-radius: 14px; max-width: 78%; line-height: 1.55; font-size: 14.5px; }
+  .chat .me { background: linear-gradient(135deg, var(--c-primary), #B8860B); color: #0B1437; border-bottom-right-radius: 4px; margin-left: auto; font-weight: 600; }
+  .chat .vidhaata { background: rgba(255,224,130,.06); color: var(--c-ink); border: 1px solid #D4AF3766; border-bottom-left-radius: 4px; margin: 12px 0; }
+  .chat .vidhaata .who { font-size: 12px; font-weight: 700; color: var(--c-primary); margin-bottom: 4px; letter-spacing: .1em; }
+  .chat-input { margin-top: 14px; display: flex; align-items: center; gap: 8px; background: var(--c-bg-2); border: 1px solid var(--c-rule); padding: 6px 8px 6px 14px; border-radius: 999px; }
+  .chat-input input { flex: 1; border: none; background: transparent; outline: none; font-family: inherit; font-size: 14px; padding: 8px 0; color: var(--c-ink); }
+  .chat-input button { background: var(--c-primary); color: #0B1437; border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 18px; }
+
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .info-tile { background: linear-gradient(135deg, #1A2358, #0B1437); border: 1px solid var(--c-rule); border-radius: 14px; padding: 16px; }
+  .info-tile .label { display: block; margin-bottom: 6px; }
+  .info-tile .v { font-family: var(--font-display); font-size: 1.5rem; color: var(--c-primary-2); font-weight: 600; }
+  table.planet { width: 100%; border-collapse: collapse; margin-top: 8px; }
+  table.planet th, table.planet td { padding: 11px 8px; text-align: left; border-bottom: 1px solid var(--c-rule); font-size: 14px; }
+  table.planet th { font-size: 11px; text-transform: uppercase; letter-spacing: .14em; color: var(--c-ink-soft); font-weight: 700; }
+  .pill { display: inline-block; padding: 3px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .pill.exalted { background: #064E3B; color: var(--c-success); }
+  .pill.retro   { background: #4A0E1F; color: #FCA5A5; }
+  .pill.own     { background: #1E3A8A; color: #BFDBFE; }
+
+  .muhurta-row { display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 12px; margin-bottom: 8px; background: rgba(255,224,130,.04); border: 1px solid var(--c-rule); }
+  .muhurta-row .icon { width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, var(--c-primary), #B8860B); color: #0B1437; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .muhurta-row .when { color: var(--c-ink-soft); font-size: 13px; }
+  .muhurta-row .what { font-weight: 700; color: var(--c-primary-2); }
+
+  .feedback { margin: 36px 0 60px; background: linear-gradient(135deg, #1A2358, #0B1437); border: 2px solid var(--c-primary); border-radius: 22px; padding: 28px; box-shadow: 0 0 50px #D4AF3722; }
+  .aq-stars { display: inline-flex; gap: 4px; }
+  .aq-star { background: none; border: none; cursor: pointer; font-size: 30px; color: #2A3470; padding: 0; transition: color .15s, text-shadow .15s; }
+  .aq-star.on, .aq-star:hover { color: var(--c-primary); text-shadow: 0 0 12px #D4AF37; }
+  .thumbs { display: inline-flex; gap: 8px; margin-left: 16px; }
+  .thumbs button { width: 44px; height: 36px; border-radius: 12px; border: 2px solid var(--c-rule); background: var(--c-bg-2); cursor: pointer; font-size: 18px; color: var(--c-ink); }
+  .thumbs button.on { border-color: var(--c-primary); background: rgba(212,175,55,.18); }
+  .feedback label { display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--c-ink-soft); letter-spacing: .14em; margin: 18px 0 6px; }
+  .feedback input[type=text], .feedback textarea { width: 100%; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--c-rule); background: var(--c-bg-2); color: var(--c-ink); font-family: inherit; font-size: 14px; resize: vertical; }
+  .feedback textarea { min-height: 90px; }
+  .feedback .row { display: flex; align-items: center; flex-wrap: wrap; }
+  #aq-fb-submit { margin-top: 14px; background: linear-gradient(135deg, var(--c-primary), #B8860B); color: #0B1437; border: none; padding: 12px 22px; border-radius: 999px; font-weight: 700; font-size: 14px; cursor: pointer; box-shadow: 0 0 30px #D4AF3766; }
+  #aq-fb-submit:disabled { opacity: .5; cursor: not-allowed; }
+  .aq-fb-status { margin-top: 10px; font-size: 13px; min-height: 1em; }
+  .aq-fb-status.ok { color: var(--c-success); }
+  .aq-fb-status.err { color: #FCA5A5; }
+  .nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+  .nav a { text-decoration: none; padding: 6px 12px; border-radius: 999px; background: var(--c-surface); border: 1px solid var(--c-rule); color: var(--c-ink-soft); font-size: 13px; }
+  .nav a.active { background: var(--c-primary); color: #0B1437; border-color: var(--c-primary); font-weight: 700; }
+  footer { padding: 30px 20px; text-align: center; font-size: 12px; color: var(--c-ink-soft); }
+  @media (max-width: 640px) { .grid-3 { grid-template-columns: 1fr 1fr; } h1 { font-size: 1.8rem; } }
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="logo"></div>
+  <div class="brand">AstroQuest</div>
+  <div class="badge">UAT · Theme 2</div>
+</div>
+
+<section class="hero">
+  <div class="stamp">श्री</div>
+  <span class="label">Midnight Cosmos</span>
+  <h1>Ayushmaan Bhava 🙏</h1>
+  <p>The deep night-sky as your canvas. Gold-on-navy elegance for users who want astrology to feel like a private observatory.</p>
+</section>
+
+<div class="wrap">
+  <div class="card login-card">
+    <span class="label">Sign in</span>
+    <h2 style="margin-top:6px">Begin your journey</h2>
+    <p style="color:var(--c-ink-soft); font-size:14px;">7-day free trial · your chart stays private to your Google account.</p>
+    <button class="btn-google"><span class="g">G</span> Continue with Google</button>
+  </div>
+
+  <div class="card chat">
+    <div class="section-title"><span class="label">Vidhaata</span><h2>Ask anything about your chart</h2></div>
+    <div class="bubble me">What does my Lagna say about me?</div>
+    <div class="bubble vidhaata">
+      <div class="who">🪷 VIDHAATA</div>
+      With <strong>Vrishabha (Taurus) Lagna</strong> and Lagna lord Shukra placed in Karkataka in the 3rd house, you carry an artistic, persistent temperament — driven by sustained effort rather than dramatic shifts. The Pushya nakshatra grouping in the 3rd amplifies your communication and capacity to nurture others.
+    </div>
+    <div class="chat-input">
+      <input placeholder="Ask Vidhaata anything…">
+      <button aria-label="Send">➤</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title"><span class="label">Your chart</span><h2>Overview · Arjun Sharma</h2></div>
+    <div class="grid-3">
+      <div class="info-tile"><span class="label">Ascendant</span><div class="v">Vrishabha</div></div>
+      <div class="info-tile"><span class="label">Moon sign</span><div class="v">Karkataka</div></div>
+      <div class="info-tile"><span class="label">Nakshatra</span><div class="v">Pushya · P1</div></div>
+    </div>
+    <table class="planet">
+      <thead><tr><th>Planet</th><th>Sign</th><th>House</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Sun</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Moon</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Mercury ℞</td><td>Karkataka</td><td>3</td><td><span class="pill retro">Retrograde</span></td></tr>
+        <tr><td>Jupiter</td><td>Karkataka</td><td>3</td><td><span class="pill exalted">Exalted</span></td></tr>
+        <tr><td>Venus</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Mars</td><td>Vrishabha</td><td>1</td><td></td></tr>
+        <tr><td>Saturn</td><td>Simha</td><td>4</td><td></td></tr>
+        <tr><td>Rahu</td><td>Simha</td><td>4</td><td></td></tr>
+        <tr><td>Ketu</td><td>Kumbha</td><td>10</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <div class="section-title"><span class="label">Today</span><h2>Auspicious windows · Hyderabad</h2></div>
+    <div class="muhurta-row"><div class="icon">🪙</div><div style="flex:1"><div class="what">Buy gold or silver</div><div class="when">Abhijit Muhurta · 11:51 AM – 12:42 PM</div></div></div>
+    <div class="muhurta-row"><div class="icon">🚗</div><div style="flex:1"><div class="what">Begin a journey</div><div class="when">Amrita Kaala · 5:14 AM – 6:36 AM</div></div></div>
+    <div class="muhurta-row"><div class="icon">🪔</div><div style="flex:1"><div class="what">Puja / havan</div><div class="when">Brahma Muhurta · 4:18 AM – 5:06 AM</div></div></div>
+  </div>
+
+  <div class="feedback">
+    <span class="label">Your feedback shapes this theme</span>
+    <h2>How does <em>Midnight Cosmos</em> feel?</h2>
+    <p style="color:var(--c-ink-soft);">Rate it, vote with a thumb, and leave a comment if you'd like.</p>
+    <div class="row" style="margin-top:14px;">
+      <div id="aq-fb-stars" class="aq-stars"></div>
+      <div class="thumbs">
+        <button id="aq-fb-thumb-up" aria-label="Thumbs up">👍</button>
+        <button id="aq-fb-thumb-dn" aria-label="Thumbs down">👎</button>
+      </div>
+    </div>
+    <label for="aq-fb-name">Your name (optional)</label>
+    <input id="aq-fb-name" type="text" placeholder="e.g. Arjun S.">
+    <label for="aq-fb-comment">What did you like or not like?</label>
+    <textarea id="aq-fb-comment" placeholder="Free-flowing thoughts welcome…"></textarea>
+    <button id="aq-fb-submit">Submit feedback</button>
+    <div id="aq-fb-status" class="aq-fb-status"></div>
+  </div>
+</div>
+
+<footer>AstroQuest UAT · Theme 2 · Midnight Cosmos · for evaluation only</footer>
+
+<script>window.AQ_THEME = 'theme2';</script>
+<script src="/shared/theme-switcher.js"></script>
+<script src="/shared/feedback.js"></script>
+</body>
+</html>

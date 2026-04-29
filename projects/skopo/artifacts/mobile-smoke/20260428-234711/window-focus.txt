@@ -1,0 +1,22 @@
+      Window #2: WindowStateAnimator{a7c4d79 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mPackageName=com.anonymous.astroquest
+  deepestLastOrientationSource=ActivityRecord{58326e6 u0 com.anonymous.astroquest/.MainActivity t32}
+  mCurrentFocus=Window{840d81b u0 Application Not Responding: com.google.android.apps.nexuslauncher}
+  mFocusedApp=ActivityRecord{58326e6 u0 com.anonymous.astroquest/.MainActivity t32}
+  mObscuringWindow=Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      mPreferredTopFocusableRootTask=Task{a95d427 #32 type=standard A=10207:com.anonymous.astroquest}
+      mLastFocusedRootTask=Task{a95d427 #32 type=standard A=10207:com.anonymous.astroquest}
+      * Task{a95d427 #32 type=standard A=10207:com.anonymous.astroquest U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{58326e6 u0 com.anonymous.astroquest/.MainActivity t32}
+    mTopFullscreenOpaqueWindowState=Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mNavBarBackgroundWindowCandidate=Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+        mControlTarget=Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  ActivityRecord{58326e6 u0 com.anonymous.astroquest/.MainActivity t32}
+  Window #9 Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+    mOwnerUid=10207 showForAllUsers=false package=com.anonymous.astroquest appop=NONE
+    WindowStateAnimator{a7c4d79 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+  imeLayeringTarget in display# 0 Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeInputTarget in display# 0 Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeControlTarget in display# 0 Window{4bbbb80 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}

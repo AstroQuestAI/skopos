@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Smoke Report - 20260428-220745</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f6f7f9; color: #1d2430; }
+    main { max-width: 1080px; margin: 0 auto; padding: 28px; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin-top: 28px; font-size: 18px; }
+    .status { display: inline-block; padding: 8px 12px; border-radius: 999px; font-weight: 700; background: #dff7e8; color: #126b35; }
+    .status:not(:empty) { background: #fff4d6; color: #7a4c00; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card { background: white; border: 1px solid #dde2ea; border-radius: 10px; padding: 16px; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04); }
+    img, video { width: 100%; border-radius: 8px; border: 1px solid #d9dee7; background: #111; }
+    code, pre { background: #111827; color: #e5e7eb; border-radius: 8px; }
+    pre { padding: 14px; overflow: auto; white-space: pre-wrap; }
+    a { color: #006fba; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mobile Smoke Report</h1>
+    <p><strong>Run:</strong> 20260428-220745</p>
+    <p><strong>Status:</strong> <span class="status">success</span></p>
+    <p>App launched, screenshots and screen recording were captured automatically.</p>
+
+    <h2>Artifacts</h2>
+    <div class="grid">
+      <section class="card">
+        <h3>Launch Screenshot</h3>
+        <a href="launch.png"><img src="launch.png" alt="Launch screenshot"></a>
+      </section>
+      <section class="card">
+        <h3>Post-record Screenshot</h3>
+        <a href="after-record.png"><img src="after-record.png" alt="Post record screenshot"></a>
+      </section>
+      <section class="card">
+        <h3>Screen Recording</h3>
+        <video controls src="screenrecord.mp4"></video>
+        <p><a href="screenrecord.mp4">Open MP4</a></p>
+      </section>
+    </div>
+
+    <h2>Device</h2>
+    <pre>List of devices attached
+00086348U001713        device usb:0-1 product:PacmanProIND model:A142P device:PacmanPro transport_id:2</pre>
+
+    <h2>Run Log</h2>
+    <pre>Run: 20260428-220745
+Output: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-220745
+ADB: /Users/apple/Library/Android/sdk/platform-tools/adb
+Connected devices:
+List of devices attached
+00086348U001713        device usb:0-1 product:PacmanProIND model:A142P device:PacmanPro transport_id:2
+
+Skipping install because INSTALL_RELEASE=0
+Clearing logs and launching com.anonymous.astroquest...
+  bash arg: -p
+  bash arg: com.anonymous.astroquest
+  bash arg: -c
+  bash arg: android.intent.category.LAUNCHER
+  bash arg: 1
+Events injected: 1
+## Network stats: elapsed time=83ms (0ms mobile, 0ms wifi, 83ms not connected)
+Capturing launch screenshot...
+Recording screen for 5s...
+Capturing final screenshot...
+Collecting focused activity and filtered logs...</pre>
+  </main>
+</body>
+</html>
