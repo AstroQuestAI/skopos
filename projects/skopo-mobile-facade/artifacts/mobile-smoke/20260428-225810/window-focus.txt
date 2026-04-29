@@ -1,0 +1,18 @@
+      Window #2: WindowStateAnimator{ee7b6bf com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mPackageName=com.anonymous.astroquest
+  deepestLastOrientationSource=ActivityRecord{389f3f3 u0 com.anonymous.astroquest/.MainActivity t18}
+  mCurrentFocus=Window{f959ce8 u0 Application Not Responding: com.google.android.apps.nexuslauncher}
+  mFocusedApp=ActivityRecord{389f3f3 u0 com.anonymous.astroquest/.MainActivity t18}
+  mObscuringWindow=Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      mPreferredTopFocusableRootTask=Task{45b16ae #18 type=standard A=10207:com.anonymous.astroquest}
+      mLastFocusedRootTask=Task{45b16ae #18 type=standard A=10207:com.anonymous.astroquest}
+      * Task{45b16ae #18 type=standard A=10207:com.anonymous.astroquest U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{389f3f3 u0 com.anonymous.astroquest/.MainActivity t18}
+    mTopFullscreenOpaqueWindowState=Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    mNavBarBackgroundWindowCandidate=Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+      Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  ActivityRecord{389f3f3 u0 com.anonymous.astroquest/.MainActivity t18}
+  Window #9 Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+    mOwnerUid=10207 showForAllUsers=false package=com.anonymous.astroquest appop=NONE
+    WindowStateAnimator{ee7b6bf com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+  imeLayeringTarget in display# 0 Window{144c67c u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}

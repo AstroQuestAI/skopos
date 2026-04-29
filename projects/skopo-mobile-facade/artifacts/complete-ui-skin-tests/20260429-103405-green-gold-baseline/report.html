@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Complete UI Skin Tests - 20260429-103405</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f6f7f9; color: #1d2430; }
+    main { max-width: 1080px; margin: 0 auto; padding: 28px; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin-top: 28px; font-size: 18px; }
+    .status { display: inline-block; padding: 8px 12px; border-radius: 999px; font-weight: 700; background: #dff7e8; color: #126b35; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card { background: white; border: 1px solid #dde2ea; border-radius: 10px; padding: 16px; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04); }
+    img, video { width: 100%; border-radius: 8px; border: 1px solid #d9dee7; background: #111; }
+    code, pre { background: #111827; color: #e5e7eb; border-radius: 8px; }
+    pre { padding: 14px; overflow: auto; white-space: pre-wrap; }
+    a { color: #006fba; font-weight: 700; }
+  </style>
+</head>
+<body>
+	  <main>
+    <h1>Complete UI Skin Tests</h1>
+    <p><strong>Run:</strong> 20260429-103405</p>
+    <p><strong>Status:</strong> <span class="status">success</span></p>
+    <p>App launched and the full automated theme/control test was recorded as one video within 60s.</p>
+
+	    <h2>Artifacts</h2>
+    <div class="grid">
+
+      <section class="card">
+        <h3>Screen Recording</h3>
+        <video controls src="screenrecord.mp4"></video>
+        <p><a href="screenrecord.mp4">Open MP4</a></p>
+      </section>
+	    </div>
+
+
+
+    <h2>Device</h2>
+    <pre>List of devices attached
+emulator-5554          device product:sdk_gphone64_arm64 model:sdk_gphone64_arm64 device:emu64a transport_id:16</pre>
+
+    <h2>Run Log</h2>
+    <pre>&gt; Task :react-native-worklets:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+&gt; Task :react-native-screens:copyReleaseJniLibsProjectOnly UP-TO-DATE
+&gt; Task :expo-modules-core:lintVitalAnalyzeRelease UP-TO-DATE
+&gt; Task :react-native-worklets:extractDeepLinksForAarRelease UP-TO-DATE
+&gt; Task :expo-modules-core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+&gt; Task :react-native-worklets:extractReleaseAnnotations UP-TO-DATE
+&gt; Task :react-native-worklets:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+&gt; Task :react-native-worklets:mergeReleaseConsumerProguardFiles UP-TO-DATE
+&gt; Task :react-native-worklets:mergeReleaseJavaResource UP-TO-DATE
+&gt; Task :react-native-worklets:syncReleaseLibJars UP-TO-DATE
+&gt; Task :react-native-worklets:bundleReleaseLocalLintAar UP-TO-DATE
+&gt; Task :react-native-worklets:writeReleaseLintModelMetadata UP-TO-DATE
+&gt; Task :react-native-worklets:lintVitalAnalyzeRelease UP-TO-DATE
+&gt; Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+&gt; Task :react-native-worklets:generateReleaseLintVitalModel UP-TO-DATE
+&gt; Task :react-native-reanimated:configureCMakeRelWithDebInfo[armeabi-v7a]
+&gt; Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86]
+&gt; Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86_64]
+&gt; Task :react-native-reanimated:generateJsonModelRelease
+&gt; Task :react-native-reanimated:prefabReleaseConfigurePackage UP-TO-DATE
+&gt; Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+&gt; Task :react-native-reanimated:buildCMakeRelWithDebInfo[armeabi-v7a][reanimated]
+&gt; Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86][reanimated]
+&gt; Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86_64][reanimated]
+&gt; Task :react-native-reanimated:externalNativeBuildRelease
+&gt; Task :react-native-reanimated:prefabReleasePackage UP-TO-DATE
+&gt; Task :react-native-reanimated:mergeReleaseNativeLibs UP-TO-DATE
+&gt; Task :react-native-reanimated:stripReleaseDebugSymbols UP-TO-DATE
+&gt; Task :react-native-reanimated:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+&gt; Task :react-native-reanimated:bundleReleaseLocalLintAar UP-TO-DATE
+&gt; Task :react-native-reanimated:lintVitalAnalyzeRelease UP-TO-DATE
+&gt; Task :react-native-reanimated:copyReleaseJniLibsProjectOnly UP-TO-DATE
+&gt; Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+&gt; Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[arm64-v8a]
+&gt; Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[armeabi-v7a]
+&gt; Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[armeabi-v7a]
+&gt; Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86]
+&gt; Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[x86]
+&gt; Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86_64]
+&gt; Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[x86_64]
+&gt; Task :react-native-gesture-handler:mergeReleaseNativeLibs UP-TO-DATE
+&gt; Task :react-native-gesture-handler:stripReleaseDebugSymbols UP-TO-DATE
+&gt; Task :react-native-gesture-handler:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+&gt; Task :react-native-gesture-handler:bundleReleaseLocalLintAar UP-TO-DATE
+&gt; Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly UP-TO-DATE
+&gt; Task :react-native-gesture-handler:lintVitalAnalyzeRelease UP-TO-DATE
+
+&gt; Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+| (node:64720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:64721) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 63.3% (553/695)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 74.2% ( 900/1288)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 87.1% (1662/1781)
+Android Bundled 12506ms node_modules/expo-router/entry.js (1984 modules)
+Writing bundle output to: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle
+Writing sourcemap output to: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/frontend/android/app/build/intermediates/sourcemaps/react/release/index.android.bundle.packager.map
+Copying 47 asset files
+Done writing bundle output
+Done writing sourcemap output
+
+&gt; Task :app:preBuild
+&gt; Task :app:preReleaseBuild
+&gt; Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+&gt; Task :app:generateReleaseBuildConfig UP-TO-DATE
+&gt; Task :app:checkReleaseAarMetadata UP-TO-DATE
+&gt; Task :app:generateReleaseResValues UP-TO-DATE
+&gt; Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+&gt; Task :app:generateReleaseResources UP-TO-DATE
+&gt; Task :app:mergeReleaseResources UP-TO-DATE
+&gt; Task :app:packageReleaseResources UP-TO-DATE
+&gt; Task :app:parseReleaseLocalResources UP-TO-DATE
+&gt; Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+&gt; Task :app:extractDeepLinksRelease UP-TO-DATE
+&gt; Task :app:processReleaseMainManifest UP-TO-DATE
+&gt; Task :app:processReleaseManifest UP-TO-DATE
+&gt; Task :app:processReleaseManifestForPackage UP-TO-DATE
+&gt; Task :app:processReleaseResources UP-TO-DATE
+&gt; Task :app:compileReleaseKotlin UP-TO-DATE
+&gt; Task :app:javaPreCompileRelease UP-TO-DATE
+&gt; Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+&gt; Task :app:dexBuilderRelease UP-TO-DATE
+&gt; Task :app:desugarReleaseFileDependencies UP-TO-DATE
+&gt; Task :app:mergeReleaseStartupProfile UP-TO-DATE
+&gt; Task :app:mergeExtDexRelease UP-TO-DATE
+&gt; Task :app:mergeDexRelease UP-TO-DATE
+&gt; Task :app:mergeReleaseArtProfile UP-TO-DATE
+&gt; Task :app:mergeReleaseGlobalSynthetics UP-TO-DATE
+&gt; Task :app:compileReleaseArtProfile UP-TO-DATE
+&gt; Task :app:mergeReleaseShaders UP-TO-DATE
+&gt; Task :app:compileReleaseShaders NO-SOURCE
+&gt; Task :app:generateReleaseAssets UP-TO-DATE
+&gt; Task :app:mergeReleaseAssets
+&gt; Task :app:extractReleaseVersionControlInfo UP-TO-DATE
+&gt; Task :app:extractProguardFiles UP-TO-DATE
+&gt; Task :app:generateReleaseLintVitalReportModel UP-TO-DATE
+&gt; Task :app:compressReleaseAssets
+&gt; Task :app:lintVitalAnalyzeRelease UP-TO-DATE
+&gt; Task :app:lintVitalReportRelease UP-TO-DATE
+&gt; Task :app:lintVitalRelease
+&gt; Task :app:processReleaseJavaRes UP-TO-DATE
+&gt; Task :app:mergeReleaseJavaResource UP-TO-DATE
+&gt; Task :app:optimizeReleaseResources UP-TO-DATE
+&gt; Task :app:collectReleaseDependencies UP-TO-DATE
+&gt; Task :app:sdkReleaseDependencyData UP-TO-DATE
+&gt; Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+&gt; Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+&gt; Task :app:configureCMakeRelWithDebInfo[armeabi-v7a]
+&gt; Task :app:buildCMakeRelWithDebInfo[armeabi-v7a]
+&gt; Task :app:configureCMakeRelWithDebInfo[x86]
+&gt; Task :app:buildCMakeRelWithDebInfo[x86]
+&gt; Task :app:configureCMakeRelWithDebInfo[x86_64]
+&gt; Task :app:buildCMakeRelWithDebInfo[x86_64]
+&gt; Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+&gt; Task :app:mergeReleaseNativeLibs UP-TO-DATE
+&gt; Task :app:stripReleaseDebugSymbols UP-TO-DATE
+&gt; Task :app:validateSigningRelease UP-TO-DATE
+&gt; Task :app:writeReleaseAppMetadata UP-TO-DATE
+&gt; Task :app:writeReleaseSigningConfigVersions UP-TO-DATE
+&gt; Task :app:packageRelease
+&gt; Task :app:createReleaseApkListingFileRedirect UP-TO-DATE
+
+&gt; Task :app:installRelease
+Installing APK 'app-release.apk, app-release.dm' on 's25_ultra_like(AVD) - 15' for :app:release
+Installed on 1 device.
+
+[Incubating] Problems report is available at: file:///Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/frontend/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 50s
+603 actionable tasks: 60 executed, 543 up-to-date
+Clearing logs and launching com.anonymous.astroquest...
+Starting: Intent { cmp=com.anonymous.astroquest/.MainActivity }
+Launched with am start.
+System ANR dialog detected; tapping Wait at 720 1760.
+Recording full testing process for 60s...
+Running fast 60s video theme/control sweep...
+Fast sweep tap at 220 514.
+Fast sweep tap at 562 514.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep horizontal swipe.
+Fast sweep tap at 562 514.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep horizontal swipe.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep tap at 1231 864.
+Fast sweep tap at 1098 2737.
+Fast sweep tap at 720 2992.
+Fast sweep tap at 1200 2992.
+Collecting focused activity and filtered logs...</pre>
+  </main>
+</body>
+</html>

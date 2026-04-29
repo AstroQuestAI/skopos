@@ -1,0 +1,32 @@
+Run: 20260428-234711
+Output: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-234711
+ADB: /Users/apple/Library/Android/sdk/platform-tools/adb
+Connected devices:
+List of devices attached
+emulator-5554          device product:sdk_gphone64_arm64 model:sdk_gphone64_arm64 device:emu64a transport_id:14
+
+Skipping install because INSTALL_RELEASE=0
+Clearing logs and launching com.anonymous.astroquest...
+Starting: Intent { cmp=com.anonymous.astroquest/.MainActivity }
+Launched with am start.
+System ANR dialog detected; tapping Wait at 720 1760.
+Recording full testing process for 60s...
+Running fast 60s video theme/control sweep...
+Fast sweep tap at 220 514.
+Fast sweep tap at 562 514.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep horizontal swipe.
+Fast sweep tap at 562 514.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep horizontal swipe.
+Fast sweep tap at 904 514.
+Fast sweep tap at 1246 514.
+Fast sweep tap at 1231 864.
+Fast sweep tap at 1098 2737.
+Fast sweep tap at 720 2992.
+Fast sweep tap at 1200 2992.
+Collecting focused activity and filtered logs...
+Report: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-234711/report.html
+Latest: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/latest.html

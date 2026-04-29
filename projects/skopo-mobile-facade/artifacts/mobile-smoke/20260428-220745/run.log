@@ -1,0 +1,22 @@
+Run: 20260428-220745
+Output: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-220745
+ADB: /Users/apple/Library/Android/sdk/platform-tools/adb
+Connected devices:
+List of devices attached
+00086348U001713        device usb:0-1 product:PacmanProIND model:A142P device:PacmanPro transport_id:2
+
+Skipping install because INSTALL_RELEASE=0
+Clearing logs and launching com.anonymous.astroquest...
+  bash arg: -p
+  bash arg: com.anonymous.astroquest
+  bash arg: -c
+  bash arg: android.intent.category.LAUNCHER
+  bash arg: 1
+Events injected: 1
+## Network stats: elapsed time=83ms (0ms mobile, 0ms wifi, 83ms not connected)
+Capturing launch screenshot...
+Recording screen for 5s...
+Capturing final screenshot...
+Collecting focused activity and filtered logs...
+Report: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-220745/report.html
+Latest: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/latest.html

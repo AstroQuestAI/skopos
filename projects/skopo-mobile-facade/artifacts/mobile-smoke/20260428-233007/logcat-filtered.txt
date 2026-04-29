@@ -1,0 +1,281 @@
+04-28 23:30:07.791   571   854 I ActivityManager: Force stopping com.anonymous.astroquest appid=10207 user=0: from pid 1500
+04-28 23:30:07.907   917   917 D CarrierSvcBindHelper: onHandleForceStop: [com.anonymous.astroquest]
+04-28 23:30:08.681   571  1036 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.anonymous.astroquest/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+04-28 23:30:08.691   571   751 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10207 package com.anonymous.astroquest isStopped true
+04-28 23:30:08.868   571   609 I ActivityManager: Start proc 1591:com.anonymous.astroquest/u0a207 for next-top-activity {com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+04-28 23:30:09.012   812   942 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/lib/arm64:/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+04-28 23:30:09.125   571   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk' with 1 weak references
+04-28 23:30:09.335   571  1036 D CoreBackPreview: Window{5b2193 u0 Splash Screen com.anonymous.astroquest}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@8e1d8ce, mPriority=0, mIsAnimationCallback=false}
+04-28 23:30:09.415   873   973 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+04-28 23:30:09.522   571   751 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10207 package com.anonymous.astroquest isStopped false
+04-28 23:30:09.573  1591  1591 D nativeloader: Configuring clns-7 for other apk /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/lib/arm64:/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.anonymous.astroquest
+04-28 23:30:09.617  1591  1591 W SoLoader: Recording new base apk path: /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk
+04-28 23:30:09.618  1591  1591 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a]]
+04-28 23:30:09.619  1591  1591 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/lib/arm64 flags = 0]]
+04-28 23:30:09.797  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libc++_shared.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.812  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libjsi.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.863  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libfbjni.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.907  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libreactnative.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.909  1591  1591 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x708d2695b0
+04-28 23:30:09.909  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x708d283b24
+04-28 23:30:09.909  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x708d28a458
+04-28 23:30:09.934  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libreact_codegen_rnscreens.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.934  1591  1591 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x708d2695b0
+04-28 23:30:09.934  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x708d283b24
+04-28 23:30:09.934  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x708d28a458
+04-28 23:30:09.947  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libreact_codegen_rnsvg.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.947  1591  1591 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x708d2695b0
+04-28 23:30:09.947  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x708d283b24
+04-28 23:30:09.947  1591  1591 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x708d28a458
+04-28 23:30:09.951  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.965  1591  1591 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libappmodules.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:09.978  1591  1591 V ActivityThread: getPackageInfo() caused update to cached ApplicationInfo for package com.anonymous.astroquest
+04-28 23:30:10.010   571   597 V WindowManager:         {WCT{RemoteToken{f9ea3ac Task{e6ebbde #28 type=standard A=10207:com.anonymous.astroquest}}} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=28)/@0x2fca614 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+04-28 23:30:10.501   571   852 I ActivityManager: Background started FGS: Allowed [callingPackage: com.anonymous.astroquest; callingUid: 10207; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.anonymous.astroquest/.AssistantForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+04-28 23:30:10.759  1591  1591 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+04-28 23:30:10.759  1591  1591 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+04-28 23:30:10.759  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+04-28 23:30:10.760  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+04-28 23:30:10.760  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+04-28 23:30:10.771  1591  1591 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+04-28 23:30:10.777  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+04-28 23:30:10.778  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+04-28 23:30:10.806  1591  1746 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libhermes.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:10.806   571   857 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10207 does not have any types
+04-28 23:30:10.808  1591  1746 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libhermestooling.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:10.812   571   854 D CoreBackPreview: Window{e02d01f u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d2b39ed, mPriority=0, mIsAnimationCallback=false}
+04-28 23:30:11.044  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+04-28 23:30:11.046  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+04-28 23:30:11.047  1591  1746 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+04-28 23:30:11.113  1591  1591 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+04-28 23:30:11.305  1591  1748 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libexpo-modules-core.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:11.341  1591  1748 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+04-28 23:30:11.525   571  1429 E AppSearchManagerService: java.lang.IllegalArgumentException: Tried to schedule job for non-existent component: ComponentInfo{android/com.android.server.appsearch.AppSearchMaintenanceService}
+04-28 23:30:11.622  1591  1748 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/librnscreens.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:11.629  1591  1748 I ReactNativeJS: Running "main"
+04-28 23:30:11.632  1282  1282 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=28, baseIntent=Intent { flg=0x10000000 cmp=com.anonymous.astroquest/.MainActivity }
+04-28 23:30:11.652  1591  1748 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libworklets.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:11.678  1591  1748 D nativeloader: Load /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!/lib/arm64-v8a/libreanimated.so using ns clns-7 from class loader (caller=/data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk!classes2.dex): ok
+04-28 23:30:11.976  1368  1886 W ModernMediaScanner: Failed to visit /system/media: java.nio.file.NoSuchFileException: /system/media
+04-28 23:30:11.981  1282  1845 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+04-28 23:30:11.981  1282  1845 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+04-28 23:30:11.981  1282  1845 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+04-28 23:30:12.621  1368  1886 W ModernMediaScanner: Failed to visit /oem/media: java.nio.file.NoSuchFileException: /oem/media
+04-28 23:30:13.335   571   597 I ActivityTaskManager: Displayed com.anonymous.astroquest/.MainActivity for user 0: +4s950ms
+04-28 23:30:13.871   571   691 I ImeTracker: com.anonymous.astroquest:e12dded2: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 23:30:13.871   571   691 I ImeTracker: com.anonymous.astroquest:e12dded2: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-28 23:30:13.876  1283  1283 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.astroquest, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 23:30:13.877   571   592 W PackageConfigPersister: App-specific configuration not found for packageName: com.anonymous.astroquest and userId: 0
+04-28 23:30:13.941  1504  1885 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:3187)
+04-28 23:30:13.941  1504  1885 D StrictMode: 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:152)
+04-28 23:30:14.049  1415  1947 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:3187)
+04-28 23:30:14.049  1415  1947 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:3148)
+04-28 23:30:14.049  1415  1947 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:3187)
+04-28 23:30:14.049  1415  1947 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:3148)
+04-28 23:30:14.489   571  1546 D CoreBackPreview: Window{5b2193 u0 Splash Screen com.anonymous.astroquest}: Setting back callback null
+04-28 23:30:14.493   571  1627 W InputManager-JNI: Input channel object '5b2193 Splash Screen com.anonymous.astroquest (client)' was disposed without first being removed with the input manager!
+04-28 23:30:14.980  2086  2086 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:30:15.032  2086  2086 I AndroidRuntime: Using default boot image
+04-28 23:30:15.032  2086  2086 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:30:15.459  1030  2093 I GmsActivityDetector: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/geofencer_ad_state: open failed: ENOENT (No such file or directory)
+04-28 23:30:15.459  1030  2093 I GmsActivityDetector: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-28 23:30:15.751  1591  2108 D ProfileInstaller: Skipping profile installation for com.anonymous.astroquest
+04-28 23:30:15.888  1030  1139 W FontLog : java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+04-28 23:30:16.313  2086  2086 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:30:16.472  1394  1407 W ogle.android.as: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk' with 1 weak references
+04-28 23:30:16.608  1496  1846 I BugleRcs: android.content.pm.PackageManager$NameNotFoundException: com.google.android.ims
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: java.lang.SecurityException: Failed to find provider com.google.android.apps.turbo.estimated_time_remaining for user 0; expected to find a valid ContentProvider for this authority
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: 	at android.os.Parcel.createException(Parcel.java:3226)
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: 	at android.os.Parcel.readException(Parcel.java:3209)
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: 	at android.os.Parcel.readException(Parcel.java:3151)
+04-28 23:30:18.587   812   812 E BatteryInfoBroadcast: Caused by: android.os.RemoteException: Remote stack trace:
+04-28 23:30:19.514  1282  1365 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+04-28 23:30:20.284  1394  1722 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+04-28 23:30:20.437  1590  2039 W Icing   : Failed to get Lockbox signed-in status: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:21.915  1504  2152 E HotwordModelConfigFetcher: Hotword model config fetch from protodatastore failed with exception.
+04-28 23:30:21.915  1504  2152 E HotwordModelConfigFetcher: java.util.concurrent.TimeoutException: Waited 1800 milliseconds (plus 18 milliseconds, 280751 nanoseconds delay) but future completed as timeout expired
+04-28 23:30:22.334   812   820 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk' with 1 weak references
+04-28 23:30:23.178   917   917 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+04-28 23:30:23.183   873   973 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+04-28 23:30:23.188  1590  1883 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:23.973  1030  2217 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+04-28 23:30:23.973  1030  2217 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+04-28 23:30:23.973  1030  2217 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-28 23:30:24.020   917   917 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+04-28 23:30:24.020   917   917 W Telephony: registerImsRegistrationCallback: registration failed, no ImsService available. Exception: code: 1
+04-28 23:30:24.155  1496  1496 W GnpSdk  : java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.Object eeaz.b()' on a null object reference
+04-28 23:30:24.280   917   917 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+04-28 23:30:24.389  1282  1365 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+04-28 23:30:25.216  1591  1591 I ActivityThread: ApplicationInfo updating for com.anonymous.astroquest, new timestamp: 44736
+04-28 23:30:25.461  1591  1591 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+04-28 23:30:25.473  1283  1283 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.astroquest, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, true)
+04-28 23:30:25.500   571  1542 W PackageConfigPersister: App-specific configuration not found for packageName: com.anonymous.astroquest and userId: 0
+04-28 23:30:25.599   571  1546 D CoreBackPreview: Window{e02d01f u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}: Setting back callback null
+04-28 23:30:25.661   571   654 W InputManager-JNI: Input channel object 'e02d01f com.anonymous.astroquest/com.anonymous.astroquest.MainActivity (client)' was disposed without first being removed with the input manager!
+04-28 23:30:25.752   873   973 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+04-28 23:30:25.861  1591  1591 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+04-28 23:30:25.861  1591  1591 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+04-28 23:30:25.862  1591  1746 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+04-28 23:30:25.879  1591  1746 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+04-28 23:30:25.881  1591  1748 I ReactNativeJS: Running "main"
+04-28 23:30:25.883  1591  1591 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+04-28 23:30:25.900   571   857 D CoreBackPreview: Window{171dd12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1ee61f8, mPriority=0, mIsAnimationCallback=false}
+04-28 23:30:26.055  1591  1591 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Schedule
+04-28 23:30:26.055  1591  1591 W unknown:BridgelessReact: ReactHost{0}.detachSurface(surfaceId = 1)
+04-28 23:30:26.056  1591  1591 W unknown:BridgelessReact: ReactHost{0}.onHostDestroy(activity)
+04-28 23:30:26.056   571   854 I WindowManager: finishDrawing of relaunch: Window{171dd12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity} 690ms
+04-28 23:30:26.057  1030  2217 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+04-28 23:30:26.057  1030  2217 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+04-28 23:30:26.057  1030  2217 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-28 23:30:26.164  1591  1746 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Execute
+04-28 23:30:26.180  1590  1597 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk' with 1 weak references
+04-28 23:30:26.745  2086  2086 D AndroidRuntime: Shutting down VM
+04-28 23:30:26.856  1415  1415 E VS.BluetoothShim: java.lang.NoSuchMethodException: android.bluetooth.BluetoothHeadset.startScoUsingVirtualVoiceCall [class android.bluetooth.BluetoothDevice]
+04-28 23:30:27.055  1504  2152 I NearmissAnalysisInfo: java.util.concurrent.TimeoutException: Waited 10 milliseconds (plus 7 milliseconds, 177625 nanoseconds delay) for i@a1ffb9b[status=PENDING, info=[inputFuture=[cg@3298b38[status=PENDING, info=[delegate=[h@66b8711[status=PENDING, info=[inputFuture=[com.google.apps.tiktok.concurrent.an@715e076[status=PENDING, info=[callable=[com.google.android.libraries.storage.protostore.el@ff8b677], trial=[com.google.apps.tiktok.concurrent.ao@b8822e4[status=PENDING, setFuture=[dv@3f0834d[status=PENDING, setFuture=[be@ff78e02[status=PENDING, info=[futures=[com.google.apps.tiktok.concurrent.an@1384313[status=PENDING, info=[callable=[com.google.android.libraries.storage.protostore.bn@d168950], trial=[com.google.apps.tiktok.concurrent.ao@44f0749[status=PENDING, setFuture=[dv@554884e[status=PENDING, setFuture=[i@d9fd6f[status=PENDING, info=[inputFuture=[h@ae2ea7c[status=PENDING, setFuture=[com.google.apps.tiktok.concurrent.an@df7cf05[status=PENDING, info=[callable=[com.google.android.libraries.storage.protostore.ca@674db5a], trial=[com.google.apps.tiktok.concurrent.ao@c33018b[status=PENDING, setFuture=[dv@8b23268[status=PENDING, info=[task=[running=[NOT STARTED YET], propagating=[com.google.android.libraries.storage.protostore.ca@674db5a]]]]]]]]]]]], function=[Functions.constant(null)]]]]]]]]]]]]]]]]]]]]], function=[propagating=[com.google.android.libraries.storage.protostore.ej@3ab5681]]]]]]]], function=[com.google.android.apps.gsa.nga.shared.f.a.dp@d155326]]]
+04-28 23:30:27.490   571  1494 I ActivityManager: Background started FGS: Allowed [callingPackage: com.google.android.apps.messaging; callingUid: 10138; uidState: BFGS; uidBFSL: [BFSL]; intent: Intent { cmp=com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:PROC_STATE_BFGS; tempAllowListReason:<b874c7d android.intent.action.BOOT_COMPLETED/u0,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+04-28 23:30:27.583   571  2064 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.InternalForegroundService
+04-28 23:30:27.599   571  2064 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10138 does not have any types
+04-28 23:30:27.658   571   691 I ImeTracker: com.anonymous.astroquest:2330696: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-28 23:30:27.658   571   691 I ImeTracker: com.anonymous.astroquest:2330696: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-28 23:30:27.672  1283  1283 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.astroquest, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-28 23:30:27.803   571  1546 W PackageConfigPersister: App-specific configuration not found for packageName: com.anonymous.astroquest and userId: 0
+04-28 23:30:28.981   571  1542 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10138 has no types!
+04-28 23:30:29.170   571  1542 I ActivityManager: Background started FGS: Allowed [callingPackage: com.google.android.apps.messaging; callingUid: 10138; uidState: BFGS; uidBFSL: [BFSL]; intent: Intent { cmp=com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:PROC_STATE_BFGS; tempAllowListReason:<b874c7d android.intent.action.BOOT_COMPLETED/u0,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+04-28 23:30:29.191   571  2064 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.InternalForegroundService
+04-28 23:30:29.191   571  2064 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10138 does not have any types
+04-28 23:30:30.347  1282  1365 W PackageManager: android.content.res.Resources$NotFoundException: String resource ID #0x7f130786
+04-28 23:30:31.260   571  2064 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10138 has no types!
+04-28 23:30:31.420  1030  1139 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:31.437  1504  1885 W A       : android.content.pm.PackageManager$NameNotFoundException: Application package com.google.android.googlequicksearchbox.nga_resources not found
+04-28 23:30:31.936  1030  1139 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:32.880  1504  1777 E ApplicationPropertiesBu: java.lang.NumberFormatException: For input string: "messages"
+04-28 23:30:32.955  1504  1877 E A       : com.google.android.libraries.geller.portable.GellerException: Code: INVALID_ARGUMENT, Message: Account name is null.
+04-28 23:30:32.967  1504  1777 W A       : (REDACTED) Exception while fetching versionCode for package[%s].
+04-28 23:30:32.967  1504  1777 W A       : android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.tv.dreamx
+04-28 23:30:32.967  1504  1777 W A       : (REDACTED) Exception while fetching versionCode for package[%s].
+04-28 23:30:32.967  1504  1777 W A       : android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.tv.launcherx
+04-28 23:30:33.762  2542  2587 W ProviderInstaller: Failed to report request stats: java.lang.NoSuchMethodException: com.google.android.gms.common.security.ProviderInstallerImpl.reportRequestStats [class android.content.Context, long, long]
+04-28 23:30:34.757  1030  1151 E etxo    : RuntimeException while executing runnable etyd{aasn@b557b40} with executor MoreExecutors.directExecutor()
+04-28 23:30:34.757  1030  1151 E etxo    : java.lang.NullPointerException: Attempt to get length of null array
+04-28 23:30:34.787   571  1546 E RecoverySnapshotStorage: java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10144.xml: open failed: ENOENT (No such file or directory)
+04-28 23:30:34.787   571  1546 E RecoverySnapshotStorage: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-28 23:30:35.069  2542  2611 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:35.631  2711  2711 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:30:35.651  2711  2711 I AndroidRuntime: Using default boot image
+04-28 23:30:35.651  2711  2711 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:30:36.153  2711  2711 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:30:37.188  1590  2644 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:38.500   925  1052 W BaseSearchIndex: Error initializing controller in fragment: com.android.settings.network.NetworkDashboardFragment$1@b225fe1, e: java.lang.IllegalArgumentException: Lifecycle must be set
+04-28 23:30:38.684   925  1106 W BaseSearchIndex: Error initializing controller in fragment: com.android.settings.network.NetworkDashboardFragment$1@b225fe1, e: java.lang.IllegalArgumentException: Lifecycle must be set
+04-28 23:30:38.819   571   719 E WifiStaIfaceAidlImpl: stopRssiMonitoring failed with service-specific exception: android.os.ServiceSpecificException:  (code 5)
+04-28 23:30:38.820   571   719 E WifiStaIfaceAidlImpl: setRoamingState failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-28 23:30:39.336   925   938 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~RLlNlNLPmHYat7ek2_XeNQ==/com.anonymous.astroquest-a9yEFf9qqCbqZumlzhWRog==/base.apk' with 1 weak references
+04-28 23:30:39.537  1590  2032 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:39.634  1590  2032 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:39.708   925  1106 E HardwareInfoFeatureProviderImpl: java.lang.NumberFormatException: For input string: "E"
+04-28 23:30:39.708   925  1052 E HardwareInfoFeatureProviderImpl: java.lang.NumberFormatException: For input string: "E"
+04-28 23:30:39.714  1590  2814 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:41.246  1590  2658 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:41.345  1590  2658 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:30:41.375   925  1052 W BaseSearchIndex: Error initializing controller in fragment: com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment$1@b201a51, e: java.lang.IllegalStateException: Cannot invoke setValue on a background thread
+04-28 23:30:41.923   925  1106 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+04-28 23:30:42.052  1030  2740 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+04-28 23:30:42.486  1504  1885 E A       : java.util.concurrent.TimeoutException
+04-28 23:30:42.492  1504  1504 E A       : java.util.concurrent.CancellationException: Task was cancelled.
+04-28 23:30:44.165   925  1106 W BaseSearchIndex: Error initializing controller in fragment: com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment$1@b201a51, e: java.lang.IllegalStateException: Cannot invoke setValue on a background thread
+04-28 23:30:44.435   925  1106 E Settings: android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.accessibility.magnifier
+04-28 23:30:44.436   925  1106 E Settings: android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.tips
+04-28 23:30:45.248  1030  2250 W GLSUser : [AppCertManager] Exception while requesting key: 
+04-28 23:30:45.248  1030  2250 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+04-28 23:30:45.248  1030  2250 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+04-28 23:30:45.304  2468  2476 W Safetyhub.EmergencySearchIndexablesProvider: java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No account, cannot provide search indexables
+04-28 23:30:45.304  2468  2476 W Safetyhub.EmergencySearchIndexablesProvider: Caused by: java.lang.IllegalStateException: No account, cannot provide search indexables
+04-28 23:30:46.265  1030  1861 W NetworkScheduler: java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+04-28 23:30:46.323  2711  2711 D AndroidRuntime: Shutting down VM
+04-28 23:30:46.561  1030  2322 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:48.139   571   908 E JavaBinder: *** Uncaught remote exception! Exceptions are not yet supported across processes. Client PID 1030 UID 10144.
+04-28 23:30:48.139   571   908 E JavaBinder: java.lang.RuntimeException: android.os.RemoteException: Couldn't get targetSdkVersion for package com.android.accelerometergraph
+04-28 23:30:48.139   571   908 E JavaBinder: 	at android.os.Parcel.writeException(Parcel.java:3012)
+04-28 23:30:48.139   571   908 E JavaBinder: Caused by: android.os.RemoteException: Couldn't get targetSdkVersion for package com.android.accelerometergraph
+04-28 23:30:48.219  1504  1911 W io.grpc.a.d: java.lang.NoSuchMethodException: com.google.h.a.l.getScopes []
+04-28 23:30:48.512  1590  2642 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+04-28 23:30:49.660  1030  2011 W AlarmManager: java.lang.IllegalArgumentException: alarm "NetworkLocationLocator" has short window length
+04-28 23:30:55.049  3179  3179 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:30:55.141  3179  3179 I AndroidRuntime: Using default boot image
+04-28 23:30:55.141  3179  3179 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:30:55.576  3179  3179 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:30:55.942  1504  1885 E A       : java.lang.Exception: Not all data is present after download
+04-28 23:31:05.769  3179  3179 D AndroidRuntime: Shutting down VM
+04-28 23:31:11.833  3224  3224 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:31:11.837  3224  3224 I AndroidRuntime: Using default boot image
+04-28 23:31:11.837  3224  3224 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:31:12.028  3224  3224 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:31:13.050   571   719 E WifiStaIfaceAidlImpl: stopRssiMonitoring failed with service-specific exception: android.os.ServiceSpecificException:  (code 5)
+04-28 23:31:13.051   571   719 E WifiStaIfaceAidlImpl: setRoamingState failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-28 23:31:22.307  3224  3224 D AndroidRuntime: Shutting down VM
+04-28 23:31:24.615  1030  3246 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+04-28 23:31:29.869  3272  3272 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:31:29.874  3272  3272 I AndroidRuntime: Using default boot image
+04-28 23:31:29.874  3272  3272 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:31:30.060  3272  3272 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:31:33.684  1590  2888 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+04-28 23:31:40.205  3272  3272 D AndroidRuntime: Shutting down VM
+04-28 23:31:45.863  3317  3317 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:31:45.883  3317  3317 I AndroidRuntime: Using default boot image
+04-28 23:31:45.883  3317  3317 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:31:46.082  3317  3317 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:31:47.029   571   719 E WifiStaIfaceAidlImpl: stopRssiMonitoring failed with service-specific exception: android.os.ServiceSpecificException:  (code 5)
+04-28 23:31:47.029   571   719 E WifiStaIfaceAidlImpl: setRoamingState failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-28 23:31:56.291  3317  3317 D AndroidRuntime: Shutting down VM
+04-28 23:32:03.753  3354  3354 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:32:03.778  3354  3354 I AndroidRuntime: Using default boot image
+04-28 23:32:03.778  3354  3354 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:32:03.974  3354  3354 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:32:14.083  3354  3354 D AndroidRuntime: Shutting down VM
+04-28 23:32:19.615  3403  3403 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:32:19.633  3403  3403 I AndroidRuntime: Using default boot image
+04-28 23:32:19.633  3403  3403 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:32:19.856  3403  3403 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:32:21.088   571   719 E WifiStaIfaceAidlImpl: stopRssiMonitoring failed with service-specific exception: android.os.ServiceSpecificException:  (code 5)
+04-28 23:32:21.088   571   719 E WifiStaIfaceAidlImpl: setRoamingState failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-28 23:32:30.096  3403  3403 D AndroidRuntime: Shutting down VM
+04-28 23:32:37.326  3443  3443 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:32:37.329  3443  3443 I AndroidRuntime: Using default boot image
+04-28 23:32:37.329  3443  3443 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:32:37.391  3443  3443 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:32:39.380  1030  3460 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+04-28 23:32:40.207  1030  1044 W GLSUser : [AppCertManager] Exception while requesting key: 
+04-28 23:32:40.207  1030  1044 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+04-28 23:32:40.207  1030  1044 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+04-28 23:32:40.230  1590  1957 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+04-28 23:32:40.417  1590  3470 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:32:40.546  1590  3470 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-28 23:32:41.568  1030  3497 W NetworkScheduler: java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+04-28 23:32:47.525  3443  3443 D AndroidRuntime: Shutting down VM
+04-28 23:32:53.418  3533  3533 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:32:53.438  3533  3533 I AndroidRuntime: Using default boot image
+04-28 23:32:53.438  3533  3533 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:32:53.767  3533  3533 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:32:55.071   571   719 E WifiStaIfaceAidlImpl: stopRssiMonitoring failed with service-specific exception: android.os.ServiceSpecificException:  (code 5)
+04-28 23:32:55.071   571   719 E WifiStaIfaceAidlImpl: setRoamingState failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-28 23:33:03.998  3533  3533 D AndroidRuntime: Shutting down VM
+04-28 23:33:10.126  3565  3565 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:33:10.134  3565  3565 I AndroidRuntime: Using default boot image
+04-28 23:33:10.137  3565  3565 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:33:10.401  3565  3565 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:33:20.947  3565  3565 D AndroidRuntime: Shutting down VM
+04-28 23:33:36.861  3638  3638 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:33:36.869  3638  3638 I AndroidRuntime: Using default boot image
+04-28 23:33:36.869  3638  3638 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:33:37.106  3638  3638 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:33:47.379  3638  3638 D AndroidRuntime: Shutting down VM
+04-28 23:33:52.099  1030  1994 W GLSUser : [AppCertManager] Exception while requesting key: 
+04-28 23:33:52.099  1030  1994 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+04-28 23:33:52.099  1030  1994 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+04-28 23:33:52.117  1590  2888 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+04-28 23:34:01.355  3974  3974 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+04-28 23:34:01.389  3974  3974 I AndroidRuntime: Using default boot image
+04-28 23:34:01.389  3974  3974 I AndroidRuntime: Leaving lock profiling enabled
+04-28 23:34:01.830  3974  3974 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+04-28 23:34:11.949  3974  3974 D AndroidRuntime: Shutting down VM
