@@ -1,0 +1,19 @@
+      Window #7: WindowStateAnimator{feb6195 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+    numWindow=1 mCanAddInternalSystemWindow=false mAlertWindows={} mClientDead=false    mPackageName=com.anonymous.astroquest
+  mCurrentFocus=Window{58562f1 u0 NotificationShade}
+  mFocusedApp=ActivityRecord{45857932 u0 com.anonymous.astroquest/.MainActivity t5433}
+      mPreferredTopFocusableRootTask=Task{daa1fd5 #5433 type=standard A=10327:com.anonymous.astroquest}
+      mLastFocusedRootTask=Task{daa1fd5 #5433 type=standard A=10327:com.anonymous.astroquest}
+      * Task{daa1fd5 #5433 type=standard A=10327:com.anonymous.astroquest U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{45857932 u0 com.anonymous.astroquest/.MainActivity t5433}
+      Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+        mControlTarget=Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  ActivityRecord{45857932 u0 com.anonymous.astroquest/.MainActivity t5433}
+  Window #11 Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+    mOwnerUid=10327 showForAllUsers=false package=com.anonymous.astroquest appop=NONE
+    WindowStateAnimator{feb6195 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}:
+  imeLayeringTarget in display# 0 Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeInputTarget in display# 0 Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+  imeControlTarget in display# 0 Window{58bad12 u0 com.anonymous.astroquest/com.anonymous.astroquest.MainActivity}
+     topApp=ActivityRecord{45857932 u0 com.anonymous.astroquest/.MainActivity t5433}
+     snapshot=TaskSnapshot{ mId=1777394278920 mCaptureTime=209396221546840 mTopActivityComponent=com.anonymous.astroquest/.MainActivity mSnapshot=android.hardware.HardwareBuffer@a017050 (758x1688) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1084, 2412) mContentInsets=[0,126][0,63] mLetterboxInsets=[0,0][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false mInternalReferences=2 mWriteToParcelCount=0 mUiMode=21

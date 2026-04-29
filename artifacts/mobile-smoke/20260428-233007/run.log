@@ -1,0 +1,45 @@
+Run: 20260428-233007
+Output: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-233007
+ADB: /Users/apple/Library/Android/sdk/platform-tools/adb
+Connected devices:
+List of devices attached
+emulator-5554          device product:sdk_gphone64_arm64 model:sdk_gphone64_arm64 device:emu64a transport_id:12
+
+Skipping install because INSTALL_RELEASE=0
+Clearing logs and launching com.anonymous.astroquest...
+Starting: Intent { cmp=com.anonymous.astroquest/.MainActivity }
+Launched with am start.
+System ANR dialog detected; tapping Wait at 720 1764.
+Capturing launch screenshot...
+Running 10-theme coordinate click/display sweep...
+Tapping theme coordinate '01-violet-amber-light' at 280 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '02-violet-amber-dark' at 756 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '03-ocean-blue-light' at 1196 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '04-ocean-blue-dark' at 938 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '05-rose-gold-light' at 1287 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '06-rose-gold-dark' at 1050 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '07-forest-green-light' at 1343 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '08-forest-green-dark' at 1231 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '09-midnight-slate-light' at 1062 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping theme coordinate '10-midnight-slate-dark' at 1349 514.
+System ANR dialog detected; tapping Wait at 720 1764.
+Tapping protection toggle at 1231 864.
+Tapping lookup action at 1098 2737.
+Tapping History tab at 720 2992.
+Tapping Profile tab at 1200 2992.
+Recording screen for 8s...
+System ANR dialog detected; tapping Wait at 720 1764.
+Capturing final screenshot...
+System ANR dialog detected; tapping Wait at 720 1764.
+Collecting focused activity and filtered logs...
+Report: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/20260428-233007/report.html
+Latest: /Users/apple/Documents/Codex/2026-04-27/i-am-builing-an-app-that/artifacts/mobile-smoke/latest.html

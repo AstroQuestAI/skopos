@@ -1,0 +1,27 @@
+      Window #2: WindowStateAnimator{da90163 com.assistant.skopo/com.assistant.skopo.MainActivity}
+    mPackageName=com.assistant.skopo
+  deepestLastOrientationSource=ActivityRecord{485bee u0 com.assistant.skopo/.MainActivity t253}
+  mCurrentFocus=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+  mFocusedApp=ActivityRecord{485bee u0 com.assistant.skopo/.MainActivity t253}
+  mObscuringWindow=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+      mPreferredTopFocusableRootTask=Task{3716eab #253 type=standard A=10208:com.assistant.skopo}
+      mLastFocusedRootTask=Task{3716eab #253 type=standard A=10208:com.assistant.skopo}
+      * Task{3716eab #253 type=standard A=10208:com.assistant.skopo U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{485bee u0 com.assistant.skopo/.MainActivity t253}
+    mFocusedWindow=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+    mTopFullscreenOpaqueWindowState=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+    mSystemBarColorApps={ActivityRecord{485bee u0 com.assistant.skopo/.MainActivity t253}}
+    mNavBarColorWindowCandidate=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+    mNavBarBackgroundWindowCandidate=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+      Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+      Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}:
+        mControlTarget=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+        mControlTarget=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+        mControlTarget=Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+  ActivityRecord{485bee u0 com.assistant.skopo/.MainActivity t253}
+  Window #8 Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}:
+    mOwnerUid=10208 showForAllUsers=false package=com.assistant.skopo appop=NONE
+    WindowStateAnimator{da90163 com.assistant.skopo/com.assistant.skopo.MainActivity}:
+  imeLayeringTarget in display# 0 Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+  imeInputTarget in display# 0 Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}
+  imeControlTarget in display# 0 Window{40bc00e u0 com.assistant.skopo/com.assistant.skopo.MainActivity}

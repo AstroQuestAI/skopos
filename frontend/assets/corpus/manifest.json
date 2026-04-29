@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-04-19T20:46:01.327219Z",
+  "files": {
+    "situations": {
+      "count": 691,
+      "sha1_short": "cb84467f16f0",
+      "bytes": 986559,
+      "collection": "dbpc_situations"
+    },
+    "yoga_chapters": {
+      "count": 9,
+      "sha1_short": "ed47a112d155",
+      "bytes": 74224,
+      "collection": "dbpc_yoga_chapters"
+    },
+    "famous_charts": {
+      "count": 20,
+      "sha1_short": "8791f3aa4c93",
+      "bytes": 13994,
+      "collection": "dbpc_famous_charts"
+    },
+    "bhavas": {
+      "count": 39,
+      "sha1_short": "ace9e7a14a04",
+      "bytes": 38104,
+      "collection": "dbpc_bhavas"
+    },
+    "bhava_chapters": {
+      "count": 12,
+      "sha1_short": "27b21c580c41",
+      "bytes": 223411,
+      "collection": "dbpc_bhava_chapters"
+    },
+    "concepts": {
+      "count": 14,
+      "sha1_short": "39ba1b2c354f",
+      "bytes": 96168,
+      "collection": "dbpc_concepts"
+    },
+    "muhurta_shlokas": {
+      "count": 169,
+      "sha1_short": "0c8203baf807",
+      "bytes": 174475,
+      "collection": "muhurta_shlokas"
+    }
+  },
+  "version": "f950bb11e9f1"
+}

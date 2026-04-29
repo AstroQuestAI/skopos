@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AstroQuest — Theme 4 · Forest Sage</title>
+<meta name="theme-color" content="#7A9E7E">
+<style>
+  /* ===== Theme 4 — Forest Sage (calm, ayurvedic, generous whitespace) ===== */
+  :root {
+    --c-bg:        #F5EFE0;
+    --c-paper:     #FFFFFF;
+    --c-ink:       #2D3328;
+    --c-ink-soft:  #6B7560;
+    --c-primary:   #5A7C5F;     /* deeper sage */
+    --c-primary-2: #7A9E7E;
+    --c-accent:    #C26B4F;     /* terracotta */
+    --c-rule:      #E5DFCE;
+    --c-success:   #4F7942;
+    --radius:      20px;
+    --font-display:'Fraunces', Georgia, serif;
+    --font-body:   'Nunito', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body {
+    background: var(--c-bg);
+    color: var(--c-ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 500; margin: 0 0 .4em; letter-spacing: -.015em; }
+  h1 { font-size: 2.4rem; font-weight: 400; }
+  h2 { font-size: 1.5rem; color: var(--c-ink); }
+  h3 { font-size: 1.15rem; color: var(--c-primary); }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+  .label { text-transform: uppercase; letter-spacing: .18em; font-size: 11px; font-weight: 700; color: var(--c-accent); }
+
+  .topbar { position: sticky; top: 0; z-index: 10; background: var(--c-bg); border-bottom: 1px solid var(--c-rule); padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+  .topbar .logo { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--c-primary-2), var(--c-primary)); border: 2px solid #fff; }
+  .topbar .brand { font-family: var(--font-display); font-size: 22px; font-weight: 500; color: var(--c-ink); }
+  .topbar .badge { margin-left: auto; background: var(--c-paper); color: var(--c-primary); border: 1px solid var(--c-rule); font-weight: 700; font-size: 12px; padding: 4px 10px; border-radius: 999px; }
+
+  .hero { text-align: center; padding: 72px 24px 50px; }
+  .hero .stamp { width: 110px; height: 110px; margin: 0 auto 24px; border-radius: 50%; background: var(--c-paper); border: 1px solid var(--c-rule); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 44px; color: var(--c-primary); font-weight: 500; box-shadow: 0 8px 30px rgba(122,158,126,.12); }
+  .hero p { color: var(--c-ink-soft); max-width: 540px; margin: 14px auto 0; font-size: 17px; line-height: 1.6; }
+
+  .card { background: var(--c-paper); border: 1px solid var(--c-rule); border-radius: var(--radius); padding: 28px; margin-bottom: 24px; box-shadow: 0 4px 20px rgba(45,51,40,.04); }
+  .section-title { display: flex; align-items: baseline; gap: 12px; margin-bottom: 22px; }
+  .section-title h2 { margin: 0; }
+
+  .login-card { max-width: 440px; margin: 0 auto; text-align: center; padding: 36px; }
+  .btn-google { width: 100%; padding: 16px; background: var(--c-primary); color: var(--c-paper); border: none; border-radius: 999px; font-family: inherit; font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center; gap: 10px; cursor: pointer; }
+  .btn-google .g { width: 22px; height: 22px; border-radius: 50%; background: var(--c-paper); color: var(--c-primary); font-weight: 800; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; }
+
+  .chat .bubble { padding: 16px 20px; border-radius: 18px; max-width: 78%; line-height: 1.6; font-size: 15px; }
+  .chat .me { background: var(--c-primary); color: var(--c-paper); border-bottom-right-radius: 4px; margin-left: auto; }
+  .chat .vidhaata { background: var(--c-bg); border: 1px solid var(--c-rule); border-bottom-left-radius: 4px; margin: 14px 0; }
+  .chat .vidhaata .who { font-size: 11px; font-weight: 700; color: var(--c-accent); margin-bottom: 6px; letter-spacing: .15em; text-transform: uppercase; }
+  .chat-input { margin-top: 18px; display: flex; align-items: center; gap: 8px; background: var(--c-bg); border: 1px solid var(--c-rule); padding: 6px 8px 6px 16px; border-radius: 999px; }
+  .chat-input input { flex: 1; border: none; background: transparent; outline: none; font-family: inherit; font-size: 15px; padding: 8px 0; color: var(--c-ink); }
+  .chat-input button { background: var(--c-primary); color: var(--c-paper); border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 18px; }
+
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .info-tile { background: var(--c-bg); border-radius: 16px; padding: 18px; border: 1px solid var(--c-rule); }
+  .info-tile .label { display: block; margin-bottom: 6px; }
+  .info-tile .v { font-family: var(--font-display); font-size: 1.5rem; color: var(--c-primary); font-weight: 500; }
+  table.planet { width: 100%; border-collapse: collapse; margin-top: 8px; }
+  table.planet th, table.planet td { padding: 13px 8px; text-align: left; border-bottom: 1px solid var(--c-rule); font-size: 14px; }
+  table.planet th { font-size: 10px; text-transform: uppercase; letter-spacing: .18em; color: var(--c-ink-soft); font-weight: 700; }
+  .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .pill.exalted { background: #DCEED5; color: var(--c-success); }
+  .pill.retro   { background: #F8DED2; color: var(--c-accent); }
+  .pill.own     { background: #DBEAFE; color: #1D4ED8; }
+
+  .muhurta-row { display: flex; align-items: center; gap: 16px; padding: 16px; border-radius: 16px; margin-bottom: 8px; background: var(--c-bg); }
+  .muhurta-row .icon { width: 40px; height: 40px; border-radius: 50%; background: var(--c-paper); border: 1px solid var(--c-rule); display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .muhurta-row .when { color: var(--c-ink-soft); font-size: 13px; }
+  .muhurta-row .what { font-weight: 700; }
+
+  .feedback { margin: 36px 0 60px; background: var(--c-paper); border: 1px solid var(--c-primary-2); border-radius: 24px; padding: 32px; box-shadow: 0 8px 40px rgba(122,158,126,.15); }
+  .feedback h2 { margin-bottom: 6px; }
+  .aq-stars { display: inline-flex; gap: 6px; }
+  .aq-star { background: none; border: none; cursor: pointer; font-size: 30px; color: var(--c-rule); padding: 0; transition: color .15s; }
+  .aq-star.on, .aq-star:hover { color: var(--c-accent); }
+  .thumbs { display: inline-flex; gap: 8px; margin-left: 16px; }
+  .thumbs button { width: 44px; height: 36px; border-radius: 999px; border: 1px solid var(--c-rule); background: var(--c-bg); cursor: pointer; font-size: 18px; }
+  .thumbs button.on { border-color: var(--c-accent); background: #F8DED2; }
+  .feedback label { display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--c-ink-soft); letter-spacing: .15em; margin: 18px 0 8px; }
+  .feedback input[type=text], .feedback textarea { width: 100%; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--c-rule); background: var(--c-bg); color: var(--c-ink); font-family: inherit; font-size: 15px; resize: vertical; }
+  .feedback textarea { min-height: 100px; }
+  .feedback .row { display: flex; align-items: center; flex-wrap: wrap; }
+  #aq-fb-submit { margin-top: 14px; background: var(--c-primary); color: var(--c-paper); border: none; padding: 14px 26px; border-radius: 999px; font-family: inherit; font-weight: 700; font-size: 14px; cursor: pointer; }
+  #aq-fb-submit:disabled { opacity: .5; cursor: not-allowed; }
+  .aq-fb-status { margin-top: 10px; font-size: 13px; min-height: 1em; }
+  .aq-fb-status.ok { color: var(--c-success); }
+  .aq-fb-status.err { color: var(--c-accent); }
+  .nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+  .nav a { text-decoration: none; padding: 7px 14px; border-radius: 999px; background: var(--c-paper); border: 1px solid var(--c-rule); color: var(--c-ink-soft); font-size: 13px; }
+  .nav a.active { background: var(--c-primary); color: var(--c-paper); border-color: var(--c-primary); font-weight: 700; }
+  footer { padding: 30px 20px; text-align: center; font-size: 12px; color: var(--c-ink-soft); }
+  @media (max-width: 640px) { .grid-3 { grid-template-columns: 1fr 1fr; } h1 { font-size: 2rem; } }
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito:wght@400;500;600;700&display=swap');
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="logo"></div>
+  <div class="brand">AstroQuest</div>
+  <div class="badge">UAT · Theme 4</div>
+</div>
+
+<section class="hero">
+  <div class="stamp">श्री</div>
+  <span class="label">Forest Sage</span>
+  <h1>Ayushmaan Bhava 🙏</h1>
+  <p>Calm, breathing, ayurvedic. Sage greens and warm terracotta for users who associate astrology with wellness and inner balance.</p>
+</section>
+
+<div class="wrap">
+  <div class="card login-card">
+    <span class="label">Sign in</span>
+    <h2 style="margin-top:6px">Begin your journey</h2>
+    <p style="color:var(--c-ink-soft); font-size:14px;">7-day free trial · your chart stays private to your Google account.</p>
+    <button class="btn-google"><span class="g">G</span> Continue with Google</button>
+  </div>
+
+  <div class="card chat">
+    <div class="section-title"><span class="label">Vidhaata</span><h2>Ask anything about your chart</h2></div>
+    <div class="bubble me">What does my Lagna say about me?</div>
+    <div class="bubble vidhaata">
+      <div class="who">🪷 Vidhaata</div>
+      With <strong>Vrishabha (Taurus) Lagna</strong> and Lagna lord Shukra placed in Karkataka in the 3rd house, you carry an artistic, persistent temperament — driven by sustained effort rather than dramatic shifts. The Pushya nakshatra grouping in the 3rd amplifies your communication and capacity to nurture others.
+    </div>
+    <div class="chat-input">
+      <input placeholder="Ask Vidhaata anything…">
+      <button aria-label="Send">➤</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title"><span class="label">Your chart</span><h2>Overview · Arjun Sharma</h2></div>
+    <div class="grid-3">
+      <div class="info-tile"><span class="label">Ascendant</span><div class="v">Vrishabha</div></div>
+      <div class="info-tile"><span class="label">Moon sign</span><div class="v">Karkataka</div></div>
+      <div class="info-tile"><span class="label">Nakshatra</span><div class="v">Pushya · P1</div></div>
+    </div>
+    <table class="planet">
+      <thead><tr><th>Planet</th><th>Sign</th><th>House</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Sun</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Moon</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Mercury ℞</td><td>Karkataka</td><td>3</td><td><span class="pill retro">Retrograde</span></td></tr>
+        <tr><td>Jupiter</td><td>Karkataka</td><td>3</td><td><span class="pill exalted">Exalted</span></td></tr>
+        <tr><td>Venus</td><td>Karkataka</td><td>3</td><td></td></tr>
+        <tr><td>Mars</td><td>Vrishabha</td><td>1</td><td></td></tr>
+        <tr><td>Saturn</td><td>Simha</td><td>4</td><td></td></tr>
+        <tr><td>Rahu</td><td>Simha</td><td>4</td><td></td></tr>
+        <tr><td>Ketu</td><td>Kumbha</td><td>10</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <div class="section-title"><span class="label">Today</span><h2>Auspicious windows · Hyderabad</h2></div>
+    <div class="muhurta-row"><div class="icon">🪙</div><div style="flex:1"><div class="what">Buy gold or silver</div><div class="when">Abhijit Muhurta · 11:51 AM – 12:42 PM</div></div></div>
+    <div class="muhurta-row"><div class="icon">🚗</div><div style="flex:1"><div class="what">Begin a journey</div><div class="when">Amrita Kaala · 5:14 AM – 6:36 AM</div></div></div>
+    <div class="muhurta-row"><div class="icon">🪔</div><div style="flex:1"><div class="what">Puja / havan</div><div class="when">Brahma Muhurta · 4:18 AM – 5:06 AM</div></div></div>
+  </div>
+
+  <div class="feedback">
+    <span class="label">Your feedback shapes this theme</span>
+    <h2>How does <em>Forest Sage</em> feel?</h2>
+    <p style="color:var(--c-ink-soft);">Rate it, vote with a thumb, and leave a comment if you'd like.</p>
+    <div class="row" style="margin-top:14px;">
+      <div id="aq-fb-stars" class="aq-stars"></div>
+      <div class="thumbs">
+        <button id="aq-fb-thumb-up" aria-label="Thumbs up">👍</button>
+        <button id="aq-fb-thumb-dn" aria-label="Thumbs down">👎</button>
+      </div>
+    </div>
+    <label for="aq-fb-name">Your name (optional)</label>
+    <input id="aq-fb-name" type="text" placeholder="e.g. Arjun S.">
+    <label for="aq-fb-comment">What did you like or not like?</label>
+    <textarea id="aq-fb-comment" placeholder="Free-flowing thoughts welcome…"></textarea>
+    <button id="aq-fb-submit">Submit feedback</button>
+    <div id="aq-fb-status" class="aq-fb-status"></div>
+  </div>
+</div>
+
+<footer>AstroQuest UAT · Theme 4 · Forest Sage · for evaluation only</footer>
+
+<script>window.AQ_THEME = 'theme4';</script>
+<script src="/shared/theme-switcher.js"></script>
+<script src="/shared/feedback.js"></script>
+</body>
+</html>
