@@ -8,6 +8,10 @@ Saved as:
 
 `/Users/apple/Documents/Codex/2026-04-27/skopo`
 
+Repository location:
+
+`projects/skopo-mobile-facade`
+
 Current scope:
 
 - Skopo mobile facade app.
